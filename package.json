@@ -1,0 +1,27 @@
+{
+  "name": "cross-street-indexer",
+  "version": "0.1.0",
+  "description": "Cross Street Indexer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "bench": "node bench.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bench": "^0.3.6",
+    "eslint": "^3.19.0",
+    "eslint-config-mourner": "^2.0.1",
+    "tape": "^4.6.3",
+    "write-json-file": "^2.1.0"
+  },
+  "dependencies": {
+    "@turf/helpers": "^4.3.0",
+    "@turf/meta": "^4.3.0",
+    "tile-reduce": "3.1.1",
+    "tilebelt": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "mourner"
+  }
+}
