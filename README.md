@@ -14,6 +14,14 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 
 - Easy to use CLI
 
+## Attributes
+
+- `name` OSM attribute
+- [`highway`](http://wiki.openstreetmap.org/wiki/Key:highway) OSM attribute
+- [`bridge`](http://wiki.openstreetmap.org/wiki/Key:bridge) OSM attribute
+- [`tunnel`](http://wiki.openstreetmap.org/wiki/Key:tunnel) OSM attribute
+- `@id` OSM road way
+
 ## To-Do
 
 - [ ] Review/complete [`osmify`](https://github.com/osmottawa/osmify) to parse random address into an OSM friendly schema.

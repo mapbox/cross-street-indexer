@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "cross-street-indexer",
   "version": "0.1.0",
   "description": "Cross Street Indexer",
@@ -6,6 +7,9 @@
   "scripts": {
     "test": "tap test.js",
     "bench": "node bench.js"
+  },
+  "bin": {
+    "cross-street-indexer": "bin/cross-street-indexer.js"
   },
   "license": "MIT",
   "devDependencies": {
