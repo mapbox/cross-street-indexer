@@ -7,6 +7,7 @@ yarn-error.log*
 
 *.mbtiles
 
+debug/
 # Runtime data
 pids
 *.pid
