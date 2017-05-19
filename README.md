@@ -6,11 +6,12 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 
 ## Process
 
-- [x] **Step 1**: Extract road intersections from QA-Tiles
-- [ ] **Step 2**: Convert intersections into multiple points using a combination of `road` & `ref` tags.
-- [ ] **Step 3**: Normalize QA-Tile Street name & Search function
-- [ ] **Step 3**: Create NLP web friendly hash
-- [ ] **Step 4**: Dump hashes ready for S3 upload
+- [x] **Step 1**: Filter data from QA-Tiles (`lib/qa-tiles-filter.js`)
+- [x] **Step 2**: Extract road intersections from QA-Tiles (`lib/intersections.js`)
+- [ ] **Step 3**: Convert intersections into multiple points using a combination of `road` & `ref` tags.
+- [ ] **Step 4**: Normalize QA-Tile Street name & Search function
+- [ ] **Step 5**: Create NLP web friendly hash
+- [ ] **Step 6**: Dump hashes ready for S3 upload
 
 ## Features
 
