@@ -4,7 +4,7 @@ const Benchmark = require('benchmark');
 const intersections = require('./lib/intersections');
 
 // Fixtures
-const geojson = load.sync(path.join(__dirname, 'debug', '023010221131', 'features.geojson'));
+const geojson = load.sync(path.join(__dirname, 'debug', '023010221131', 'lines.geojson'));
 const features = geojson.features;
 
 /**
@@ -15,6 +15,9 @@ const features = geojson.features;
  *
  * // Using Map/Set (50% increase)
  * intersections x 73.00 ops/sec ±2.88% (62 runs sampled)
+ *
+ * // Filtering improvements
+ * intersections x 86.03 ops/sec ±6.68% (67 runs sampled)
  */
 const suite = new Benchmark.Suite('cross-street-indexer');
 suite
