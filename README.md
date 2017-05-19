@@ -13,6 +13,8 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 ## Features
 
 - Easy to use CLI
+- Node 6 & 7 compatible
+- Only uses Tile Reduce + Turf
 
 ## Attributes
 
