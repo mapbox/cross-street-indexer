@@ -10,7 +10,11 @@ const features = geojson.features;
 /**
  * Benchmark Results
  *
+ * // Using Object Dictionary (original source code)
  * intersections x 51.80 ops/sec ±1.53% (66 runs sampled)
+ *
+ * // Using Map/Set (50% increase)
+ * intersections x 73.00 ops/sec ±2.88% (62 runs sampled)
  */
 const suite = new Benchmark.Suite('cross-street-indexer');
 suite
