@@ -18,6 +18,7 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 - Easy to use CLI
 - Node 6 & 7 compatible
 - Only uses Tile Reduce + Turf
+- Bundled 5MB QA-Tiles for testing purposes
 
 ## Attributes
 
@@ -78,7 +79,7 @@ Turning Circles without any names are exclude, thus not finding any matches.
 
 ![image](https://cloud.githubusercontent.com/assets/550895/26234213/d26554b4-3c17-11e7-8f89-bee790f7118c.png)
 
-## To-Do
+## References
 
 - [ ] Review/complete [`osmify`](https://github.com/osmottawa/osmify) to parse random address into an OSM friendly schema.
 - [ ] Use [JWT](https://github.com/auth0/node-jsonwebtoken) as hash?

@@ -4,10 +4,11 @@ const {test} = require('tap');
 const intersections = require('./lib/intersections');
 const crossStreetIndexer = require('./');
 
+const qaTiles = path.join(__dirname, 'test', 'latest.planet.mbtiles');
 
 // test('bbox', t => {
 //     const bbox = [-122.539600, 37.668877, -122.359799, 37.839583];
-//     crossStreetIndexer('united_states_of_america.mbtiles', 'cross-street', {bbox});
+//     crossStreetIndexer(qaTiles, 'cross-street-index', {bbox, debug: true});
 //     t.true(true);
 //     t.end();
 // });
@@ -17,7 +18,7 @@ test('tiles', t => {
         [654, 1584, 12], [655, 1584, 12],
         [654, 1585, 12], [655, 1585, 12]
     ];
-    crossStreetIndexer('united_states_of_america.mbtiles', 'cross-street', {tiles, debug: true});
+    crossStreetIndexer(qaTiles, 'cross-street-index', {tiles, debug: true});
     t.true(true);
     t.end();
 });
