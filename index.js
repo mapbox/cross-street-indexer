@@ -17,7 +17,7 @@ module.exports = function (mbtiles, output, options) {
     options = options || {};
     Object.assign(options, {
         zoom: 12,
-        map: path.join(__dirname, 'reducer.js'),
+        map: path.join(__dirname, 'lib', 'reducer.js'),
         sources: [{name: 'qatiles', mbtiles}],
         mapOptions: {
             output,

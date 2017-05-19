@@ -1,27 +1,33 @@
 const path = require('path');
 const load = require('load-json-file');
 const Benchmark = require('benchmark');
+const qaTilesFilter = require('./lib/qa-tiles-filter');
 const intersections = require('./lib/intersections');
 
 // Fixtures
-const geojson = load.sync(path.join(__dirname, 'debug', '023010221131', 'lines.geojson'));
+const geojson = load.sync(path.join(__dirname, 'debug', '023010221131', 'features.geojson'));
 const features = geojson.features;
 
 /**
  * Benchmark Results
  *
- * // Using Object Dictionary (original source code)
- * intersections x 51.80 ops/sec ±1.53% (66 runs sampled)
- *
- * // Using Map/Set (50% increase)
- * intersections x 73.00 ops/sec ±2.88% (62 runs sampled)
- *
- * // Filtering improvements
- * intersections x 86.03 ops/sec ±6.68% (67 runs sampled)
+ * qaTilesFilter x 1,146 ops/sec ±2.60% (84 runs sampled)
+ * intersections x 77.25 ops/sec ±2.51% (65 runs sampled)
+ * qaTilesFilter: 1.079ms
+ * intersections: 13.425ms
  */
 const suite = new Benchmark.Suite('cross-street-indexer');
 suite
-    .add('intersections', () => intersections(features))
+    .add('qaTilesFilter', () => qaTilesFilter(features))
+    .add('intersections', () => intersections(qaTilesFilter(features)))
     .on('cycle', e => console.log(String(e.target)))
     .on('complete', () => {})
     .run();
+
+// Benchmark for single process
+console.time('qaTilesFilter');
+qaTilesFilter(features);
+console.timeEnd('qaTilesFilter');
+console.time('intersections');
+intersections(qaTilesFilter(features));
+console.timeEnd('intersections');
