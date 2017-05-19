@@ -45,18 +45,6 @@ Normalization should follow the following standards:
   - S => south
   - NE => northeast
 
-## To-Do
-
-- [ ] Review/complete [`osmify`](https://github.com/osmottawa/osmify) to parse random address into an OSM friendly schema.
-- [ ] Use [JWT](https://github.com/auth0/node-jsonwebtoken) as hash?
-- [ ] [Natural Node](https://github.com/NaturalNode/natural) to create hash
-- [ ] [Carmen](https://github.com/mapbox/carmen) to normalize roads
-- [ ] [LevelDB](https://github.com/google/leveldb) as storage
-- [ ] S3 Bucket Upload to hashes
-- [ ] Exact OSM match
-- [ ] Fuzzy OSM match
-- [x] Use Map & Set
-
 ## Debugging
 
 Adding `--verbose` will `stdout` a JSON object for each QA-Tile with the following information:
@@ -89,3 +77,15 @@ Loops would return multiple cross street matches, only the last matched point is
 Turning Circles without any names are exclude, thus not finding any matches.
 
 ![image](https://cloud.githubusercontent.com/assets/550895/26234213/d26554b4-3c17-11e7-8f89-bee790f7118c.png)
+
+## To-Do
+
+- [ ] Review/complete [`osmify`](https://github.com/osmottawa/osmify) to parse random address into an OSM friendly schema.
+- [ ] Use [JWT](https://github.com/auth0/node-jsonwebtoken) as hash?
+- [ ] [Natural Node](https://github.com/NaturalNode/natural) to create hash
+- [ ] [Carmen](https://github.com/mapbox/carmen) to normalize roads
+- [ ] [LevelDB](https://github.com/google/leveldb) as storage
+- [ ] S3 Bucket Upload to hashes
+- [ ] Exact OSM match
+- [ ] Fuzzy OSM match
+- [x] Use Map & Set
