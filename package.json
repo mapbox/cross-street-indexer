@@ -29,7 +29,6 @@
   "dependencies": {
     "@turf/helpers": "^4.3.0",
     "@turf/meta": "^4.3.0",
-    "fast-levenshtein": "^2.0.6",
     "meow": "^3.7.0",
     "tile-reduce": "3.1.1",
     "tilebelt": "^1.0.1"
