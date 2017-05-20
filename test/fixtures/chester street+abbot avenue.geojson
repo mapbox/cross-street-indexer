@@ -6,7 +6,7 @@
             "type":"Feature",
             "properties":{
                 "highway":"residential",
-                "name":"Abbot Avenue",
+                "name":"Abbot Ave.",
                 "stroke-width": 6,
                 "stroke":"#F00"
             },
@@ -32,7 +32,7 @@
             "type":"Feature",
             "properties":{
                 "highway":"residential",
-                "name":"Abbot Avenue",
+                "name":"ABBOT Avenue",
                 "stroke-width": 6,
                 "stroke":"#00F"
             },
@@ -54,7 +54,7 @@
             "type":"Feature",
             "properties":{
                 "highway":"residential",
-                "name":"Chester Street",
+                "name":"Chester Street  ",
                 "stroke-width": 6,
                 "stroke":"#F00"
             },
@@ -88,7 +88,7 @@
             "type":"Feature",
             "properties":{
                 "highway":"residential",
-                "name":"Chester Street",
+                "name":"Chester st.",
                 "stroke-width": 6,
                 "stroke":"#00F"
             },
