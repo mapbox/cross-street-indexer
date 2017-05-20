@@ -27,14 +27,28 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
 - [ ] **Step 6**: Publish to S3 or LevelDB
 
-## Quickstart (in development)
+## Install
+
+**npm**
+```bash
+$ npm install --global cross-street-indexer
+```
+**yarn**
+```
+$ yarn global add cross-street-indexer
+```
+
+## Quickstart
 
 ```bash
-$ npm install
-$ npm test
+$ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
+$ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
+-122.457711,37.688544
 ```
 
 ## CLI
+
+### Cross Street Indexer
 
 ```
 $ cross-street-indexer --help
@@ -50,19 +64,27 @@ $ cross-street-indexer --help
     --debug     [false] Enables DEBUG mode
     --verbose   [false] Verbose output
   Examples:
-    $ cross-street-indexer latest.planet.mbtiles cross-street-index/
+    $ cross-street-indexer latest.planet.mbtiles
 ```
 
-## OSM Attributes
+### Cross Street Search
 
-- `name`: Street name (Abbot Avenue)
-- `ref` Reference number normaly used to tag highways numbers
-- [`highway`](http://wiki.openstreetmap.org/wiki/Key:highway) classification (residential, primary, secondary)
-- [`bridge`](http://wiki.openstreetmap.org/wiki/Key:bridge) yes/no
-- [`tunnel`](http://wiki.openstreetmap.org/wiki/Key:tunnel) yes/no
-- `@id` OSM ID of street (way)
+```
+$ cross-street-search --help
 
-## Normalization
+  Cross Street Indexer
+
+  Usage:
+    $ cross-street-search <name1> <name2>
+  Options:
+    --output    [cross-street-index] filepath to Cross Street index output folder
+    --tiles     Lookup index files via Tiles or Quadkeys
+    --bbox      (not implemented) Lookup index files via BBox
+  Examples:
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
+```
+
+## Normalization Process
 
 Normalization should follow the following standards:
 
@@ -78,6 +100,15 @@ Normalization should follow the following standards:
   - N => north
   - S => south
   - NE => northeast
+
+## OSM Attributes
+
+- `name`: Street name (Abbot Avenue)
+- `ref` Reference number normaly used to tag highways numbers
+- [`highway`](http://wiki.openstreetmap.org/wiki/Key:highway) classification (residential, primary, secondary)
+- [`bridge`](http://wiki.openstreetmap.org/wiki/Key:bridge) yes/no
+- [`tunnel`](http://wiki.openstreetmap.org/wiki/Key:tunnel) yes/no
+- `@id` OSM ID of street (way)
 
 ## Debugging
 
@@ -112,12 +143,6 @@ Turning Circles without any names are exclude, thus not finding any matches.
 
 ## References
 
-- [ ] Review/complete [`osmify`](https://github.com/osmottawa/osmify) to parse random address into an OSM friendly schema.
-- [ ] Use [JWT](https://github.com/auth0/node-jsonwebtoken) as hash?
-- [ ] [Natural Node](https://github.com/NaturalNode/natural) to create hash
-- [ ] [Carmen](https://github.com/mapbox/carmen) to normalize roads
-- [ ] [LevelDB](https://github.com/google/leveldb) as storage
-- [ ] S3 Bucket Upload to hashes
-- [ ] Exact OSM match
-- [ ] Fuzzy OSM match
-- [x] Use Map & Set
+- [Natural Node](https://github.com/NaturalNode/natural) to create fuzzy mathes
+- [Carmen](https://github.com/mapbox/carmen) to normalize roads
+- [LevelDB](https://github.com/google/leveldb) as storage

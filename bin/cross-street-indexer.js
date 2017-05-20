@@ -13,7 +13,7 @@ const cli = meow(`
     --debug     [false] Enables DEBUG mode
     --verbose   [false] Verbose output
   Examples:
-    $ cross-street-indexer latest.planet.mbtiles cross-street-index/
+    $ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
 `, {
     boolean: ['verbose', 'debug']
 });
