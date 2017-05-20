@@ -14,5 +14,8 @@ test('chester street+abbot avenue.geojson', t => {
 
     // Geocoding Pairs
     const pairs = geocodingPairs(intersects);
+    t.true(pairs.size === 2);
+    t.true(pairs.has('abbot avenue+chester street'));
+    t.true(pairs.has('chester street+abbot avenue'));
     t.end();
 });
