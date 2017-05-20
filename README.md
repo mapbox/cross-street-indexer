@@ -103,10 +103,10 @@ Normalization should follow the following standards:
 
 ## Index
 
-The Cross Street Index is stored in an easy to read JSON format
+The Cross Street Index is stored in an easy to read key/value JSON format.
 
-- key: Normalized road pairs (`<name1>+<name2>`)
-- value: Longitude & Latitude
+- **key**: Normalized road pairs (`<name1>+<name2>`)
+- **value**: Longitude & Latitude
 
 ```json
 {
