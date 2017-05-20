@@ -1,0 +1,8010 @@
+{
+	"johnson avenue+manor drive": [
+		-122.488691,
+		37.649018
+	],
+	"johnson avenue+south johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"manor drive+johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"manor drive+south johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"south johnson avenue+johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"south johnson avenue+manor drive": [
+		-122.488691,
+		37.649018
+	],
+	"lewis lane+norfolk drive": [
+		-122.480319,
+		37.647933
+	],
+	"norfolk drive+lewis lane": [
+		-122.480319,
+		37.647933
+	],
+	"glencourt way+inverness drive": [
+		-122.475232,
+		37.648323
+	],
+	"inverness drive+glencourt way": [
+		-122.475232,
+		37.648323
+	],
+	"cypress street+glasgow drive": [
+		-122.474495,
+		37.648691
+	],
+	"cypress street+glencourt way": [
+		-122.474495,
+		37.648691
+	],
+	"glasgow drive+cypress street": [
+		-122.474495,
+		37.648691
+	],
+	"glasgow drive+glencourt way": [
+		-122.474495,
+		37.648691
+	],
+	"glencourt way+cypress street": [
+		-122.474495,
+		37.648691
+	],
+	"glencourt way+glasgow drive": [
+		-122.474495,
+		37.648691
+	],
+	"glencourt way+lomond drive": [
+		-122.473749,
+		37.648986
+	],
+	"lomond drive+glencourt way": [
+		-122.473749,
+		37.648986
+	],
+	"callan boulevard+greendale drive": [
+		-122.463906,
+		37.645355
+	],
+	"callan boulevard+leix way": [
+		-122.466883,
+		37.648228
+	],
+	"greendale drive+callan boulevard": [
+		-122.463906,
+		37.645355
+	],
+	"greendale drive+leix way": [
+		-122.466883,
+		37.648228
+	],
+	"leix way+callan boulevard": [
+		-122.466883,
+		37.648228
+	],
+	"leix way+greendale drive": [
+		-122.466883,
+		37.648228
+	],
+	"callan boulevard+cashlea court": [
+		-122.467534,
+		37.648828
+	],
+	"cashlea court+callan boulevard": [
+		-122.467534,
+		37.648828
+	],
+	"greendale drive+hausman court": [
+		-122.465876,
+		37.648824
+	],
+	"hausman court+greendale drive": [
+		-122.465876,
+		37.648824
+	],
+	"chatham court+greendale drive": [
+		-122.464989,
+		37.648999
+	],
+	"greendale drive+chatham court": [
+		-122.464989,
+		37.648999
+	],
+	"greendale drive+savannah court": [
+		-122.46408,
+		37.649027
+	],
+	"savannah court+greendale drive": [
+		-122.46408,
+		37.649027
+	],
+	"radburn drive+rowntree way": [
+		-122.456595,
+		37.648952
+	],
+	"rowntree way+radburn drive": [
+		-122.456595,
+		37.648952
+	],
+	"arroyo drive+junipero serra boulevard": [
+		-122.45025,
+		37.648541
+	],
+	"junipero serra boulevard+arroyo drive": [
+		-122.45025,
+		37.648541
+	],
+	"arroyo drive+erica drive": [
+		-122.448802,
+		37.648688
+	],
+	"erica drive+arroyo drive": [
+		-122.448802,
+		37.648688
+	],
+	"alta mesa drive+arroyo drive": [
+		-122.449614,
+		37.648692
+	],
+	"arroyo drive+alta mesa drive": [
+		-122.449614,
+		37.648692
+	],
+	"arroyo drive+escanyo drive": [
+		-122.448663,
+		37.648658
+	],
+	"escanyo drive+arroyo drive": [
+		-122.448663,
+		37.648658
+	],
+	"junipero serra boulevard+westborough boulevard": [
+		-122.448445,
+		37.645952
+	],
+	"westborough boulevard+junipero serra boulevard": [
+		-122.448445,
+		37.645952
+	],
+	"fairway drive+haven avenue": [
+		-122.431722,
+		37.648122
+	],
+	"haven avenue+fairway drive": [
+		-122.431722,
+		37.648122
+	],
+	"fairway drive+hill avenue": [
+		-122.431839,
+		37.648773
+	],
+	"hill avenue+fairway drive": [
+		-122.431839,
+		37.648773
+	],
+	"bootlegger's steps+headlands trail": [
+		-122.496615,
+		37.619656
+	],
+	"headlands trail+bootlegger's steps": [
+		-122.496615,
+		37.619656
+	],
+	"bluff trail+coastal trail": [
+		-122.496535,
+		37.619588
+	],
+	"bluff trail+headlands trail": [
+		-122.496535,
+		37.619588
+	],
+	"coastal trail+bluff trail": [
+		-122.496535,
+		37.619588
+	],
+	"coastal trail+headlands trail": [
+		-122.496535,
+		37.619588
+	],
+	"headlands trail+bluff trail": [
+		-122.496535,
+		37.619588
+	],
+	"headlands trail+coastal trail": [
+		-122.496535,
+		37.619588
+	],
+	"esplanade+west avalon drive": [
+		-122.493354,
+		37.647442
+	],
+	"west avalon drive+esplanade": [
+		-122.493354,
+		37.647442
+	],
+	"dolphin drive+west avalon drive": [
+		-122.492512,
+		37.647352
+	],
+	"west avalon drive+dolphin drive": [
+		-122.492512,
+		37.647352
+	],
+	"palmetto avenue+west avalon drive": [
+		-122.491673,
+		37.647267
+	],
+	"west avalon drive+palmetto avenue": [
+		-122.491673,
+		37.647267
+	],
+	"palmetto avenue+sharon way": [
+		-122.492594,
+		37.64263
+	],
+	"sharon way+palmetto avenue": [
+		-122.492594,
+		37.64263
+	],
+	"4th avenue+5th avenue": [
+		-122.493647,
+		37.641918
+	],
+	"5th avenue+4th avenue": [
+		-122.493647,
+		37.641918
+	],
+	"4th avenue+dahlberg drive": [
+		-122.493887,
+		37.640301
+	],
+	"dahlberg drive+4th avenue": [
+		-122.493887,
+		37.640301
+	],
+	"4th avenue+6th avenue": [
+		-122.493811,
+		37.639946
+	],
+	"6th avenue+4th avenue": [
+		-122.493811,
+		37.639946
+	],
+	"3rd avenue+dahlberg drive": [
+		-122.493494,
+		37.640312
+	],
+	"dahlberg drive+3rd avenue": [
+		-122.493494,
+		37.640312
+	],
+	"3rd avenue+5th avenue": [
+		-122.493563,
+		37.641943
+	],
+	"5th avenue+3rd avenue": [
+		-122.493563,
+		37.641943
+	],
+	"1st avenue+5th avenue": [
+		-122.492705,
+		37.64197
+	],
+	"5th avenue+1st avenue": [
+		-122.492705,
+		37.64197
+	],
+	"2nd avenue+5th avenue": [
+		-122.493151,
+		37.641957
+	],
+	"5th avenue+2nd avenue": [
+		-122.493151,
+		37.641957
+	],
+	"2nd avenue+dahlberg drive": [
+		-122.493091,
+		37.640319
+	],
+	"dahlberg drive+2nd avenue": [
+		-122.493091,
+		37.640319
+	],
+	"1st avenue+dahlberg drive": [
+		-122.492644,
+		37.640326
+	],
+	"dahlberg drive+1st avenue": [
+		-122.492644,
+		37.640326
+	],
+	"avalon drive+edgemar avenue": [
+		-122.489809,
+		37.64705
+	],
+	"edgemar avenue+avalon drive": [
+		-122.489809,
+		37.64705
+	],
+	"arroyo drive+edgemar avenue": [
+		-122.489912,
+		37.646475
+	],
+	"edgemar avenue+arroyo drive": [
+		-122.489912,
+		37.646475
+	],
+	"edgemar avenue+milagra drive": [
+		-122.484314,
+		37.644819
+	],
+	"milagra drive+edgemar avenue": [
+		-122.484314,
+		37.644819
+	],
+	"avalon drive+johnson avenue": [
+		-122.489048,
+		37.646974
+	],
+	"johnson avenue+avalon drive": [
+		-122.489048,
+		37.646974
+	],
+	"avalon drive+del mar avenue": [
+		-122.488293,
+		37.646898
+	],
+	"del mar avenue+avalon drive": [
+		-122.488293,
+		37.646898
+	],
+	"del mar avenue+manor drive": [
+		-122.487937,
+		37.648928
+	],
+	"manor drive+del mar avenue": [
+		-122.487937,
+		37.648928
+	],
+	"avalon drive+fremont avenue": [
+		-122.487538,
+		37.646822
+	],
+	"fremont avenue+avalon drive": [
+		-122.487538,
+		37.646822
+	],
+	"fremont avenue+manor drive": [
+		-122.487182,
+		37.648837
+	],
+	"manor drive+fremont avenue": [
+		-122.487182,
+		37.648837
+	],
+	"manor drive+perry avenue": [
+		-122.486307,
+		37.648979
+	],
+	"perry avenue+manor drive": [
+		-122.486307,
+		37.648979
+	],
+	"manor drive+miller avenue": [
+		-122.483632,
+		37.648993
+	],
+	"miller avenue+manor drive": [
+		-122.483632,
+		37.648993
+	],
+	"lewis lane+manor drive": [
+		-122.483501,
+		37.648556
+	],
+	"manor drive+lewis lane": [
+		-122.483501,
+		37.648556
+	],
+	"cragmont court+manor drive": [
+		-122.483286,
+		37.647999
+	],
+	"manor drive+cragmont court": [
+		-122.483286,
+		37.647999
+	],
+	"avalon drive+oceana boulevard": [
+		-122.490886,
+		37.647168
+	],
+	"oceana boulevard+avalon drive": [
+		-122.490886,
+		37.647168
+	],
+	"avalon drive+perry avenue": [
+		-122.486698,
+		37.646738
+	],
+	"perry avenue+avalon drive": [
+		-122.486698,
+		37.646738
+	],
+	"avalon drive+vista mar avenue": [
+		-122.485806,
+		37.646648
+	],
+	"vista mar avenue+avalon drive": [
+		-122.485806,
+		37.646648
+	],
+	"avalon drive+miller avenue": [
+		-122.484899,
+		37.646557
+	],
+	"miller avenue+avalon drive": [
+		-122.484899,
+		37.646557
+	],
+	"bruce street+edgemar avenue": [
+		-122.488907,
+		37.644647
+	],
+	"edgemar avenue+bruce street": [
+		-122.488907,
+		37.644647
+	],
+	"bruce street+milagra drive": [
+		-122.488764,
+		37.645472
+	],
+	"milagra drive+bruce street": [
+		-122.488764,
+		37.645472
+	],
+	"milagra drive+oceana boulevard": [
+		-122.491075,
+		37.646154
+	],
+	"oceana boulevard+milagra drive": [
+		-122.491075,
+		37.646154
+	],
+	"mckinney avenue+milagra drive": [
+		-122.485142,
+		37.645153
+	],
+	"milagra drive+mckinney avenue": [
+		-122.485142,
+		37.645153
+	],
+	"milagra court+milagra drive": [
+		-122.486526,
+		37.645246
+	],
+	"milagra drive+milagra court": [
+		-122.486526,
+		37.645246
+	],
+	"connemara drive+moonray court": [
+		-122.488887,
+		37.643495
+	],
+	"moonray court+connemara drive": [
+		-122.488887,
+		37.643495
+	],
+	"connemara drive+tranquility court": [
+		-122.489397,
+		37.643829
+	],
+	"tranquility court+connemara drive": [
+		-122.489397,
+		37.643829
+	],
+	"connemara drive+misty harbor court": [
+		-122.49008,
+		37.644205
+	],
+	"misty harbor court+connemara drive": [
+		-122.49008,
+		37.644205
+	],
+	"connemara drive+oceana boulevard": [
+		-122.491492,
+		37.644649
+	],
+	"oceana boulevard+connemara drive": [
+		-122.491492,
+		37.644649
+	],
+	"ca 1+cabrillo highway": [
+		-122.494864,
+		37.608899
+	],
+	"cabrillo highway+ca 1": [
+		-122.494864,
+		37.608899
+	],
+	"dahlberg drive+palmetto avenue": [
+		-122.492488,
+		37.640326
+	],
+	"palmetto avenue+dahlberg drive": [
+		-122.492488,
+		37.640326
+	],
+	"6th avenue+palmetto avenue": [
+		-122.492476,
+		37.639938
+	],
+	"palmetto avenue+6th avenue": [
+		-122.492476,
+		37.639938
+	],
+	"shell street+shoreview avenue": [
+		-122.493837,
+		37.638871
+	],
+	"shoreview avenue+shell street": [
+		-122.493837,
+		37.638871
+	],
+	"palmetto avenue+shell street": [
+		-122.492441,
+		37.638874
+	],
+	"shell street+palmetto avenue": [
+		-122.492441,
+		37.638874
+	],
+	"shoreview avenue+surf street": [
+		-122.493872,
+		37.638178
+	],
+	"surf street+shoreview avenue": [
+		-122.493872,
+		37.638178
+	],
+	"palmetto avenue+surf street": [
+		-122.49241,
+		37.638187
+	],
+	"surf street+palmetto avenue": [
+		-122.49241,
+		37.638187
+	],
+	"palmetto avenue+shoreview avenue": [
+		-122.492309,
+		37.637501
+	],
+	"shoreview avenue+palmetto avenue": [
+		-122.492309,
+		37.637501
+	],
+	"beach boulevard+paloma avenue": [
+		-122.494246,
+		37.636505
+	],
+	"paloma avenue+beach boulevard": [
+		-122.494246,
+		37.636505
+	],
+	"palmetto avenue+paloma avenue": [
+		-122.492194,
+		37.636513
+	],
+	"paloma avenue+palmetto avenue": [
+		-122.492194,
+		37.636513
+	],
+	"clarendon road+palmetto avenue": [
+		-122.492489,
+		37.629938
+	],
+	"palmetto avenue+clarendon road": [
+		-122.492489,
+		37.629938
+	],
+	"brighton road+palmetto avenue": [
+		-122.492567,
+		37.630606
+	],
+	"palmetto avenue+brighton road": [
+		-122.492567,
+		37.630606
+	],
+	"pacific avenue+palmetto avenue": [
+		-122.492555,
+		37.631869
+	],
+	"palmetto avenue+pacific avenue": [
+		-122.492555,
+		37.631869
+	],
+	"hilton way+palmetto avenue": [
+		-122.492567,
+		37.632067
+	],
+	"palmetto avenue+hilton way": [
+		-122.492567,
+		37.632067
+	],
+	"montecito avenue+palmetto avenue": [
+		-122.49243,
+		37.632747
+	],
+	"palmetto avenue+montecito avenue": [
+		-122.49243,
+		37.632747
+	],
+	"palmetto avenue+santa rosa avenue": [
+		-122.492148,
+		37.633377
+	],
+	"santa rosa avenue+palmetto avenue": [
+		-122.492148,
+		37.633377
+	],
+	"palmetto avenue+san jose avenue": [
+		-122.49208,
+		37.634011
+	],
+	"san jose avenue+palmetto avenue": [
+		-122.49208,
+		37.634011
+	],
+	"palmetto avenue+salada avenue": [
+		-122.492046,
+		37.634646
+	],
+	"salada avenue+palmetto avenue": [
+		-122.492046,
+		37.634646
+	],
+	"palmetto avenue+santa maria avenue": [
+		-122.492082,
+		37.635271
+	],
+	"santa maria avenue+palmetto avenue": [
+		-122.492082,
+		37.635271
+	],
+	"carmel avenue+palmetto avenue": [
+		-122.492137,
+		37.635889
+	],
+	"palmetto avenue+carmel avenue": [
+		-122.492137,
+		37.635889
+	],
+	"bella vista avenue+palmetto avenue": [
+		-122.492267,
+		37.637213
+	],
+	"palmetto avenue+bella vista avenue": [
+		-122.492267,
+		37.637213
+	],
+	"beach boulevard+carmel avenue": [
+		-122.494246,
+		37.635887
+	],
+	"carmel avenue+beach boulevard": [
+		-122.494246,
+		37.635887
+	],
+	"carmel avenue+francisco boulevard": [
+		-122.490204,
+		37.635893
+	],
+	"francisco boulevard+carmel avenue": [
+		-122.490204,
+		37.635893
+	],
+	"francisco boulevard+santa maria avenue": [
+		-122.490161,
+		37.635268
+	],
+	"santa maria avenue+francisco boulevard": [
+		-122.490161,
+		37.635268
+	],
+	"beach boulevard+santa maria avenue": [
+		-122.494249,
+		37.635262
+	],
+	"santa maria avenue+beach boulevard": [
+		-122.494249,
+		37.635262
+	],
+	"beach boulevard+salada avenue": [
+		-122.494237,
+		37.634643
+	],
+	"salada avenue+beach boulevard": [
+		-122.494237,
+		37.634643
+	],
+	"francisco boulevard+salada avenue": [
+		-122.490118,
+		37.634649
+	],
+	"salada avenue+francisco boulevard": [
+		-122.490118,
+		37.634649
+	],
+	"francisco boulevard+san jose avenue": [
+		-122.490075,
+		37.634024
+	],
+	"san jose avenue+francisco boulevard": [
+		-122.490075,
+		37.634024
+	],
+	"beach boulevard+san jose avenue": [
+		-122.494249,
+		37.634011
+	],
+	"san jose avenue+beach boulevard": [
+		-122.494249,
+		37.634011
+	],
+	"beach boulevard+santa rosa avenue": [
+		-122.494249,
+		37.633379
+	],
+	"santa rosa avenue+beach boulevard": [
+		-122.494249,
+		37.633379
+	],
+	"beach boulevard+montecito avenue": [
+		-122.494207,
+		37.632747
+	],
+	"montecito avenue+beach boulevard": [
+		-122.494207,
+		37.632747
+	],
+	"beach boulevard+birch lane": [
+		-122.493966,
+		37.631523
+	],
+	"birch lane+beach boulevard": [
+		-122.493966,
+		37.631523
+	],
+	"beach boulevard+elder lane": [
+		-122.493855,
+		37.6303
+	],
+	"elder lane+beach boulevard": [
+		-122.493855,
+		37.6303
+	],
+	"beach boulevard+clarendon road": [
+		-122.493855,
+		37.629899
+	],
+	"beach boulevard+east clarendon road": [
+		-122.493855,
+		37.629899
+	],
+	"clarendon road+beach boulevard": [
+		-122.493855,
+		37.629899
+	],
+	"clarendon road+east clarendon road": [
+		-122.493855,
+		37.629899
+	],
+	"east clarendon road+beach boulevard": [
+		-122.493855,
+		37.629899
+	],
+	"east clarendon road+clarendon road": [
+		-122.493855,
+		37.629899
+	],
+	"francisco boulevard+santa rosa avenue": [
+		-122.490032,
+		37.633385
+	],
+	"santa rosa avenue+francisco boulevard": [
+		-122.490032,
+		37.633385
+	],
+	"francisco boulevard+montecito avenue": [
+		-122.489989,
+		37.632759
+	],
+	"montecito avenue+francisco boulevard": [
+		-122.489989,
+		37.632759
+	],
+	"francisco boulevard+paloma avenue": [
+		-122.490247,
+		37.636511
+	],
+	"paloma avenue+francisco boulevard": [
+		-122.490247,
+		37.636511
+	],
+	"oceana boulevard+paloma avenue": [
+		-122.489347,
+		37.636525
+	],
+	"paloma avenue+oceana boulevard": [
+		-122.489347,
+		37.636525
+	],
+	"mirador terrace+paloma avenue": [
+		-122.48814,
+		37.636795
+	],
+	"paloma avenue+mirador terrace": [
+		-122.48814,
+		37.636795
+	],
+	"paloma avenue+pico terrace": [
+		-122.486719,
+		37.636831
+	],
+	"pico terrace+paloma avenue": [
+		-122.486719,
+		37.636831
+	],
+	"carmel avenue+pico terrace": [
+		-122.486714,
+		37.636132
+	],
+	"pico terrace+carmel avenue": [
+		-122.486714,
+		37.636132
+	],
+	"hilton lane+hilton way": [
+		-122.490919,
+		37.632332
+	],
+	"hilton way+hilton lane": [
+		-122.490919,
+		37.632332
+	],
+	"francisco boulevard+hilton way": [
+		-122.489989,
+		37.632644
+	],
+	"hilton way+francisco boulevard": [
+		-122.489989,
+		37.632644
+	],
+	"francisco boulevard+pacific avenue": [
+		-122.489946,
+		37.631855
+	],
+	"pacific avenue+francisco boulevard": [
+		-122.489946,
+		37.631855
+	],
+	"brighton road+francisco boulevard": [
+		-122.489852,
+		37.630605
+	],
+	"francisco boulevard+brighton road": [
+		-122.489852,
+		37.630605
+	],
+	"clarendon road+francisco boulevard": [
+		-122.489792,
+		37.629877
+	],
+	"francisco boulevard+clarendon road": [
+		-122.489792,
+		37.629877
+	],
+	"carmel avenue+oceana boulevard": [
+		-122.489339,
+		37.635776
+	],
+	"oceana boulevard+carmel avenue": [
+		-122.489339,
+		37.635776
+	],
+	"carmel avenue+paseito terrace": [
+		-122.488959,
+		37.635777
+	],
+	"paseito terrace+carmel avenue": [
+		-122.488959,
+		37.635777
+	],
+	"carmel avenue+mirador terrace": [
+		-122.488123,
+		37.636122
+	],
+	"mirador terrace+carmel avenue": [
+		-122.488123,
+		37.636122
+	],
+	"loma vista terrace+mirador terrace": [
+		-122.488139,
+		37.635439
+	],
+	"mirador terrace+loma vista terrace": [
+		-122.488139,
+		37.635439
+	],
+	"mirador terrace+san pablo terrace": [
+		-122.488115,
+		37.634919
+	],
+	"san pablo terrace+mirador terrace": [
+		-122.488115,
+		37.634919
+	],
+	"eureka drive+oceana boulevard": [
+		-122.489253,
+		37.632555
+	],
+	"oceana boulevard+eureka drive": [
+		-122.489253,
+		37.632555
+	],
+	"oceana boulevard+pacific avenue": [
+		-122.489202,
+		37.632052
+	],
+	"pacific avenue+oceana boulevard": [
+		-122.489202,
+		37.632052
+	],
+	"cypress lane+oceana boulevard": [
+		-122.489151,
+		37.631715
+	],
+	"oceana boulevard+cypress lane": [
+		-122.489151,
+		37.631715
+	],
+	"moana place+oceana boulevard": [
+		-122.48909,
+		37.631317
+	],
+	"oceana boulevard+moana place": [
+		-122.48909,
+		37.631317
+	],
+	"cypress lane+lunetta avenue": [
+		-122.487782,
+		37.631701
+	],
+	"lunetta avenue+cypress lane": [
+		-122.487782,
+		37.631701
+	],
+	"eureka drive+goodman road": [
+		-122.486627,
+		37.632772
+	],
+	"eureka drive+talbot avenue": [
+		-122.486627,
+		37.632772
+	],
+	"goodman road+eureka drive": [
+		-122.486627,
+		37.632772
+	],
+	"goodman road+talbot avenue": [
+		-122.486627,
+		37.632772
+	],
+	"talbot avenue+eureka drive": [
+		-122.486627,
+		37.632772
+	],
+	"talbot avenue+goodman road": [
+		-122.486627,
+		37.632772
+	],
+	"lunetta avenue+pacific avenue": [
+		-122.487786,
+		37.63206
+	],
+	"pacific avenue+lunetta avenue": [
+		-122.487786,
+		37.63206
+	],
+	"kohala avenue+pacific avenue": [
+		-122.485966,
+		37.632024
+	],
+	"pacific avenue+kohala avenue": [
+		-122.485966,
+		37.632024
+	],
+	"edgemar avenue+hacienda court": [
+		-122.484162,
+		37.645314
+	],
+	"edgemar avenue+miller avenue": [
+		-122.484162,
+		37.645314
+	],
+	"hacienda court+edgemar avenue": [
+		-122.484162,
+		37.645314
+	],
+	"hacienda court+miller avenue": [
+		-122.484162,
+		37.645314
+	],
+	"miller avenue+edgemar avenue": [
+		-122.484162,
+		37.645314
+	],
+	"miller avenue+hacienda court": [
+		-122.484162,
+		37.645314
+	],
+	"conchita court+edgemar avenue": [
+		-122.485563,
+		37.643542
+	],
+	"edgemar avenue+conchita court": [
+		-122.485563,
+		37.643542
+	],
+	"milagra overlook trail+milagra road": [
+		-122.481663,
+		37.640393
+	],
+	"milagra road+milagra overlook trail": [
+		-122.481663,
+		37.640393
+	],
+	"battery milagra trail+milagra road": [
+		-122.481602,
+		37.640386
+	],
+	"milagra road+battery milagra trail": [
+		-122.481602,
+		37.640386
+	],
+	"clark court+manor drive": [
+		-122.480439,
+		37.646788
+	],
+	"manor drive+clark court": [
+		-122.480439,
+		37.646788
+	],
+	"manor drive+monterey road": [
+		-122.477882,
+		37.646092
+	],
+	"monterey road+manor drive": [
+		-122.477882,
+		37.646092
+	],
+	"heathcliff drive+lorry lane": [
+		-122.476415,
+		37.648439
+	],
+	"lorry lane+heathcliff drive": [
+		-122.476415,
+		37.648439
+	],
+	"heathcliff drive+manor drive": [
+		-122.474075,
+		37.645341
+	],
+	"manor drive+heathcliff drive": [
+		-122.474075,
+		37.645341
+	],
+	"milagra creek overlook trail+milagra summit trail": [
+		-122.478884,
+		37.640441
+	],
+	"milagra summit trail+milagra creek overlook trail": [
+		-122.478884,
+		37.640441
+	],
+	"milagra road+milagra summit trail": [
+		-122.478789,
+		37.640385
+	],
+	"milagra summit trail+milagra road": [
+		-122.478789,
+		37.640385
+	],
+	"paloma avenue+vallejo terrace": [
+		-122.485153,
+		37.636836
+	],
+	"vallejo terrace+paloma avenue": [
+		-122.485153,
+		37.636836
+	],
+	"paloma avenue+sierra terrace": [
+		-122.483608,
+		37.636809
+	],
+	"sierra terrace+paloma avenue": [
+		-122.483608,
+		37.636809
+	],
+	"carmel avenue+paloma avenue": [
+		-122.481773,
+		37.636114
+	],
+	"paloma avenue+carmel avenue": [
+		-122.481773,
+		37.636114
+	],
+	"carmel avenue+sierra terrace": [
+		-122.483619,
+		37.63614
+	],
+	"sierra terrace+carmel avenue": [
+		-122.483619,
+		37.63614
+	],
+	"canyon drive+sierra terrace": [
+		-122.483577,
+		37.635982
+	],
+	"sierra terrace+canyon drive": [
+		-122.483577,
+		37.635982
+	],
+	"loma vista terrace+sierra terrace": [
+		-122.484139,
+		37.635475
+	],
+	"sierra terrace+loma vista terrace": [
+		-122.484139,
+		37.635475
+	],
+	"canyon drive+carmel avenue": [
+		-122.484118,
+		37.636118
+	],
+	"carmel avenue+canyon drive": [
+		-122.484118,
+		37.636118
+	],
+	"carmel avenue+vallejo terrace": [
+		-122.485153,
+		37.636122
+	],
+	"vallejo terrace+carmel avenue": [
+		-122.485153,
+		37.636122
+	],
+	"loma vista terrace+vallejo terrace": [
+		-122.486247,
+		37.635451
+	],
+	"vallejo terrace+loma vista terrace": [
+		-122.486247,
+		37.635451
+	],
+	"san pablo terrace+vallejo terrace": [
+		-122.486633,
+		37.634724
+	],
+	"vallejo terrace+san pablo terrace": [
+		-122.486633,
+		37.634724
+	],
+	"san pablo terrace+talbot avenue": [
+		-122.483503,
+		37.633955
+	],
+	"talbot avenue+san pablo terrace": [
+		-122.483503,
+		37.633955
+	],
+	"loma vista terrace+sacramento terrace": [
+		-122.482522,
+		37.634962
+	],
+	"sacramento terrace+loma vista terrace": [
+		-122.482522,
+		37.634962
+	],
+	"carmel avenue+lassen lane": [
+		-122.482022,
+		37.636118
+	],
+	"lassen lane+carmel avenue": [
+		-122.482022,
+		37.636118
+	],
+	"fullerton avenue+griffin avenue": [
+		-122.485797,
+		37.63428
+	],
+	"fullerton avenue+talbot avenue": [
+		-122.485797,
+		37.63428
+	],
+	"griffin avenue+fullerton avenue": [
+		-122.485797,
+		37.63428
+	],
+	"griffin avenue+talbot avenue": [
+		-122.485797,
+		37.63428
+	],
+	"talbot avenue+fullerton avenue": [
+		-122.485797,
+		37.63428
+	],
+	"talbot avenue+griffin avenue": [
+		-122.485797,
+		37.63428
+	],
+	"goodman road+griffin avenue": [
+		-122.484329,
+		37.632849
+	],
+	"griffin avenue+goodman road": [
+		-122.484329,
+		37.632849
+	],
+	"goodman road+kohala avenue": [
+		-122.485975,
+		37.632588
+	],
+	"kohala avenue+goodman road": [
+		-122.485975,
+		37.632588
+	],
+	"canyon drive+lassen lane": [
+		-122.482052,
+		37.635536
+	],
+	"lassen lane+canyon drive": [
+		-122.482052,
+		37.635536
+	],
+	"canyon drive+sacramento terrace": [
+		-122.481741,
+		37.635445
+	],
+	"sacramento terrace+canyon drive": [
+		-122.481741,
+		37.635445
+	],
+	"kohala avenue+moana place": [
+		-122.485958,
+		37.631324
+	],
+	"kohala avenue+moana way": [
+		-122.485958,
+		37.631324
+	],
+	"moana place+kohala avenue": [
+		-122.485958,
+		37.631324
+	],
+	"moana place+moana way": [
+		-122.485958,
+		37.631324
+	],
+	"moana way+kohala avenue": [
+		-122.485958,
+		37.631324
+	],
+	"moana way+moana place": [
+		-122.485958,
+		37.631324
+	],
+	"moana way+ressa road": [
+		-122.48154,
+		37.632037
+	],
+	"ressa road+moana way": [
+		-122.48154,
+		37.632037
+	],
+	"milagra ridge trail+milagra road": [
+		-122.474314,
+		37.63557
+	],
+	"milagra road+milagra ridge trail": [
+		-122.474314,
+		37.63557
+	],
+	"milagra road+milagra spur trail": [
+		-122.476592,
+		37.637936
+	],
+	"milagra spur trail+milagra road": [
+		-122.476592,
+		37.637936
+	],
+	"milagra ridge trail+milagra spur trail": [
+		-122.476696,
+		37.636807
+	],
+	"milagra spur trail+milagra ridge trail": [
+		-122.476696,
+		37.636807
+	],
+	"east clarendon road+promenade": [
+		-122.494079,
+		37.629872
+	],
+	"promenade+east clarendon road": [
+		-122.494079,
+		37.629872
+	],
+	"clarendon road+lakeside avenue": [
+		-122.491323,
+		37.629872
+	],
+	"lakeside avenue+clarendon road": [
+		-122.491323,
+		37.629872
+	],
+	"bootlegger's steps+coastal trail": [
+		-122.495338,
+		37.620834
+	],
+	"bootlegger's steps+old mori road": [
+		-122.495338,
+		37.620834
+	],
+	"bootlegger's steps+promenade": [
+		-122.495338,
+		37.620834
+	],
+	"coastal trail+bootlegger's steps": [
+		-122.495338,
+		37.620834
+	],
+	"coastal trail+old mori road": [
+		-122.495338,
+		37.620834
+	],
+	"coastal trail+promenade": [
+		-122.495338,
+		37.620834
+	],
+	"old mori road+bootlegger's steps": [
+		-122.495338,
+		37.620834
+	],
+	"old mori road+coastal trail": [
+		-122.495338,
+		37.620834
+	],
+	"old mori road+promenade": [
+		-122.495338,
+		37.620834
+	],
+	"promenade+bootlegger's steps": [
+		-122.495338,
+		37.620834
+	],
+	"promenade+coastal trail": [
+		-122.495338,
+		37.620834
+	],
+	"promenade+old mori road": [
+		-122.495338,
+		37.620834
+	],
+	"brighton road+lakeview avenue": [
+		-122.491717,
+		37.630606
+	],
+	"lakeview avenue+brighton road": [
+		-122.491717,
+		37.630606
+	],
+	"lakeview avenue+pacific avenue": [
+		-122.491717,
+		37.631394
+	],
+	"pacific avenue+lakeview avenue": [
+		-122.491717,
+		37.631394
+	],
+	"buckingham road+pacific avenue": [
+		-122.490808,
+		37.631394
+	],
+	"pacific avenue+buckingham road": [
+		-122.490808,
+		37.631394
+	],
+	"brighton road+lakeview way": [
+		-122.491271,
+		37.630605
+	],
+	"lakeview way+brighton road": [
+		-122.491271,
+		37.630605
+	],
+	"brighton road+buckingham road": [
+		-122.490782,
+		37.630605
+	],
+	"buckingham road+brighton road": [
+		-122.490782,
+		37.630605
+	],
+	"lake lane+lakeview way": [
+		-122.491262,
+		37.63022
+	],
+	"lakeview way+lake lane": [
+		-122.491262,
+		37.63022
+	],
+	"clarendon road+lakeview way": [
+		-122.491254,
+		37.629872
+	],
+	"lakeview way+clarendon road": [
+		-122.491254,
+		37.629872
+	],
+	"clarendon road+oceana boulevard": [
+		-122.489034,
+		37.629869
+	],
+	"oceana boulevard+clarendon road": [
+		-122.489034,
+		37.629869
+	],
+	"laguna way+lakeside avenue": [
+		-122.490464,
+		37.62856
+	],
+	"lakeside avenue+laguna way": [
+		-122.490464,
+		37.62856
+	],
+	"francisco boulevard+laguna way": [
+		-122.489677,
+		37.628237
+	],
+	"laguna way+francisco boulevard": [
+		-122.489677,
+		37.628237
+	],
+	"cedar lane+oceana boulevard": [
+		-122.489065,
+		37.630957
+	],
+	"oceana boulevard+cedar lane": [
+		-122.489065,
+		37.630957
+	],
+	"brighton road+oceana boulevard": [
+		-122.489039,
+		37.630597
+	],
+	"oceana boulevard+brighton road": [
+		-122.489039,
+		37.630597
+	],
+	"charing cross way+clarendon road": [
+		-122.487798,
+		37.629871
+	],
+	"charing cross way+frances avenue": [
+		-122.487798,
+		37.629871
+	],
+	"charing cross way+laurel lane": [
+		-122.487798,
+		37.629871
+	],
+	"charing cross way+lunetta avenue": [
+		-122.487798,
+		37.629871
+	],
+	"clarendon road+charing cross way": [
+		-122.487798,
+		37.629871
+	],
+	"clarendon road+frances avenue": [
+		-122.487798,
+		37.629871
+	],
+	"clarendon road+laurel lane": [
+		-122.487798,
+		37.629871
+	],
+	"clarendon road+lunetta avenue": [
+		-122.487798,
+		37.629871
+	],
+	"frances avenue+charing cross way": [
+		-122.487798,
+		37.629871
+	],
+	"frances avenue+clarendon road": [
+		-122.487798,
+		37.629871
+	],
+	"frances avenue+laurel lane": [
+		-122.487798,
+		37.629871
+	],
+	"frances avenue+lunetta avenue": [
+		-122.487798,
+		37.629871
+	],
+	"laurel lane+charing cross way": [
+		-122.487798,
+		37.629871
+	],
+	"laurel lane+clarendon road": [
+		-122.487798,
+		37.629871
+	],
+	"laurel lane+frances avenue": [
+		-122.487798,
+		37.629871
+	],
+	"laurel lane+lunetta avenue": [
+		-122.487798,
+		37.629871
+	],
+	"lunetta avenue+charing cross way": [
+		-122.487798,
+		37.629871
+	],
+	"lunetta avenue+clarendon road": [
+		-122.487798,
+		37.629871
+	],
+	"lunetta avenue+frances avenue": [
+		-122.487798,
+		37.629871
+	],
+	"lunetta avenue+laurel lane": [
+		-122.487798,
+		37.629871
+	],
+	"charing cross+charing cross way": [
+		-122.488896,
+		37.629189
+	],
+	"charing cross way+charing cross": [
+		-122.488896,
+		37.629189
+	],
+	"charing cross way+eastlake avenue": [
+		-122.488492,
+		37.629434
+	],
+	"eastlake avenue+charing cross way": [
+		-122.488492,
+		37.629434
+	],
+	"lunetta avenue+moana place": [
+		-122.487779,
+		37.631323
+	],
+	"moana place+lunetta avenue": [
+		-122.487779,
+		37.631323
+	],
+	"cedar lane+lunetta avenue": [
+		-122.487783,
+		37.630957
+	],
+	"lunetta avenue+cedar lane": [
+		-122.487783,
+		37.630957
+	],
+	"brighton road+lunetta avenue": [
+		-122.487782,
+		37.630601
+	],
+	"lunetta avenue+brighton road": [
+		-122.487782,
+		37.630601
+	],
+	"cedar lane+kohala avenue": [
+		-122.485958,
+		37.630959
+	],
+	"kohala avenue+cedar lane": [
+		-122.485958,
+		37.630959
+	],
+	"bradford way+francisco boulevard": [
+		-122.488336,
+		37.625589
+	],
+	"bradford way+sharp park road": [
+		-122.488336,
+		37.625589
+	],
+	"francisco boulevard+bradford way": [
+		-122.488336,
+		37.625589
+	],
+	"francisco boulevard+sharp park road": [
+		-122.488336,
+		37.625589
+	],
+	"sharp park road+bradford way": [
+		-122.488336,
+		37.625589
+	],
+	"sharp park road+francisco boulevard": [
+		-122.488336,
+		37.625589
+	],
+	"lundy way+sharp park road": [
+		-122.487149,
+		37.626299
+	],
+	"sharp park road+lundy way": [
+		-122.487149,
+		37.626299
+	],
+	"ca 1+westport drive": [
+		-122.485186,
+		37.62065
+	],
+	"cabrillo highway+westport drive": [
+		-122.485186,
+		37.62065
+	],
+	"westport drive+ca 1": [
+		-122.485186,
+		37.62065
+	],
+	"westport drive+cabrillo highway": [
+		-122.485186,
+		37.62065
+	],
+	"coastal trail+lishumsha trail": [
+		-122.4938,
+		37.619376
+	],
+	"lishumsha trail+coastal trail": [
+		-122.4938,
+		37.619376
+	],
+	"coastal trail+timigtac trail": [
+		-122.492405,
+		37.617231
+	],
+	"timigtac trail+coastal trail": [
+		-122.492405,
+		37.617231
+	],
+	"lishumsha trail+upper mori trail": [
+		-122.491785,
+		37.619342
+	],
+	"upper mori trail+lishumsha trail": [
+		-122.491785,
+		37.619342
+	],
+	"lishumsha trail+old mori road": [
+		-122.491371,
+		37.619875
+	],
+	"old mori road+lishumsha trail": [
+		-122.491371,
+		37.619875
+	],
+	"marina way+seaside drive": [
+		-122.490301,
+		37.620155
+	],
+	"seaside drive+marina way": [
+		-122.490301,
+		37.620155
+	],
+	"fairway drive+marina way": [
+		-122.490241,
+		37.621639
+	],
+	"marina way+fairway drive": [
+		-122.490241,
+		37.621639
+	],
+	"bradford way+old mori road": [
+		-122.486407,
+		37.619212
+	],
+	"old mori road+bradford way": [
+		-122.486407,
+		37.619212
+	],
+	"fairway drive+seaside drive": [
+		-122.491108,
+		37.621661
+	],
+	"seaside drive+fairway drive": [
+		-122.491108,
+		37.621661
+	],
+	"fairway drive+greenway drive": [
+		-122.489374,
+		37.621617
+	],
+	"greenway drive+fairway drive": [
+		-122.489374,
+		37.621617
+	],
+	"fairway drive+garden court": [
+		-122.488516,
+		37.621596
+	],
+	"garden court+fairway drive": [
+		-122.488516,
+		37.621596
+	],
+	"fairway drive+pinehaven way": [
+		-122.486636,
+		37.621549
+	],
+	"pinehaven way+fairway drive": [
+		-122.486636,
+		37.621549
+	],
+	"bradford way+fairway drive": [
+		-122.485795,
+		37.621528
+	],
+	"fairway drive+bradford way": [
+		-122.485795,
+		37.621528
+	],
+	"greenway drive+pinehaven way": [
+		-122.486668,
+		37.620855
+	],
+	"pinehaven way+greenway drive": [
+		-122.486668,
+		37.620855
+	],
+	"pinehaven way+seaside drive": [
+		-122.486696,
+		37.62023
+	],
+	"seaside drive+pinehaven way": [
+		-122.486696,
+		37.62023
+	],
+	"seaforth court+seaside drive": [
+		-122.487314,
+		37.620053
+	],
+	"seaside drive+seaforth court": [
+		-122.487314,
+		37.620053
+	],
+	"bradford way+seaside drive": [
+		-122.485838,
+		37.620216
+	],
+	"seaside drive+bradford way": [
+		-122.485838,
+		37.620216
+	],
+	"timigtac trail+upper mori trail": [
+		-122.48589,
+		37.618458
+	],
+	"upper mori trail+timigtac trail": [
+		-122.48589,
+		37.618458
+	],
+	"bradford way+upper mori trail": [
+		-122.485795,
+		37.618544
+	],
+	"upper mori trail+bradford way": [
+		-122.485795,
+		37.618544
+	],
+	"bradford way+ca 1": [
+		-122.48532,
+		37.618383
+	],
+	"bradford way+cabrillo highway": [
+		-122.48532,
+		37.618383
+	],
+	"ca 1+bradford way": [
+		-122.48532,
+		37.618383
+	],
+	"cabrillo highway+bradford way": [
+		-122.48532,
+		37.618383
+	],
+	"ca 1+old county road": [
+		-122.492216,
+		37.610695
+	],
+	"ca 1+reina del mar avenue": [
+		-122.48707,
+		37.613801
+	],
+	"cabrillo highway+old county road": [
+		-122.492216,
+		37.610695
+	],
+	"cabrillo highway+reina del mar avenue": [
+		-122.48707,
+		37.613801
+	],
+	"old county road+ca 1": [
+		-122.492216,
+		37.610695
+	],
+	"old county road+cabrillo highway": [
+		-122.492216,
+		37.610695
+	],
+	"old county road+reina del mar avenue": [
+		-122.48722,
+		37.613851
+	],
+	"reina del mar avenue+ca 1": [
+		-122.48707,
+		37.613801
+	],
+	"reina del mar avenue+cabrillo highway": [
+		-122.48707,
+		37.613801
+	],
+	"reina del mar avenue+old county road": [
+		-122.48722,
+		37.613851
+	],
+	"ca 1+san marlo way": [
+		-122.493672,
+		37.609803
+	],
+	"cabrillo highway+san marlo way": [
+		-122.493672,
+		37.609803
+	],
+	"san marlo way+ca 1": [
+		-122.493672,
+		37.609803
+	],
+	"san marlo way+cabrillo highway": [
+		-122.493672,
+		37.609803
+	],
+	"ca 1+rockaway beach avenue": [
+		-122.495221,
+		37.608666
+	],
+	"cabrillo highway+rockaway beach avenue": [
+		-122.495221,
+		37.608666
+	],
+	"rockaway beach avenue+ca 1": [
+		-122.495221,
+		37.608666
+	],
+	"rockaway beach avenue+cabrillo highway": [
+		-122.495221,
+		37.608666
+	],
+	"ca 1+harvey way": [
+		-122.494864,
+		37.608899
+	],
+	"cabrillo highway+harvey way": [
+		-122.494864,
+		37.608899
+	],
+	"harvey way+ca 1": [
+		-122.494864,
+		37.608899
+	],
+	"harvey way+cabrillo highway": [
+		-122.494864,
+		37.608899
+	],
+	"brighton road+kohala avenue": [
+		-122.485958,
+		37.630597
+	],
+	"kohala avenue+brighton road": [
+		-122.485958,
+		37.630597
+	],
+	"brighton road+scenic way": [
+		-122.484261,
+		37.630746
+	],
+	"scenic way+brighton road": [
+		-122.484261,
+		37.630746
+	],
+	"brighton road+ressa road": [
+		-122.480776,
+		37.63114
+	],
+	"ressa road+brighton road": [
+		-122.480776,
+		37.63114
+	],
+	"laurel lane+scenic way": [
+		-122.484248,
+		37.63
+	],
+	"scenic way+laurel lane": [
+		-122.484248,
+		37.63
+	],
+	"gypsy hill road+sharp park road": [
+		-122.477697,
+		37.629789
+	],
+	"sharp park road+gypsy hill road": [
+		-122.477697,
+		37.629789
+	],
+	"college drive+sharp park road": [
+		-122.472628,
+		37.633185
+	],
+	"sharp park road+college drive": [
+		-122.472628,
+		37.633185
+	],
+	"bradford way+westport drive": [
+		-122.485821,
+		37.620665
+	],
+	"westport drive+bradford way": [
+		-122.485821,
+		37.620665
+	],
+	"lundy way+westport drive": [
+		-122.484319,
+		37.620631
+	],
+	"westport drive+lundy way": [
+		-122.484319,
+		37.620631
+	],
+	"lundy way+ridgeway drive": [
+		-122.484284,
+		37.621481
+	],
+	"ridgeway drive+lundy way": [
+		-122.484284,
+		37.621481
+	],
+	"cullen road+lundy way": [
+		-122.484353,
+		37.619631
+	],
+	"lundy way+cullen road": [
+		-122.484353,
+		37.619631
+	],
+	"cindy way+ridgeway drive": [
+		-122.482551,
+		37.62144
+	],
+	"ridgeway drive+cindy way": [
+		-122.482551,
+		37.62144
+	],
+	"arleen way+ridgeway drive": [
+		-122.483418,
+		37.62146
+	],
+	"ridgeway drive+arleen way": [
+		-122.483418,
+		37.62146
+	],
+	"arleen way+cullen road": [
+		-122.483478,
+		37.619611
+	],
+	"cullen road+arleen way": [
+		-122.483478,
+		37.619611
+	],
+	"burns court+cullen road": [
+		-122.483134,
+		37.619604
+	],
+	"cullen road+burns court": [
+		-122.483134,
+		37.619604
+	],
+	"cindy way+cullen road": [
+		-122.482611,
+		37.619795
+	],
+	"cullen road+cindy way": [
+		-122.482611,
+		37.619795
+	],
+	"danmann avenue+shelter cove": [
+		-122.508654,
+		37.596115
+	],
+	"shelter cove+danmann avenue": [
+		-122.508654,
+		37.596115
+	],
+	"ca 1+crespi drive": [
+		-122.500116,
+		37.599524
+	],
+	"cabrillo highway+crespi drive": [
+		-122.500116,
+		37.599524
+	],
+	"crespi drive+ca 1": [
+		-122.500116,
+		37.599524
+	],
+	"crespi drive+cabrillo highway": [
+		-122.500116,
+		37.599524
+	],
+	"ca 1+sea bowl lane": [
+		-122.496778,
+		37.607709
+	],
+	"cabrillo highway+sea bowl lane": [
+		-122.496778,
+		37.607709
+	],
+	"sea bowl lane+ca 1": [
+		-122.496778,
+		37.607709
+	],
+	"sea bowl lane+cabrillo highway": [
+		-122.496778,
+		37.607709
+	],
+	"ca 1+linda mar boulevard": [
+		-122.503818,
+		37.595928
+	],
+	"ca 1+san pedro avenue": [
+		-122.503818,
+		37.595928
+	],
+	"cabrillo highway+linda mar boulevard": [
+		-122.503818,
+		37.595928
+	],
+	"cabrillo highway+san pedro avenue": [
+		-122.503818,
+		37.595928
+	],
+	"linda mar boulevard+ca 1": [
+		-122.503818,
+		37.595928
+	],
+	"linda mar boulevard+cabrillo highway": [
+		-122.503818,
+		37.595928
+	],
+	"linda mar boulevard+san pedro avenue": [
+		-122.503818,
+		37.595928
+	],
+	"san pedro avenue+ca 1": [
+		-122.503818,
+		37.595928
+	],
+	"san pedro avenue+cabrillo highway": [
+		-122.503818,
+		37.595928
+	],
+	"san pedro avenue+linda mar boulevard": [
+		-122.503818,
+		37.595928
+	],
+	"crespi drive+roberts road": [
+		-122.498387,
+		37.598466
+	],
+	"roberts road+crespi drive": [
+		-122.498387,
+		37.598466
+	],
+	"crespi drive+ladera way": [
+		-122.496901,
+		37.596846
+	],
+	"ladera way+crespi drive": [
+		-122.496901,
+		37.596846
+	],
+	"essex way+kent road": [
+		-122.512509,
+		37.596252
+	],
+	"kent road+essex way": [
+		-122.512509,
+		37.596252
+	],
+	"essex way+sterling avenue": [
+		-122.511685,
+		37.594618
+	],
+	"essex way+sussex way": [
+		-122.511685,
+		37.594618
+	],
+	"sterling avenue+essex way": [
+		-122.511685,
+		37.594618
+	],
+	"sterling avenue+sussex way": [
+		-122.511685,
+		37.594618
+	],
+	"sussex way+essex way": [
+		-122.511685,
+		37.594618
+	],
+	"sussex way+sterling avenue": [
+		-122.511685,
+		37.594618
+	],
+	"grand avenue+olympian way": [
+		-122.510303,
+		37.59176
+	],
+	"olympian way+grand avenue": [
+		-122.510303,
+		37.59176
+	],
+	"kent road+stanley avenue": [
+		-122.511723,
+		37.596398
+	],
+	"stanley avenue+kent road": [
+		-122.511723,
+		37.596398
+	],
+	"kent road+san pedro avenue": [
+		-122.511247,
+		37.596516
+	],
+	"san pedro avenue+kent road": [
+		-122.511247,
+		37.596516
+	],
+	"danmann avenue+kent road": [
+		-122.5091,
+		37.595605
+	],
+	"kent road+danmann avenue": [
+		-122.5091,
+		37.595605
+	],
+	"livingston avenue+stanley avenue": [
+		-122.509289,
+		37.594068
+	],
+	"stanley avenue+livingston avenue": [
+		-122.509289,
+		37.594068
+	],
+	"danmann avenue+san pedro avenue": [
+		-122.509564,
+		37.595047
+	],
+	"san pedro avenue+danmann avenue": [
+		-122.509564,
+		37.595047
+	],
+	"livingston avenue+san pedro avenue": [
+		-122.508809,
+		37.594632
+	],
+	"san pedro avenue+livingston avenue": [
+		-122.508809,
+		37.594632
+	],
+	"grand avenue+san pedro avenue": [
+		-122.508113,
+		37.594238
+	],
+	"san pedro avenue+grand avenue": [
+		-122.508113,
+		37.594238
+	],
+	"halling way+san pedro avenue": [
+		-122.507487,
+		37.593918
+	],
+	"san pedro avenue+halling way": [
+		-122.507487,
+		37.593918
+	],
+	"livingston avenue+sterling avenue": [
+		-122.509954,
+		37.59334
+	],
+	"sterling avenue+livingston avenue": [
+		-122.509954,
+		37.59334
+	],
+	"belfast avenue+grand avenue": [
+		-122.510795,
+		37.591256
+	],
+	"grand avenue+belfast avenue": [
+		-122.510795,
+		37.591256
+	],
+	"athenian way+grand avenue": [
+		-122.510043,
+		37.59202
+	],
+	"grand avenue+athenian way": [
+		-122.510043,
+		37.59202
+	],
+	"ca 1+devil's slide bridge": [
+		-122.507728,
+		37.584773
+	],
+	"devil's slide bridge+ca 1": [
+		-122.507728,
+		37.584773
+	],
+	"ca 1+tom lantos tunnel": [
+		-122.509597,
+		37.582523
+	],
+	"tom lantos tunnel+ca 1": [
+		-122.509597,
+		37.582523
+	],
+	"de solo drive+linda mar boulevard": [
+		-122.501442,
+		37.594101
+	],
+	"linda mar boulevard+de solo drive": [
+		-122.501442,
+		37.594101
+	],
+	"anza drive+balboa way": [
+		-122.500361,
+		37.597147
+	],
+	"balboa way+anza drive": [
+		-122.500361,
+		37.597147
+	],
+	"arguello boulevard+balboa way": [
+		-122.50188,
+		37.595706
+	],
+	"balboa way+arguello boulevard": [
+		-122.50188,
+		37.595706
+	],
+	"anza drive+cervantes way": [
+		-122.499546,
+		37.596848
+	],
+	"cervantes way+anza drive": [
+		-122.499546,
+		37.596848
+	],
+	"arguello boulevard+cervantes way": [
+		-122.501271,
+		37.595229
+	],
+	"cervantes way+arguello boulevard": [
+		-122.501271,
+		37.595229
+	],
+	"de solo drive+montezuma drive": [
+		-122.500949,
+		37.592576
+	],
+	"montezuma drive+de solo drive": [
+		-122.500949,
+		37.592576
+	],
+	"de solo drive+navarre drive": [
+		-122.501593,
+		37.592121
+	],
+	"navarre drive+de solo drive": [
+		-122.501593,
+		37.592121
+	],
+	"anza drive+arguello boulevard": [
+		-122.50255,
+		37.596147
+	],
+	"arguello boulevard+anza drive": [
+		-122.50255,
+		37.596147
+	],
+	"anza drive+fernandez way": [
+		-122.498035,
+		37.596515
+	],
+	"fernandez way+anza drive": [
+		-122.498035,
+		37.596515
+	],
+	"crespi drive+de solo drive": [
+		-122.497483,
+		37.595605
+	],
+	"de solo drive+crespi drive": [
+		-122.497483,
+		37.595605
+	],
+	"de solo drive+fernandez way": [
+		-122.4983,
+		37.595858
+	],
+	"fernandez way+de solo drive": [
+		-122.4983,
+		37.595858
+	],
+	"arguello boulevard+de solo drive": [
+		-122.500782,
+		37.59459
+	],
+	"de solo drive+arguello boulevard": [
+		-122.500782,
+		37.59459
+	],
+	"arguello boulevard+encanto way": [
+		-122.500189,
+		37.594046
+	],
+	"encanto way+arguello boulevard": [
+		-122.500189,
+		37.594046
+	],
+	"encanto way+fernandez way": [
+		-122.498344,
+		37.59525
+	],
+	"fernandez way+encanto way": [
+		-122.498344,
+		37.59525
+	],
+	"arguello boulevard+fernandez way": [
+		-122.499614,
+		37.593522
+	],
+	"fernandez way+arguello boulevard": [
+		-122.499614,
+		37.593522
+	],
+	"arguello boulevard+marvilla place": [
+		-122.498833,
+		37.592818
+	],
+	"marvilla place+arguello boulevard": [
+		-122.498833,
+		37.592818
+	],
+	"marvilla circle+marvilla place": [
+		-122.498219,
+		37.59325
+	],
+	"marvilla place+marvilla circle": [
+		-122.498219,
+		37.59325
+	],
+	"arguello boulevard+peralta road": [
+		-122.496953,
+		37.591819
+	],
+	"peralta road+arguello boulevard": [
+		-122.496953,
+		37.591819
+	],
+	"arguello boulevard+hermosa avenue": [
+		-122.49444,
+		37.589858
+	],
+	"arguello boulevard+linda mar boulevard": [
+		-122.49444,
+		37.589858
+	],
+	"hermosa avenue+arguello boulevard": [
+		-122.49444,
+		37.589858
+	],
+	"hermosa avenue+linda mar boulevard": [
+		-122.49444,
+		37.589858
+	],
+	"linda mar boulevard+arguello boulevard": [
+		-122.49444,
+		37.589858
+	],
+	"linda mar boulevard+hermosa avenue": [
+		-122.49444,
+		37.589858
+	],
+	"escalero avenue+marvilla circle": [
+		-122.497197,
+		37.592844
+	],
+	"marvilla circle+escalero avenue": [
+		-122.497197,
+		37.592844
+	],
+	"peralta road+san pedro terrace road": [
+		-122.499368,
+		37.588271
+	],
+	"san pedro terrace road+peralta road": [
+		-122.499368,
+		37.588271
+	],
+	"flores drive+noriega way": [
+		-122.499095,
+		37.590121
+	],
+	"noriega way+flores drive": [
+		-122.499095,
+		37.590121
+	],
+	"flores drive+montezuma drive": [
+		-122.498683,
+		37.59072
+	],
+	"montezuma drive+flores drive": [
+		-122.498683,
+		37.59072
+	],
+	"montezuma drive+peralta road": [
+		-122.497867,
+		37.590496
+	],
+	"peralta road+montezuma drive": [
+		-122.497867,
+		37.590496
+	],
+	"hermosa avenue+montezuma drive": [
+		-122.494932,
+		37.589292
+	],
+	"montezuma drive+hermosa avenue": [
+		-122.494932,
+		37.589292
+	],
+	"crespi drive+peralta road": [
+		-122.495925,
+		37.593309
+	],
+	"peralta road+crespi drive": [
+		-122.495925,
+		37.593309
+	],
+	"escalero avenue+peralta road": [
+		-122.496466,
+		37.592525
+	],
+	"peralta road+escalero avenue": [
+		-122.496466,
+		37.592525
+	],
+	"linda mar boulevard+peralta road": [
+		-122.497415,
+		37.59115
+	],
+	"peralta road+linda mar boulevard": [
+		-122.497415,
+		37.59115
+	],
+	"peralta road+standish road": [
+		-122.498474,
+		37.589617
+	],
+	"standish road+peralta road": [
+		-122.498474,
+		37.589617
+	],
+	"dell road+peralta road": [
+		-122.498881,
+		37.589027
+	],
+	"peralta road+dell road": [
+		-122.498881,
+		37.589027
+	],
+	"bower road+peralta road": [
+		-122.499522,
+		37.588039
+	],
+	"peralta road+bower road": [
+		-122.499522,
+		37.588039
+	],
+	"peralta road+rosita road": [
+		-122.499839,
+		37.587074
+	],
+	"rosita road+peralta road": [
+		-122.499839,
+		37.587074
+	],
+	"peralta road+shamrock ranch": [
+		-122.49983,
+		37.586938
+	],
+	"shamrock ranch+peralta road": [
+		-122.49983,
+		37.586938
+	],
+	"dell road+standish road": [
+		-122.49646,
+		37.588489
+	],
+	"standish road+dell road": [
+		-122.49646,
+		37.588489
+	],
+	"bower road+iris court": [
+		-122.498477,
+		37.587462
+	],
+	"iris court+bower road": [
+		-122.498477,
+		37.587462
+	],
+	"bower road+lisa court": [
+		-122.497765,
+		37.587067
+	],
+	"lisa court+bower road": [
+		-122.497765,
+		37.587067
+	],
+	"bower road+silvia court": [
+		-122.497061,
+		37.58668
+	],
+	"silvia court+bower road": [
+		-122.497061,
+		37.58668
+	],
+	"rosita road+vista montera circle": [
+		-122.498861,
+		37.586597
+	],
+	"vista montera circle+rosita road": [
+		-122.498861,
+		37.586597
+	],
+	"rosita road+vista montara circle": [
+		-122.498364,
+		37.586183
+	],
+	"vista montara circle+rosita road": [
+		-122.498364,
+		37.586183
+	],
+	"boy scout+old san pedro mountain road": [
+		-122.502911,
+		37.579822
+	],
+	"old san pedro mountain road+boy scout": [
+		-122.502911,
+		37.579822
+	],
+	"boy scout+higgins way": [
+		-122.497503,
+		37.583027
+	],
+	"higgins way+boy scout": [
+		-122.497503,
+		37.583027
+	],
+	"dondee way+san marlo way": [
+		-122.495083,
+		37.610354
+	],
+	"san marlo way+dondee way": [
+		-122.495083,
+		37.610354
+	],
+	"old county road+san marlo way": [
+		-122.494287,
+		37.610067
+	],
+	"san marlo way+old county road": [
+		-122.494287,
+		37.610067
+	],
+	"rockaway beach avenue+san marlo way": [
+		-122.496911,
+		37.609791
+	],
+	"san marlo way+rockaway beach avenue": [
+		-122.496911,
+		37.609791
+	],
+	"dondee way+nick gust way": [
+		-122.496283,
+		37.609384
+	],
+	"dondee way+rockaway beach avenue": [
+		-122.496283,
+		37.609384
+	],
+	"nick gust way+dondee way": [
+		-122.496283,
+		37.609384
+	],
+	"nick gust way+rockaway beach avenue": [
+		-122.496283,
+		37.609384
+	],
+	"rockaway beach avenue+dondee way": [
+		-122.496283,
+		37.609384
+	],
+	"rockaway beach avenue+nick gust way": [
+		-122.496283,
+		37.609384
+	],
+	"old county road+rockaway beach avenue": [
+		-122.495621,
+		37.608959
+	],
+	"rockaway beach avenue+old county road": [
+		-122.495621,
+		37.608959
+	],
+	"fassler avenue+rockaway beach avenue": [
+		-122.494834,
+		37.608313
+	],
+	"rockaway beach avenue+fassler avenue": [
+		-122.494834,
+		37.608313
+	],
+	"ebken street+fassler avenue": [
+		-122.494944,
+		37.607731
+	],
+	"fassler avenue+ebken street": [
+		-122.494944,
+		37.607731
+	],
+	"fassler avenue+sea bowl lane": [
+		-122.495277,
+		37.606699
+	],
+	"sea bowl lane+fassler avenue": [
+		-122.495277,
+		37.606699
+	],
+	"buel avenue+donaldson avenue": [
+		-122.493281,
+		37.609019
+	],
+	"donaldson avenue+buel avenue": [
+		-122.493281,
+		37.609019
+	],
+	"donaldson avenue+rockaway beach avenue": [
+		-122.494445,
+		37.608289
+	],
+	"rockaway beach avenue+donaldson avenue": [
+		-122.494445,
+		37.608289
+	],
+	"buel avenue+ebken street": [
+		-122.492883,
+		37.606628
+	],
+	"ebken street+buel avenue": [
+		-122.492883,
+		37.606628
+	],
+	"copeland street+fassler avenue": [
+		-122.495185,
+		37.606994
+	],
+	"fassler avenue+copeland street": [
+		-122.495185,
+		37.606994
+	],
+	"buel avenue+copeland street": [
+		-122.492587,
+		37.605987
+	],
+	"copeland street+buel avenue": [
+		-122.492587,
+		37.605987
+	],
+	"buel avenue+rockaway beach avenue": [
+		-122.493255,
+		37.60756
+	],
+	"rockaway beach avenue+buel avenue": [
+		-122.493255,
+		37.60756
+	],
+	"fassler avenue+roberts road": [
+		-122.494924,
+		37.605396
+	],
+	"roberts road+fassler avenue": [
+		-122.494924,
+		37.605396
+	],
+	"ladera way+ortega court": [
+		-122.496272,
+		37.59658
+	],
+	"ortega court+ladera way": [
+		-122.496272,
+		37.59658
+	],
+	"bayview road+rockaway beach avenue": [
+		-122.489831,
+		37.604593
+	],
+	"rockaway beach avenue+bayview road": [
+		-122.489831,
+		37.604593
+	],
+	"rockaway beach avenue+spring street": [
+		-122.487,
+		37.603287
+	],
+	"spring street+rockaway beach avenue": [
+		-122.487,
+		37.603287
+	],
+	"pilar place+rockaway beach avenue": [
+		-122.484684,
+		37.602363
+	],
+	"pilar place+troglia terrace": [
+		-122.484684,
+		37.602363
+	],
+	"rockaway beach avenue+pilar place": [
+		-122.484684,
+		37.602363
+	],
+	"rockaway beach avenue+troglia terrace": [
+		-122.484684,
+		37.602363
+	],
+	"troglia terrace+pilar place": [
+		-122.484684,
+		37.602363
+	],
+	"troglia terrace+rockaway beach avenue": [
+		-122.484684,
+		37.602363
+	],
+	"driftwood circle+fassler avenue": [
+		-122.486038,
+		37.599929
+	],
+	"fassler avenue+driftwood circle": [
+		-122.486038,
+		37.599929
+	],
+	"crespi drive+fassler avenue": [
+		-122.48259,
+		37.599041
+	],
+	"fassler avenue+crespi drive": [
+		-122.48259,
+		37.599041
+	],
+	"fassler avenue+terra nova boulevard": [
+		-122.481638,
+		37.598968
+	],
+	"terra nova boulevard+fassler avenue": [
+		-122.481638,
+		37.598968
+	],
+	"franz court+lauren avenue": [
+		-122.485723,
+		37.61301
+	],
+	"lauren avenue+franz court": [
+		-122.485723,
+		37.61301
+	],
+	"lauren avenue+reina del mar avenue": [
+		-122.485735,
+		37.613719
+	],
+	"reina del mar avenue+lauren avenue": [
+		-122.485735,
+		37.613719
+	],
+	"hillside drive+lauren avenue": [
+		-122.484976,
+		37.610913
+	],
+	"lauren avenue+hillside drive": [
+		-122.484976,
+		37.610913
+	],
+	"hillside drive+reina del mar avenue": [
+		-122.48487,
+		37.613672
+	],
+	"reina del mar avenue+hillside drive": [
+		-122.48487,
+		37.613672
+	],
+	"ivy avenue+reichling avenue": [
+		-122.483876,
+		37.611047
+	],
+	"reichling avenue+ivy avenue": [
+		-122.483876,
+		37.611047
+	],
+	"reichling avenue+reina del mar avenue": [
+		-122.483791,
+		37.613612
+	],
+	"reina del mar avenue+reichling avenue": [
+		-122.483791,
+		37.613612
+	],
+	"ramona avenue+reina del mar avenue": [
+		-122.482916,
+		37.613564
+	],
+	"reina del mar avenue+ramona avenue": [
+		-122.482916,
+		37.613564
+	],
+	"reina del mar avenue+winona avenue": [
+		-122.482043,
+		37.613516
+	],
+	"winona avenue+reina del mar avenue": [
+		-122.482043,
+		37.613516
+	],
+	"orinda avenue+verona avenue": [
+		-122.481272,
+		37.612453
+	],
+	"verona avenue+orinda avenue": [
+		-122.481272,
+		37.612453
+	],
+	"reina del mar avenue+verona avenue": [
+		-122.48119,
+		37.613469
+	],
+	"verona avenue+reina del mar avenue": [
+		-122.48119,
+		37.613469
+	],
+	"naomi avenue+reina del mar avenue": [
+		-122.480305,
+		37.613421
+	],
+	"reina del mar avenue+naomi avenue": [
+		-122.480305,
+		37.613421
+	],
+	"minerva avenue+reina del mar avenue": [
+		-122.479474,
+		37.613376
+	],
+	"reina del mar avenue+minerva avenue": [
+		-122.479474,
+		37.613376
+	],
+	"reina del mar avenue+south reina del mar avenue": [
+		-122.479225,
+		37.613117
+	],
+	"south reina del mar avenue+reina del mar avenue": [
+		-122.479225,
+		37.613117
+	],
+	"oneonta avenue+reina del mar avenue": [
+		-122.478748,
+		37.613067
+	],
+	"reina del mar avenue+oneonta avenue": [
+		-122.478748,
+		37.613067
+	],
+	"bonita avenue+reina del mar avenue": [
+		-122.478641,
+		37.613027
+	],
+	"reina del mar avenue+bonita avenue": [
+		-122.478641,
+		37.613027
+	],
+	"juanita avenue+reina del mar avenue": [
+		-122.477784,
+		37.612779
+	],
+	"reina del mar avenue+juanita avenue": [
+		-122.477784,
+		37.612779
+	],
+	"angelita avenue+reina del mar avenue": [
+		-122.476947,
+		37.612487
+	],
+	"reina del mar avenue+angelita avenue": [
+		-122.476947,
+		37.612487
+	],
+	"nataqua avenue+reina del mar avenue": [
+		-122.476075,
+		37.612461
+	],
+	"reina del mar avenue+nataqua avenue": [
+		-122.476075,
+		37.612461
+	],
+	"calaveras avenue+hiawatha avenue": [
+		-122.475188,
+		37.612594
+	],
+	"calaveras avenue+reina del mar avenue": [
+		-122.474629,
+		37.612417
+	],
+	"hiawatha avenue+calaveras avenue": [
+		-122.475188,
+		37.612594
+	],
+	"hiawatha avenue+reina del mar avenue": [
+		-122.475188,
+		37.612594
+	],
+	"reina del mar avenue+calaveras avenue": [
+		-122.474629,
+		37.612417
+	],
+	"reina del mar avenue+hiawatha avenue": [
+		-122.475188,
+		37.612594
+	],
+	"ivy avenue+piedmont avenue": [
+		-122.483095,
+		37.611037
+	],
+	"piedmont avenue+ivy avenue": [
+		-122.483095,
+		37.611037
+	],
+	"baquiano trail+farallones view trail": [
+		-122.475338,
+		37.603874
+	],
+	"farallones view trail+baquiano trail": [
+		-122.475338,
+		37.603874
+	],
+	"naomi avenue+oneonta avenue": [
+		-122.480255,
+		37.613988
+	],
+	"naomi avenue+sierra walk": [
+		-122.480255,
+		37.613988
+	],
+	"oneonta avenue+naomi avenue": [
+		-122.480255,
+		37.613988
+	],
+	"oneonta avenue+sierra walk": [
+		-122.480255,
+		37.613988
+	],
+	"sierra walk+naomi avenue": [
+		-122.480255,
+		37.613988
+	],
+	"sierra walk+oneonta avenue": [
+		-122.480255,
+		37.613988
+	],
+	"minerva avenue+sierra walk": [
+		-122.479359,
+		37.614083
+	],
+	"sierra walk+minerva avenue": [
+		-122.479359,
+		37.614083
+	],
+	"naomi avenue+orinda avenue": [
+		-122.480444,
+		37.612397
+	],
+	"orinda avenue+naomi avenue": [
+		-122.480444,
+		37.612397
+	],
+	"minerva avenue+oneonta avenue": [
+		-122.47944,
+		37.613688
+	],
+	"oneonta avenue+minerva avenue": [
+		-122.47944,
+		37.613688
+	],
+	"bonita avenue+south reina del mar avenue": [
+		-122.478648,
+		37.61277
+	],
+	"south reina del mar avenue+bonita avenue": [
+		-122.478648,
+		37.61277
+	],
+	"juanita avenue+south reina del mar avenue": [
+		-122.477818,
+		37.61253
+	],
+	"south reina del mar avenue+juanita avenue": [
+		-122.477818,
+		37.61253
+	],
+	"angelita avenue+south reina del mar avenue": [
+		-122.476873,
+		37.612199
+	],
+	"south reina del mar avenue+angelita avenue": [
+		-122.476873,
+		37.612199
+	],
+	"nataqua avenue+south reina del mar avenue": [
+		-122.476084,
+		37.612179
+	],
+	"south reina del mar avenue+nataqua avenue": [
+		-122.476084,
+		37.612179
+	],
+	"berendos avenue+hiawatha avenue": [
+		-122.47516,
+		37.612215
+	],
+	"berendos avenue+south reina del mar avenue": [
+		-122.47516,
+		37.612215
+	],
+	"hiawatha avenue+berendos avenue": [
+		-122.47516,
+		37.612215
+	],
+	"hiawatha avenue+south reina del mar avenue": [
+		-122.47516,
+		37.612215
+	],
+	"south reina del mar avenue+berendos avenue": [
+		-122.47516,
+		37.612215
+	],
+	"south reina del mar avenue+hiawatha avenue": [
+		-122.47516,
+		37.612215
+	],
+	"juanita avenue+ursula avenue": [
+		-122.478166,
+		37.610421
+	],
+	"ursula avenue+juanita avenue": [
+		-122.478166,
+		37.610421
+	],
+	"angelita avenue+ursula avenue": [
+		-122.477302,
+		37.610268
+	],
+	"ursula avenue+angelita avenue": [
+		-122.477302,
+		37.610268
+	],
+	"keith avenue+ursula avenue": [
+		-122.477703,
+		37.610344
+	],
+	"ursula avenue+keith avenue": [
+		-122.477703,
+		37.610344
+	],
+	"genevieve avenue+ursula avenue": [
+		-122.478521,
+		37.610459
+	],
+	"ursula avenue+genevieve avenue": [
+		-122.478521,
+		37.610459
+	],
+	"fern avenue+genevieve avenue": [
+		-122.478879,
+		37.609018
+	],
+	"genevieve avenue+fern avenue": [
+		-122.478879,
+		37.609018
+	],
+	"fern avenue+keith avenue": [
+		-122.478063,
+		37.608875
+	],
+	"keith avenue+fern avenue": [
+		-122.478063,
+		37.608875
+	],
+	"calera terrace+troglia terrace": [
+		-122.48466,
+		37.603091
+	],
+	"troglia terrace+calera terrace": [
+		-122.48466,
+		37.603091
+	],
+	"driftwood circle+driftwood court": [
+		-122.485875,
+		37.599205
+	],
+	"driftwood court+driftwood circle": [
+		-122.485875,
+		37.599205
+	],
+	"andorra court+crespi drive": [
+		-122.482585,
+		37.5984
+	],
+	"crespi drive+andorra court": [
+		-122.482585,
+		37.5984
+	],
+	"miranda court+terra nova boulevard": [
+		-122.481541,
+		37.598141
+	],
+	"terra nova boulevard+miranda court": [
+		-122.481541,
+		37.598141
+	],
+	"estella drive+fassler avenue": [
+		-122.480918,
+		37.598985
+	],
+	"fassler avenue+estella drive": [
+		-122.480918,
+		37.598985
+	],
+	"baquiano trail+fassler avenue": [
+		-122.478969,
+		37.599348
+	],
+	"fassler avenue+baquiano trail": [
+		-122.478969,
+		37.599348
+	],
+	"terra nova boulevard+victoria way": [
+		-122.481162,
+		37.597113
+	],
+	"victoria way+terra nova boulevard": [
+		-122.481162,
+		37.597113
+	],
+	"mason drive+victoria way": [
+		-122.479353,
+		37.596826
+	],
+	"victoria way+mason drive": [
+		-122.479353,
+		37.596826
+	],
+	"mason drive+vega court": [
+		-122.477063,
+		37.597717
+	],
+	"vega court+mason drive": [
+		-122.477063,
+		37.597717
+	],
+	"mason drive+terra nova boulevard": [
+		-122.47957,
+		37.596058
+	],
+	"terra nova boulevard+mason drive": [
+		-122.47957,
+		37.596058
+	],
+	"ladera way+serena drive": [
+		-122.495773,
+		37.596436
+	],
+	"serena drive+ladera way": [
+		-122.495773,
+		37.596436
+	],
+	"alta vista drive+ladera way": [
+		-122.49529,
+		37.596219
+	],
+	"ladera way+alta vista drive": [
+		-122.49529,
+		37.596219
+	],
+	"cordova court+corona drive": [
+		-122.494946,
+		37.595547
+	],
+	"corona drive+cordova court": [
+		-122.494946,
+		37.595547
+	],
+	"corona drive+escalero avenue": [
+		-122.493269,
+		37.59568
+	],
+	"escalero avenue+corona drive": [
+		-122.493269,
+		37.59568
+	],
+	"alta vista drive+escalero avenue": [
+		-122.492936,
+		37.595117
+	],
+	"escalero avenue+alta vista drive": [
+		-122.492936,
+		37.595117
+	],
+	"alta vista drive+la mirada way": [
+		-122.489977,
+		37.595279
+	],
+	"la mirada way+alta vista drive": [
+		-122.489977,
+		37.595279
+	],
+	"escalero avenue+serena drive": [
+		-122.492652,
+		37.594331
+	],
+	"serena drive+escalero avenue": [
+		-122.492652,
+		37.594331
+	],
+	"la mirada way+serena drive": [
+		-122.489648,
+		37.594604
+	],
+	"serena drive+la mirada way": [
+		-122.489648,
+		37.594604
+	],
+	"crespi drive+escalero avenue": [
+		-122.492756,
+		37.593633
+	],
+	"escalero avenue+crespi drive": [
+		-122.492756,
+		37.593633
+	],
+	"crespi drive+seville drive": [
+		-122.491776,
+		37.593453
+	],
+	"seville drive+crespi drive": [
+		-122.491776,
+		37.593453
+	],
+	"crespi drive+la mirada way": [
+		-122.489477,
+		37.593858
+	],
+	"la mirada way+crespi drive": [
+		-122.489477,
+		37.593858
+	],
+	"crespi drive+regina way": [
+		-122.488736,
+		37.593284
+	],
+	"regina way+crespi drive": [
+		-122.488736,
+		37.593284
+	],
+	"barcelona drive+crespi drive": [
+		-122.488442,
+		37.592622
+	],
+	"crespi drive+barcelona drive": [
+		-122.488442,
+		37.592622
+	],
+	"cadiz court+escalero avenue": [
+		-122.494542,
+		37.591747
+	],
+	"escalero avenue+cadiz court": [
+		-122.494542,
+		37.591747
+	],
+	"chico court+escalero avenue": [
+		-122.495252,
+		37.592083
+	],
+	"escalero avenue+chico court": [
+		-122.495252,
+		37.592083
+	],
+	"standish court+standish road": [
+		-122.495799,
+		37.588115
+	],
+	"standish road+standish court": [
+		-122.495799,
+		37.588115
+	],
+	"regina way+seville drive": [
+		-122.492057,
+		37.592778
+	],
+	"seville drive+regina way": [
+		-122.492057,
+		37.592778
+	],
+	"oviedo court+seville drive": [
+		-122.492691,
+		37.59104
+	],
+	"seville drive+oviedo court": [
+		-122.492691,
+		37.59104
+	],
+	"adobe drive+linda mar boulevard": [
+		-122.493983,
+		37.588381
+	],
+	"adobe drive+seville drive": [
+		-122.493983,
+		37.588381
+	],
+	"linda mar boulevard+adobe drive": [
+		-122.493983,
+		37.588381
+	],
+	"linda mar boulevard+seville drive": [
+		-122.493983,
+		37.588381
+	],
+	"seville drive+adobe drive": [
+		-122.493983,
+		37.588381
+	],
+	"seville drive+linda mar boulevard": [
+		-122.493983,
+		37.588381
+	],
+	"la mirada way+valencia way": [
+		-122.489473,
+		37.594231
+	],
+	"valencia way+la mirada way": [
+		-122.489473,
+		37.594231
+	],
+	"granada drive+valencia way": [
+		-122.488447,
+		37.594557
+	],
+	"valencia way+granada drive": [
+		-122.488447,
+		37.594557
+	],
+	"hinton ranch road+valencia way": [
+		-122.486925,
+		37.59466
+	],
+	"hinton ranch road+zamora drive": [
+		-122.486925,
+		37.59466
+	],
+	"valencia way+hinton ranch road": [
+		-122.486925,
+		37.59466
+	],
+	"valencia way+zamora drive": [
+		-122.486925,
+		37.59466
+	],
+	"zamora drive+hinton ranch road": [
+		-122.486925,
+		37.59466
+	],
+	"zamora drive+valencia way": [
+		-122.486925,
+		37.59466
+	],
+	"barcelona drive+granada drive": [
+		-122.486361,
+		37.592327
+	],
+	"granada drive+barcelona drive": [
+		-122.486361,
+		37.592327
+	],
+	"friendrichsen lane+oviedo court": [
+		-122.491604,
+		37.59072
+	],
+	"oviedo court+friendrichsen lane": [
+		-122.491604,
+		37.59072
+	],
+	"alcala court+crespi drive": [
+		-122.489358,
+		37.591195
+	],
+	"crespi drive+alcala court": [
+		-122.489358,
+		37.591195
+	],
+	"crespi drive+tapis way": [
+		-122.48861,
+		37.589954
+	],
+	"tapis way+crespi drive": [
+		-122.48861,
+		37.589954
+	],
+	"adobe drive+rosita road": [
+		-122.496853,
+		37.585468
+	],
+	"rosita road+adobe drive": [
+		-122.496853,
+		37.585468
+	],
+	"adobe drive+higgins way": [
+		-122.498549,
+		37.583545
+	],
+	"higgins way+adobe drive": [
+		-122.498549,
+		37.583545
+	],
+	"north rosita court+rosita road": [
+		-122.495162,
+		37.584516
+	],
+	"north rosita court+south rosita court": [
+		-122.495162,
+		37.584516
+	],
+	"rosita road+north rosita court": [
+		-122.495162,
+		37.584516
+	],
+	"rosita road+south rosita court": [
+		-122.495162,
+		37.584516
+	],
+	"south rosita court+north rosita court": [
+		-122.495162,
+		37.584516
+	],
+	"south rosita court+rosita road": [
+		-122.495162,
+		37.584516
+	],
+	"monte verde drive+rio vista drive": [
+		-122.493605,
+		37.583653
+	],
+	"monte verde drive+rosita road": [
+		-122.493605,
+		37.583653
+	],
+	"rio vista drive+monte verde drive": [
+		-122.493605,
+		37.583653
+	],
+	"rio vista drive+rosita road": [
+		-122.493605,
+		37.583653
+	],
+	"rosita road+monte verde drive": [
+		-122.493605,
+		37.583653
+	],
+	"rosita road+rio vista drive": [
+		-122.493605,
+		37.583653
+	],
+	"aragon court+rosita road": [
+		-122.494458,
+		37.584128
+	],
+	"rosita road+aragon court": [
+		-122.494458,
+		37.584128
+	],
+	"higgins way+old san pedro mountain road": [
+		-122.49511,
+		37.582624
+	],
+	"old san pedro mountain road+higgins way": [
+		-122.49511,
+		37.582624
+	],
+	"serra drive+solano drive": [
+		-122.488765,
+		37.584768
+	],
+	"solano drive+serra drive": [
+		-122.488765,
+		37.584768
+	],
+	"serra drive+south solano drive": [
+		-122.488765,
+		37.584768
+	],
+	"solano drive+south solano drive": [
+		-122.488765,
+		37.584768
+	],
+	"south solano drive+serra drive": [
+		-122.488765,
+		37.584768
+	],
+	"south solano drive+solano drive": [
+		-122.488765,
+		37.584768
+	],
+	"linda mar boulevard+oddstad boulevard": [
+		-122.47642,
+		37.580614
+	],
+	"oddstad boulevard+linda mar boulevard": [
+		-122.47642,
+		37.580614
+	],
+	"linda mar boulevard+madeira drive": [
+		-122.479517,
+		37.582083
+	],
+	"madeira drive+linda mar boulevard": [
+		-122.479517,
+		37.582083
+	],
+	"capistrano drive+linda mar boulevard": [
+		-122.483403,
+		37.582571
+	],
+	"linda mar boulevard+capistrano drive": [
+		-122.483403,
+		37.582571
+	],
+	"alicante drive+linda mar boulevard": [
+		-122.485398,
+		37.583346
+	],
+	"linda mar boulevard+alicante drive": [
+		-122.485398,
+		37.583346
+	],
+	"linda mar boulevard+south solano drive": [
+		-122.488277,
+		37.585332
+	],
+	"south solano drive+linda mar boulevard": [
+		-122.488277,
+		37.585332
+	],
+	"linda mar boulevard+sheila lane": [
+		-122.488551,
+		37.585483
+	],
+	"sheila lane+linda mar boulevard": [
+		-122.488551,
+		37.585483
+	],
+	"celestial court+sheila lane": [
+		-122.486653,
+		37.587692
+	],
+	"sheila lane+celestial court": [
+		-122.486653,
+		37.587692
+	],
+	"alviso court+sheila lane": [
+		-122.487477,
+		37.586754
+	],
+	"sheila lane+alviso court": [
+		-122.487477,
+		37.586754
+	],
+	"celia court+sheila lane": [
+		-122.486945,
+		37.587359
+	],
+	"sheila lane+celia court": [
+		-122.486945,
+		37.587359
+	],
+	"malavear court+sheila lane": [
+		-122.488021,
+		37.586149
+	],
+	"sheila lane+malavear court": [
+		-122.488021,
+		37.586149
+	],
+	"palou drive+rosita road": [
+		-122.493013,
+		37.583374
+	],
+	"rosita road+palou drive": [
+		-122.493013,
+		37.583374
+	],
+	"galvez drive+palou drive": [
+		-122.490001,
+		37.581592
+	],
+	"palou drive+galvez drive": [
+		-122.490001,
+		37.581592
+	],
+	"galvez drive+rosita road": [
+		-122.489545,
+		37.582224
+	],
+	"rosita road+galvez drive": [
+		-122.489545,
+		37.582224
+	],
+	"perez drive+rosita road": [
+		-122.488558,
+		37.581782
+	],
+	"rosita road+perez drive": [
+		-122.488558,
+		37.581782
+	],
+	"capistrano drive+rosita road": [
+		-122.483674,
+		37.58081
+	],
+	"rosita road+capistrano drive": [
+		-122.483674,
+		37.58081
+	],
+	"rosita road+valdez way": [
+		-122.481194,
+		37.580571
+	],
+	"valdez way+rosita road": [
+		-122.481194,
+		37.580571
+	],
+	"rosita road+ventura court": [
+		-122.478536,
+		37.580526
+	],
+	"ventura court+rosita road": [
+		-122.478536,
+		37.580526
+	],
+	"oddstad boulevard+rosita road": [
+		-122.476781,
+		37.580305
+	],
+	"oddstad boulevard+trout farm road": [
+		-122.476696,
+		37.580332
+	],
+	"rosita road+oddstad boulevard": [
+		-122.476781,
+		37.580305
+	],
+	"rosita road+trout farm road": [
+		-122.476781,
+		37.580305
+	],
+	"trout farm road+oddstad boulevard": [
+		-122.476696,
+		37.580332
+	],
+	"trout farm road+rosita road": [
+		-122.476781,
+		37.580305
+	],
+	"crespi drive+lerida way": [
+		-122.480803,
+		37.59446
+	],
+	"lerida way+crespi drive": [
+		-122.480803,
+		37.59446
+	],
+	"crespi drive+manzanita drive": [
+		-122.484434,
+		37.589574
+	],
+	"manzanita drive+crespi drive": [
+		-122.484434,
+		37.589574
+	],
+	"lerida way+spruce court": [
+		-122.480401,
+		37.59241
+	],
+	"spruce court+lerida way": [
+		-122.480401,
+		37.59241
+	],
+	"banyan way+redwood way": [
+		-122.481971,
+		37.589953
+	],
+	"redwood way+banyan way": [
+		-122.481971,
+		37.589953
+	],
+	"acacia court+redwood way": [
+		-122.480844,
+		37.590308
+	],
+	"redwood way+acacia court": [
+		-122.480844,
+		37.590308
+	],
+	"lerida way+redwood way": [
+		-122.480069,
+		37.590552
+	],
+	"redwood way+lerida way": [
+		-122.480069,
+		37.590552
+	],
+	"banyan way+lerida way": [
+		-122.480315,
+		37.591224
+	],
+	"lerida way+banyan way": [
+		-122.480315,
+		37.591224
+	],
+	"elm court+lerida way": [
+		-122.479049,
+		37.589532
+	],
+	"lerida way+elm court": [
+		-122.479049,
+		37.589532
+	],
+	"lerida way+poplar avenue": [
+		-122.477911,
+		37.589077
+	],
+	"poplar avenue+lerida way": [
+		-122.477911,
+		37.589077
+	],
+	"lerida way+terra nova boulevard": [
+		-122.477114,
+		37.588783
+	],
+	"terra nova boulevard+lerida way": [
+		-122.477114,
+		37.588783
+	],
+	"everglades drive+terra nova boulevard": [
+		-122.475579,
+		37.591471
+	],
+	"terra nova boulevard+everglades drive": [
+		-122.475579,
+		37.591471
+	],
+	"alicante drive+terra nova boulevard": [
+		-122.476807,
+		37.585981
+	],
+	"terra nova boulevard+alicante drive": [
+		-122.476807,
+		37.585981
+	],
+	"aspen drive+terra nova boulevard": [
+		-122.475976,
+		37.584893
+	],
+	"terra nova boulevard+aspen drive": [
+		-122.475976,
+		37.584893
+	],
+	"sheila lane+view way": [
+		-122.483613,
+		37.587361
+	],
+	"view way+sheila lane": [
+		-122.483613,
+		37.587361
+	],
+	"alvarado avenue+duran court": [
+		-122.485339,
+		37.584845
+	],
+	"duran court+alvarado avenue": [
+		-122.485339,
+		37.584845
+	],
+	"alvarado avenue+desvio court": [
+		-122.485,
+		37.584277
+	],
+	"desvio court+alvarado avenue": [
+		-122.485,
+		37.584277
+	],
+	"alicante drive+alvarado avenue": [
+		-122.484868,
+		37.583919
+	],
+	"alvarado avenue+alicante drive": [
+		-122.484868,
+		37.583919
+	],
+	"manzanita drive+view way": [
+		-122.482486,
+		37.587322
+	],
+	"view way+manzanita drive": [
+		-122.482486,
+		37.587322
+	],
+	"dulles court+manzanita drive": [
+		-122.481081,
+		37.58548
+	],
+	"manzanita drive+dulles court": [
+		-122.481081,
+		37.58548
+	],
+	"cranham court+manzanita drive": [
+		-122.479924,
+		37.584551
+	],
+	"manzanita drive+cranham court": [
+		-122.479924,
+		37.584551
+	],
+	"alicante drive+manzanita drive": [
+		-122.478148,
+		37.583331
+	],
+	"manzanita drive+alicante drive": [
+		-122.478148,
+		37.583331
+	],
+	"alicante drive+avila court": [
+		-122.485878,
+		37.582735
+	],
+	"avila court+alicante drive": [
+		-122.485878,
+		37.582735
+	],
+	"alicante drive+castro court": [
+		-122.485108,
+		37.582462
+	],
+	"castro court+alicante drive": [
+		-122.485108,
+		37.582462
+	],
+	"alicante drive+madrid court": [
+		-122.484276,
+		37.582163
+	],
+	"madrid court+alicante drive": [
+		-122.484276,
+		37.582163
+	],
+	"alicante drive+capistrano drive": [
+		-122.483623,
+		37.582034
+	],
+	"capistrano drive+alicante drive": [
+		-122.483623,
+		37.582034
+	],
+	"capistrano drive+madeira drive": [
+		-122.483632,
+		37.58166
+	],
+	"madeira drive+capistrano drive": [
+		-122.483632,
+		37.58166
+	],
+	"alicante drive+banyan way": [
+		-122.47824,
+		37.585038
+	],
+	"banyan way+alicante drive": [
+		-122.47824,
+		37.585038
+	],
+	"alicante drive+madrone way": [
+		-122.477598,
+		37.585659
+	],
+	"madrone way+alicante drive": [
+		-122.477598,
+		37.585659
+	],
+	"oddstad boulevard+toledo court": [
+		-122.47591,
+		37.581212
+	],
+	"toledo court+oddstad boulevard": [
+		-122.47591,
+		37.581212
+	],
+	"oddstad boulevard+weiler ranch trail": [
+		-122.475498,
+		37.581703
+	],
+	"weiler ranch trail+oddstad boulevard": [
+		-122.475498,
+		37.581703
+	],
+	"bayberry circle+cypress street": [
+		-122.47366,
+		37.647515
+	],
+	"cypress street+bayberry circle": [
+		-122.47366,
+		37.647515
+	],
+	"cypress street+sycamore street": [
+		-122.473109,
+		37.64737
+	],
+	"sycamore street+cypress street": [
+		-122.473109,
+		37.64737
+	],
+	"ca 35+cypress street": [
+		-122.472101,
+		37.647697
+	],
+	"ca 35+skyline boulevard": [
+		-122.434309,
+		37.610446
+	],
+	"cypress street+ca 35": [
+		-122.472101,
+		37.647697
+	],
+	"cypress street+skyline boulevard": [
+		-122.472101,
+		37.647697
+	],
+	"skyline boulevard+ca 35": [
+		-122.434309,
+		37.610446
+	],
+	"skyline boulevard+cypress street": [
+		-122.472101,
+		37.647697
+	],
+	"inverness drive+manor drive": [
+		-122.47314,
+		37.645488
+	],
+	"manor drive+inverness drive": [
+		-122.47314,
+		37.645488
+	],
+	"lockhaven drive+manor drive": [
+		-122.473524,
+		37.645461
+	],
+	"manor drive+lockhaven drive": [
+		-122.473524,
+		37.645461
+	],
+	"claridge drive+manor drive": [
+		-122.471318,
+		37.646011
+	],
+	"manor drive+claridge drive": [
+		-122.471318,
+		37.646011
+	],
+	"lockhaven drive+southmoor drive": [
+		-122.472946,
+		37.644752
+	],
+	"southmoor drive+lockhaven drive": [
+		-122.472946,
+		37.644752
+	],
+	"heather court+southmoor drive": [
+		-122.471661,
+		37.645134
+	],
+	"southmoor drive+heather court": [
+		-122.471661,
+		37.645134
+	],
+	"claridge drive+southmoor drive": [
+		-122.470947,
+		37.645443
+	],
+	"southmoor drive+claridge drive": [
+		-122.470947,
+		37.645443
+	],
+	"ca 35+manor drive": [
+		-122.470845,
+		37.646154
+	],
+	"manor drive+ca 35": [
+		-122.470845,
+		37.646154
+	],
+	"manor drive+skyline boulevard": [
+		-122.470845,
+		37.646154
+	],
+	"skyline boulevard+manor drive": [
+		-122.470845,
+		37.646154
+	],
+	"claridge drive+lockhaven drive": [
+		-122.468857,
+		37.643187
+	],
+	"lockhaven drive+claridge drive": [
+		-122.468857,
+		37.643187
+	],
+	"carter drive+shamrock court": [
+		-122.469397,
+		37.64858
+	],
+	"shamrock court+carter drive": [
+		-122.469397,
+		37.64858
+	],
+	"cork place+leix way": [
+		-122.4677,
+		37.64767
+	],
+	"leix way+cork place": [
+		-122.4677,
+		37.64767
+	],
+	"carter drive+leix way": [
+		-122.469641,
+		37.647049
+	],
+	"leix way+carter drive": [
+		-122.469641,
+		37.647049
+	],
+	"myrna lane+stamford row": [
+		-122.46795,
+		37.646668
+	],
+	"stamford row+myrna lane": [
+		-122.46795,
+		37.646668
+	],
+	"carter drive+stamford row": [
+		-122.469186,
+		37.646111
+	],
+	"stamford row+carter drive": [
+		-122.469186,
+		37.646111
+	],
+	"cromwell row+myrna lane": [
+		-122.467383,
+		37.646069
+	],
+	"myrna lane+cromwell row": [
+		-122.467383,
+		37.646069
+	],
+	"carter drive+cromwell row": [
+		-122.468371,
+		37.645323
+	],
+	"cromwell row+carter drive": [
+		-122.468371,
+		37.645323
+	],
+	"greendale drive+howard court": [
+		-122.465624,
+		37.648877
+	],
+	"howard court+greendale drive": [
+		-122.465624,
+		37.648877
+	],
+	"adams court+callan boulevard": [
+		-122.465762,
+		37.647165
+	],
+	"adams court+farnee court": [
+		-122.465762,
+		37.647165
+	],
+	"callan boulevard+adams court": [
+		-122.465762,
+		37.647165
+	],
+	"callan boulevard+farnee court": [
+		-122.465762,
+		37.647165
+	],
+	"farnee court+adams court": [
+		-122.465762,
+		37.647165
+	],
+	"farnee court+callan boulevard": [
+		-122.465762,
+		37.647165
+	],
+	"carter drive+kilconway lane": [
+		-122.466875,
+		37.644926
+	],
+	"kilconway lane+carter drive": [
+		-122.466875,
+		37.644926
+	],
+	"carter drive+sean court": [
+		-122.466471,
+		37.644763
+	],
+	"sean court+carter drive": [
+		-122.466471,
+		37.644763
+	],
+	"carter drive+duhallow way": [
+		-122.465787,
+		37.644229
+	],
+	"duhallow way+carter drive": [
+		-122.465787,
+		37.644229
+	],
+	"carter drive+meath drive": [
+		-122.464967,
+		37.643387
+	],
+	"meath drive+carter drive": [
+		-122.464967,
+		37.643387
+	],
+	"callan boulevard+olmstead court": [
+		-122.465104,
+		37.646575
+	],
+	"callan boulevard+tyrone court": [
+		-122.465104,
+		37.646575
+	],
+	"olmstead court+callan boulevard": [
+		-122.465104,
+		37.646575
+	],
+	"olmstead court+tyrone court": [
+		-122.465104,
+		37.646575
+	],
+	"tyrone court+callan boulevard": [
+		-122.465104,
+		37.646575
+	],
+	"tyrone court+olmstead court": [
+		-122.465104,
+		37.646575
+	],
+	"callan boulevard+meath drive": [
+		-122.463193,
+		37.644478
+	],
+	"meath drive+callan boulevard": [
+		-122.463193,
+		37.644478
+	],
+	"callan boulevard+duhallow way": [
+		-122.463906,
+		37.645355
+	],
+	"duhallow way+callan boulevard": [
+		-122.463906,
+		37.645355
+	],
+	"duhallow way+greendale drive": [
+		-122.463906,
+		37.645355
+	],
+	"greendale drive+duhallow way": [
+		-122.463906,
+		37.645355
+	],
+	"duhallow way+erris court": [
+		-122.464796,
+		37.644838
+	],
+	"erris court+duhallow way": [
+		-122.464796,
+		37.644838
+	],
+	"athy drive+kilconway lane": [
+		-122.467819,
+		37.644138
+	],
+	"kilconway lane+athy drive": [
+		-122.467819,
+		37.644138
+	],
+	"athy drive+meath drive": [
+		-122.466242,
+		37.642496
+	],
+	"meath drive+athy drive": [
+		-122.466242,
+		37.642496
+	],
+	"athy drive+duhallow way": [
+		-122.467032,
+		37.643338
+	],
+	"duhallow way+athy drive": [
+		-122.467032,
+		37.643338
+	],
+	"ca 35+skyridge drive": [
+		-122.466177,
+		37.641209
+	],
+	"skyline boulevard+skyridge drive": [
+		-122.466177,
+		37.641209
+	],
+	"skyridge drive+ca 35": [
+		-122.466177,
+		37.641209
+	],
+	"skyridge drive+skyline boulevard": [
+		-122.466177,
+		37.641209
+	],
+	"view point court+viewridge drive": [
+		-122.467253,
+		37.640436
+	],
+	"viewridge drive+view point court": [
+		-122.467253,
+		37.640436
+	],
+	"skyridge drive+viewridge drive": [
+		-122.466623,
+		37.640356
+	],
+	"viewridge drive+skyridge drive": [
+		-122.466623,
+		37.640356
+	],
+	"outlook circle+outlook drive": [
+		-122.474167,
+		37.632604
+	],
+	"outlook drive+outlook circle": [
+		-122.474167,
+		37.632604
+	],
+	"outlook drive+outlook heights court": [
+		-122.473426,
+		37.632619
+	],
+	"outlook drive+outlook heights drive": [
+		-122.473413,
+		37.632535
+	],
+	"outlook heights court+outlook drive": [
+		-122.473426,
+		37.632619
+	],
+	"outlook heights court+outlook heights drive": [
+		-122.473413,
+		37.632535
+	],
+	"outlook heights drive+outlook drive": [
+		-122.473413,
+		37.632535
+	],
+	"outlook heights drive+outlook heights court": [
+		-122.473413,
+		37.632535
+	],
+	"college drive+outlook drive": [
+		-122.472615,
+		37.632585
+	],
+	"outlook drive+college drive": [
+		-122.472615,
+		37.632585
+	],
+	"outlook heights drive+pacific view drive": [
+		-122.473385,
+		37.631941
+	],
+	"pacific view drive+outlook heights drive": [
+		-122.473385,
+		37.631941
+	],
+	"pacific heights boulevard+sharp park road": [
+		-122.468964,
+		37.635262
+	],
+	"sharp park road+pacific heights boulevard": [
+		-122.468964,
+		37.635262
+	],
+	"moulton drive+sunset drive": [
+		-122.470222,
+		37.633949
+	],
+	"sunset drive+moulton drive": [
+		-122.470222,
+		37.633949
+	],
+	"highland drive+moulton drive": [
+		-122.470514,
+		37.634595
+	],
+	"moulton drive+highland drive": [
+		-122.470514,
+		37.634595
+	],
+	"highland drive+ysabel drive": [
+		-122.472458,
+		37.633604
+	],
+	"ysabel drive+highland drive": [
+		-122.472458,
+		37.633604
+	],
+	"sunset drive+ysabel drive": [
+		-122.471898,
+		37.631357
+	],
+	"ysabel drive+sunset drive": [
+		-122.471898,
+		37.631357
+	],
+	"exeter drive+ysabel drive": [
+		-122.471174,
+		37.631004
+	],
+	"ysabel drive+exeter drive": [
+		-122.471174,
+		37.631004
+	],
+	"exeter drive+sunset drive": [
+		-122.47109,
+		37.63356
+	],
+	"sunset drive+exeter drive": [
+		-122.47109,
+		37.63356
+	],
+	"panorama court+skyridge drive": [
+		-122.46654,
+		37.6397
+	],
+	"skyridge drive+panorama court": [
+		-122.46654,
+		37.6397
+	],
+	"sea spray lane+skyridge drive": [
+		-122.467132,
+		37.639129
+	],
+	"skyridge drive+sea spray lane": [
+		-122.467132,
+		37.639129
+	],
+	"skyridge drive+sunset court": [
+		-122.468038,
+		37.639111
+	],
+	"sunset court+skyridge drive": [
+		-122.468038,
+		37.639111
+	],
+	"pacific heights boulevard+spyglass drive": [
+		-122.469846,
+		37.63636
+	],
+	"spyglass drive+pacific heights boulevard": [
+		-122.469846,
+		37.63636
+	],
+	"pacific heights boulevard+sea cliff way": [
+		-122.469197,
+		37.636011
+	],
+	"sea cliff way+pacific heights boulevard": [
+		-122.469197,
+		37.636011
+	],
+	"highland drive+susan drive": [
+		-122.465356,
+		37.637819
+	],
+	"susan drive+highland drive": [
+		-122.465356,
+		37.637819
+	],
+	"sharp park road+susan drive": [
+		-122.464675,
+		37.638599
+	],
+	"susan drive+sharp park road": [
+		-122.464675,
+		37.638599
+	],
+	"ca 35+sharp park road": [
+		-122.464119,
+		37.638789
+	],
+	"ca 35+westborough boulevard": [
+		-122.464049,
+		37.638932
+	],
+	"sharp park road+ca 35": [
+		-122.464119,
+		37.638789
+	],
+	"sharp park road+skyline boulevard": [
+		-122.464119,
+		37.638789
+	],
+	"sharp park road+westborough boulevard": [
+		-122.464119,
+		37.638789
+	],
+	"skyline boulevard+sharp park road": [
+		-122.464119,
+		37.638789
+	],
+	"skyline boulevard+westborough boulevard": [
+		-122.464049,
+		37.638932
+	],
+	"westborough boulevard+ca 35": [
+		-122.464049,
+		37.638932
+	],
+	"westborough boulevard+sharp park road": [
+		-122.464119,
+		37.638789
+	],
+	"westborough boulevard+skyline boulevard": [
+		-122.464049,
+		37.638932
+	],
+	"susan drive+tree tops circle": [
+		-122.463082,
+		37.637484
+	],
+	"tree tops circle+susan drive": [
+		-122.463082,
+		37.637484
+	],
+	"elston drive+highland drive": [
+		-122.466405,
+		37.636294
+	],
+	"highland drive+elston drive": [
+		-122.466405,
+		37.636294
+	],
+	"coronado way+highland drive": [
+		-122.466727,
+		37.635742
+	],
+	"highland drive+coronado way": [
+		-122.466727,
+		37.635742
+	],
+	"colby way+highland drive": [
+		-122.468009,
+		37.635366
+	],
+	"highland drive+colby way": [
+		-122.468009,
+		37.635366
+	],
+	"highland drive+pacific heights boulevard": [
+		-122.468875,
+		37.635117
+	],
+	"pacific heights boulevard+highland drive": [
+		-122.468875,
+		37.635117
+	],
+	"chilton lane+highland drive": [
+		-122.469724,
+		37.634847
+	],
+	"highland drive+chilton lane": [
+		-122.469724,
+		37.634847
+	],
+	"chilton lane+pacific heights boulevard": [
+		-122.466952,
+		37.632502
+	],
+	"pacific heights boulevard+chilton lane": [
+		-122.466952,
+		37.632502
+	],
+	"colby way+pacific heights boulevard": [
+		-122.467054,
+		37.632618
+	],
+	"pacific heights boulevard+colby way": [
+		-122.467054,
+		37.632618
+	],
+	"colby way+madera way": [
+		-122.46767,
+		37.634724
+	],
+	"madera way+colby way": [
+		-122.46767,
+		37.634724
+	],
+	"coronado way+madera way": [
+		-122.465369,
+		37.633399
+	],
+	"madera way+coronado way": [
+		-122.465369,
+		37.633399
+	],
+	"college drive+college loop drive": [
+		-122.462396,
+		37.631389
+	],
+	"college loop drive+college drive": [
+		-122.462396,
+		37.631389
+	],
+	"palos verdes way+pomeroy court": [
+		-122.463203,
+		37.648155
+	],
+	"pomeroy court+palos verdes way": [
+		-122.463203,
+		37.648155
+	],
+	"crofton way+greendale drive": [
+		-122.462079,
+		37.648861
+	],
+	"greendale drive+crofton way": [
+		-122.462079,
+		37.648861
+	],
+	"galway drive+greendale drive": [
+		-122.457384,
+		37.647169
+	],
+	"greendale drive+galway drive": [
+		-122.457384,
+		37.647169
+	],
+	"fairfax way+greendale drive": [
+		-122.459883,
+		37.648612
+	],
+	"greendale drive+fairfax way": [
+		-122.459883,
+		37.648612
+	],
+	"geddes court+greendale drive": [
+		-122.45796,
+		37.648497
+	],
+	"greendale drive+geddes court": [
+		-122.45796,
+		37.648497
+	],
+	"greendale drive+kent way": [
+		-122.460981,
+		37.648707
+	],
+	"kent way+greendale drive": [
+		-122.460981,
+		37.648707
+	],
+	"greendale drive+palos verdes way": [
+		-122.462303,
+		37.646132
+	],
+	"palos verdes way+greendale drive": [
+		-122.462303,
+		37.646132
+	],
+	"georgetown court+greendale drive": [
+		-122.463057,
+		37.645848
+	],
+	"greendale drive+georgetown court": [
+		-122.463057,
+		37.645848
+	],
+	"brunswick court+greendale drive": [
+		-122.461383,
+		37.646381
+	],
+	"greendale drive+brunswick court": [
+		-122.461383,
+		37.646381
+	],
+	"baldwin hills court+greendale drive": [
+		-122.461765,
+		37.64631
+	],
+	"greendale drive+baldwin hills court": [
+		-122.461765,
+		37.64631
+	],
+	"bettman way+greendale drive": [
+		-122.460436,
+		37.646472
+	],
+	"greendale drive+bettman way": [
+		-122.460436,
+		37.646472
+	],
+	"bassett court+greendale drive": [
+		-122.459449,
+		37.646559
+	],
+	"greendale drive+bassett court": [
+		-122.459449,
+		37.646559
+	],
+	"gilbert court+greendale drive": [
+		-122.458431,
+		37.646635
+	],
+	"greendale drive+gilbert court": [
+		-122.458431,
+		37.646635
+	],
+	"callan boulevard+westborough boulevard": [
+		-122.462093,
+		37.642658
+	],
+	"westborough boulevard+callan boulevard": [
+		-122.462093,
+		37.642658
+	],
+	"callan boulevard+oakmont drive": [
+		-122.462093,
+		37.642658
+	],
+	"oakmont drive+callan boulevard": [
+		-122.462093,
+		37.642658
+	],
+	"oakmont drive+westborough boulevard": [
+		-122.462093,
+		37.642658
+	],
+	"westborough boulevard+oakmont drive": [
+		-122.462093,
+		37.642658
+	],
+	"fleetwood drive+westborough boulevard": [
+		-122.463186,
+		37.639418
+	],
+	"westborough boulevard+fleetwood drive": [
+		-122.463186,
+		37.639418
+	],
+	"galway drive+westborough boulevard": [
+		-122.457284,
+		37.64309
+	],
+	"westborough boulevard+galway drive": [
+		-122.457284,
+		37.64309
+	],
+	"bantry lane+galway place": [
+		-122.457488,
+		37.642761
+	],
+	"galway place+bantry lane": [
+		-122.457488,
+		37.642761
+	],
+	"bantry lane+oakmont drive": [
+		-122.461882,
+		37.642237
+	],
+	"oakmont drive+bantry lane": [
+		-122.461882,
+		37.642237
+	],
+	"oakmont drive+shannon drive": [
+		-122.460904,
+		37.640328
+	],
+	"shannon drive+oakmont drive": [
+		-122.460904,
+		37.640328
+	],
+	"oakmont drive+tara lane": [
+		-122.46123,
+		37.640973
+	],
+	"tara lane+oakmont drive": [
+		-122.46123,
+		37.640973
+	],
+	"ardee lane+oakmont drive": [
+		-122.461547,
+		37.641612
+	],
+	"oakmont drive+ardee lane": [
+		-122.461547,
+		37.641612
+	],
+	"ardee lane+galway place": [
+		-122.457702,
+		37.642095
+	],
+	"galway place+ardee lane": [
+		-122.457702,
+		37.642095
+	],
+	"galway place+tara lane": [
+		-122.457814,
+		37.641347
+	],
+	"tara lane+galway place": [
+		-122.457814,
+		37.641347
+	],
+	"galway drive+julie lane": [
+		-122.456501,
+		37.646789
+	],
+	"galway drive+radburn drive": [
+		-122.456501,
+		37.646789
+	],
+	"julie lane+galway drive": [
+		-122.456501,
+		37.646789
+	],
+	"julie lane+radburn drive": [
+		-122.456501,
+		37.646789
+	],
+	"radburn drive+galway drive": [
+		-122.456501,
+		37.646789
+	],
+	"radburn drive+julie lane": [
+		-122.456501,
+		37.646789
+	],
+	"radburn drive+williams court": [
+		-122.456177,
+		37.647463
+	],
+	"williams court+radburn drive": [
+		-122.456177,
+		37.647463
+	],
+	"radburn drive+westchester court": [
+		-122.456293,
+		37.648199
+	],
+	"westchester court+radburn drive": [
+		-122.456293,
+		37.648199
+	],
+	"julie lane+kristie lane": [
+		-122.45719,
+		37.645704
+	],
+	"kristie lane+julie lane": [
+		-122.45719,
+		37.645704
+	],
+	"emily lane+kristie lane": [
+		-122.456379,
+		37.645776
+	],
+	"kristie lane+emily lane": [
+		-122.456379,
+		37.645776
+	],
+	"galway drive+kristie lane": [
+		-122.455912,
+		37.645787
+	],
+	"galway drive+wren court": [
+		-122.455912,
+		37.645787
+	],
+	"kristie lane+galway drive": [
+		-122.455912,
+		37.645787
+	],
+	"kristie lane+wren court": [
+		-122.455912,
+		37.645787
+	],
+	"wren court+galway drive": [
+		-122.455912,
+		37.645787
+	],
+	"wren court+kristie lane": [
+		-122.455912,
+		37.645787
+	],
+	"galway drive+williamsburg court": [
+		-122.456169,
+		37.646516
+	],
+	"williamsburg court+galway drive": [
+		-122.456169,
+		37.646516
+	],
+	"galway drive+wright court": [
+		-122.456164,
+		37.645054
+	],
+	"wright court+galway drive": [
+		-122.456164,
+		37.645054
+	],
+	"galway drive+unwin court": [
+		-122.456449,
+		37.644297
+	],
+	"unwin court+galway drive": [
+		-122.456449,
+		37.644297
+	],
+	"galway drive+liberty court": [
+		-122.456921,
+		37.64361
+	],
+	"liberty court+galway drive": [
+		-122.456921,
+		37.64361
+	],
+	"galway drive+galway place": [
+		-122.457284,
+		37.64309
+	],
+	"galway place+galway drive": [
+		-122.457284,
+		37.64309
+	],
+	"galway place+westborough boulevard": [
+		-122.457284,
+		37.64309
+	],
+	"westborough boulevard+galway place": [
+		-122.457284,
+		37.64309
+	],
+	"galway place+shannon drive": [
+		-122.458114,
+		37.640667
+	],
+	"shannon drive+galway place": [
+		-122.458114,
+		37.640667
+	],
+	"dublin court+dublin drive": [
+		-122.456561,
+		37.642108
+	],
+	"dublin drive+dublin court": [
+		-122.456561,
+		37.642108
+	],
+	"dublin drive+shannon drive": [
+		-122.457376,
+		37.64026
+	],
+	"shannon drive+dublin drive": [
+		-122.457376,
+		37.64026
+	],
+	"olympic drive+westborough boulevard": [
+		-122.454232,
+		37.642837
+	],
+	"westborough boulevard+olympic drive": [
+		-122.454232,
+		37.642837
+	],
+	"bourbon court+dublin drive": [
+		-122.455874,
+		37.642129
+	],
+	"dublin drive+bourbon court": [
+		-122.455874,
+		37.642129
+	],
+	"dublin drive+erin place": [
+		-122.45493,
+		37.642095
+	],
+	"erin place+dublin drive": [
+		-122.45493,
+		37.642095
+	],
+	"erin place+shannon drive": [
+		-122.455385,
+		37.639179
+	],
+	"shannon drive+erin place": [
+		-122.455385,
+		37.639179
+	],
+	"dublin drive+wexford avenue": [
+		-122.451093,
+		37.64113
+	],
+	"wexford avenue+dublin drive": [
+		-122.451093,
+		37.64113
+	],
+	"donegal avenue+dublin drive": [
+		-122.4519,
+		37.641422
+	],
+	"dublin drive+donegal avenue": [
+		-122.4519,
+		37.641422
+	],
+	"dublin drive+tipperary avenue": [
+		-122.452715,
+		37.641762
+	],
+	"tipperary avenue+dublin drive": [
+		-122.452715,
+		37.641762
+	],
+	"dublin drive+olympic drive": [
+		-122.454011,
+		37.642047
+	],
+	"olympic drive+dublin drive": [
+		-122.454011,
+		37.642047
+	],
+	"fleetwood court+fleetwood drive": [
+		-122.462366,
+		37.63879
+	],
+	"fleetwood drive+fleetwood court": [
+		-122.462366,
+		37.63879
+	],
+	"elston drive+susan drive": [
+		-122.461714,
+		37.636352
+	],
+	"susan drive+elston drive": [
+		-122.461714,
+		37.636352
+	],
+	"elston drive+fasman drive": [
+		-122.462803,
+		37.635103
+	],
+	"fasman drive+elston drive": [
+		-122.462803,
+		37.635103
+	],
+	"elston drive+summit road": [
+		-122.464439,
+		37.634559
+	],
+	"summit road+elston drive": [
+		-122.464439,
+		37.634559
+	],
+	"summit road+susan drive": [
+		-122.462406,
+		37.63677
+	],
+	"susan drive+summit road": [
+		-122.462406,
+		37.63677
+	],
+	"geoffrey drive+susan drive": [
+		-122.460979,
+		37.635948
+	],
+	"susan drive+geoffrey drive": [
+		-122.460979,
+		37.635948
+	],
+	"fasman drive+susan drive": [
+		-122.457111,
+		37.633716
+	],
+	"susan drive+fasman drive": [
+		-122.457111,
+		37.633716
+	],
+	"college drive+susan drive": [
+		-122.455831,
+		37.632344
+	],
+	"susan drive+college drive": [
+		-122.455831,
+		37.632344
+	],
+	"longview drive+susan drive": [
+		-122.455861,
+		37.632287
+	],
+	"susan drive+longview drive": [
+		-122.455861,
+		37.632287
+	],
+	"fasman drive+geoffrey drive": [
+		-122.458562,
+		37.633507
+	],
+	"geoffrey drive+fasman drive": [
+		-122.458562,
+		37.633507
+	],
+	"fasman drive+sheryl drive": [
+		-122.459267,
+		37.633366
+	],
+	"sheryl drive+fasman drive": [
+		-122.459267,
+		37.633366
+	],
+	"allen drive+sheryl drive": [
+		-122.459431,
+		37.632374
+	],
+	"sheryl drive+allen drive": [
+		-122.459431,
+		37.632374
+	],
+	"college drive+sheryl drive": [
+		-122.459409,
+		37.632442
+	],
+	"sheryl drive+college drive": [
+		-122.459409,
+		37.632442
+	],
+	"allen drive+college drive": [
+		-122.459456,
+		37.632306
+	],
+	"college drive+allen drive": [
+		-122.459456,
+		37.632306
+	],
+	"muirfield circle+oakmont drive": [
+		-122.460543,
+		37.639661
+	],
+	"oakmont drive+muirfield circle": [
+		-122.460543,
+		37.639661
+	],
+	"medina drive+muirfield circle": [
+		-122.459668,
+		37.639933
+	],
+	"muirfield circle+medina drive": [
+		-122.459668,
+		37.639933
+	],
+	"carlow way+olympic drive": [
+		-122.454389,
+		37.639695
+	],
+	"olympic drive+carlow way": [
+		-122.454389,
+		37.639695
+	],
+	"olympic drive+shannon drive": [
+		-122.454484,
+		37.638948
+	],
+	"shannon drive+olympic drive": [
+		-122.454484,
+		37.638948
+	],
+	"olympic court+olympic drive": [
+		-122.455024,
+		37.638044
+	],
+	"olympic drive+olympic court": [
+		-122.455024,
+		37.638044
+	],
+	"olympic drive+wentworth drive": [
+		-122.455299,
+		37.63769
+	],
+	"wentworth drive+olympic drive": [
+		-122.455299,
+		37.63769
+	],
+	"oakmont drive+olympic drive": [
+		-122.455711,
+		37.637004
+	],
+	"olympic drive+oakmont drive": [
+		-122.455711,
+		37.637004
+	],
+	"carlow way+tipperary avenue": [
+		-122.453188,
+		37.639661
+	],
+	"tipperary avenue+carlow way": [
+		-122.453188,
+		37.639661
+	],
+	"shannon drive+wentworth drive": [
+		-122.453205,
+		37.638513
+	],
+	"wentworth drive+shannon drive": [
+		-122.453205,
+		37.638513
+	],
+	"shannon drive+turnberry avenue": [
+		-122.452492,
+		37.637874
+	],
+	"turnberry avenue+shannon drive": [
+		-122.452492,
+		37.637874
+	],
+	"saint cloud drive+shannon drive": [
+		-122.451926,
+		37.637371
+	],
+	"shannon drive+saint cloud drive": [
+		-122.451926,
+		37.637371
+	],
+	"orrey way+shannon drive": [
+		-122.451059,
+		37.6368
+	],
+	"shannon drive+orrey way": [
+		-122.451059,
+		37.6368
+	],
+	"albright way+shannon drive": [
+		-122.448218,
+		37.63576
+	],
+	"shannon drive+albright way": [
+		-122.448218,
+		37.63576
+	],
+	"oakmont drive+riviera court": [
+		-122.455041,
+		37.636678
+	],
+	"riviera court+oakmont drive": [
+		-122.455041,
+		37.636678
+	],
+	"berkshire drive+ca 35": [
+		-122.454287,
+		37.63206
+	],
+	"berkshire drive+skyline boulevard": [
+		-122.454287,
+		37.63206
+	],
+	"ca 35+berkshire drive": [
+		-122.454287,
+		37.63206
+	],
+	"skyline boulevard+berkshire drive": [
+		-122.454287,
+		37.63206
+	],
+	"saint cloud drive+turnberry drive": [
+		-122.452921,
+		37.636372
+	],
+	"turnberry drive+saint cloud drive": [
+		-122.452921,
+		37.636372
+	],
+	"oakmont drive+saint cloud drive": [
+		-122.453531,
+		37.635747
+	],
+	"saint cloud drive+oakmont drive": [
+		-122.453531,
+		37.635747
+	],
+	"fleetwood drive+saint cloud drive": [
+		-122.455435,
+		37.634325
+	],
+	"saint cloud drive+fleetwood drive": [
+		-122.455435,
+		37.634325
+	],
+	"carmel drive+oakmont drive": [
+		-122.446844,
+		37.630465
+	],
+	"oakmont drive+carmel drive": [
+		-122.446844,
+		37.630465
+	],
+	"oakmont drive+valleywood drive": [
+		-122.446995,
+		37.631492
+	],
+	"valleywood drive+oakmont drive": [
+		-122.446995,
+		37.631492
+	],
+	"maywood drive+oakmont drive": [
+		-122.44772,
+		37.632049
+	],
+	"oakmont drive+maywood drive": [
+		-122.44772,
+		37.632049
+	],
+	"oakmont drive+sherwood drive": [
+		-122.448475,
+		37.632443
+	],
+	"sherwood drive+oakmont drive": [
+		-122.448475,
+		37.632443
+	],
+	"camellia court+oakmont drive": [
+		-122.449256,
+		37.632939
+	],
+	"oakmont drive+camellia court": [
+		-122.449256,
+		37.632939
+	],
+	"elmwood court+oakmont drive": [
+		-122.449484,
+		37.633063
+	],
+	"oakmont drive+elmwood court": [
+		-122.449484,
+		37.633063
+	],
+	"evergreen drive+oakmont drive": [
+		-122.450141,
+		37.633646
+	],
+	"oakmont drive+evergreen drive": [
+		-122.450141,
+		37.633646
+	],
+	"chabot drive+oakmont drive": [
+		-122.450801,
+		37.634326
+	],
+	"oakmont drive+chabot drive": [
+		-122.450801,
+		37.634326
+	],
+	"berkshire drive+oakmont drive": [
+		-122.451325,
+		37.634883
+	],
+	"oakmont drive+berkshire drive": [
+		-122.451325,
+		37.634883
+	],
+	"merion drive+oakmont drive": [
+		-122.45263,
+		37.635434
+	],
+	"oakmont drive+merion drive": [
+		-122.45263,
+		37.635434
+	],
+	"fleetwood drive+merion drive": [
+		-122.454724,
+		37.633799
+	],
+	"merion drive+fleetwood drive": [
+		-122.454724,
+		37.633799
+	],
+	"college drive+longview drive": [
+		-122.455893,
+		37.632221
+	],
+	"longview drive+college drive": [
+		-122.455893,
+		37.632221
+	],
+	"berkshire drive+college drive": [
+		-122.454287,
+		37.63206
+	],
+	"ca 35+college drive": [
+		-122.454287,
+		37.63206
+	],
+	"college drive+berkshire drive": [
+		-122.454287,
+		37.63206
+	],
+	"college drive+ca 35": [
+		-122.454287,
+		37.63206
+	],
+	"college drive+skyline boulevard": [
+		-122.454287,
+		37.63206
+	],
+	"skyline boulevard+college drive": [
+		-122.454287,
+		37.63206
+	],
+	"berkshire drive+fleetwood drive": [
+		-122.454032,
+		37.633233
+	],
+	"fleetwood drive+berkshire drive": [
+		-122.454032,
+		37.633233
+	],
+	"mori ridge trail+notch trail": [
+		-122.46228,
+		37.61833
+	],
+	"mori ridge trail+sweeney ridge trail": [
+		-122.46228,
+		37.61833
+	],
+	"notch trail+mori ridge trail": [
+		-122.46228,
+		37.61833
+	],
+	"notch trail+sweeney ridge trail": [
+		-122.46228,
+		37.61833
+	],
+	"sweeney ridge trail+mori ridge trail": [
+		-122.46228,
+		37.61833
+	],
+	"sweeney ridge trail+notch trail": [
+		-122.46228,
+		37.61833
+	],
+	"allen drive+ross way": [
+		-122.459433,
+		37.631924
+	],
+	"ross way+allen drive": [
+		-122.459433,
+		37.631924
+	],
+	"castleton way+ross way": [
+		-122.460031,
+		37.630795
+	],
+	"ross way+castleton way": [
+		-122.460031,
+		37.630795
+	],
+	"longview drive+ross way": [
+		-122.460307,
+		37.630126
+	],
+	"ross way+longview drive": [
+		-122.460307,
+		37.630126
+	],
+	"allen drive+longview drive": [
+		-122.456144,
+		37.628732
+	],
+	"longview drive+allen drive": [
+		-122.456144,
+		37.628732
+	],
+	"allen drive+goodwin drive": [
+		-122.458678,
+		37.631224
+	],
+	"goodwin drive+allen drive": [
+		-122.458678,
+		37.631224
+	],
+	"castleton way+longview drive": [
+		-122.456977,
+		37.62844
+	],
+	"longview drive+castleton way": [
+		-122.456977,
+		37.62844
+	],
+	"emaron drive+goodwin drive": [
+		-122.457974,
+		37.631727
+	],
+	"goodwin drive+emaron drive": [
+		-122.457974,
+		37.631727
+	],
+	"goodwin drive+longview drive": [
+		-122.455474,
+		37.628726
+	],
+	"longview drive+goodwin drive": [
+		-122.455474,
+		37.628726
+	],
+	"longview drive+moreland drive": [
+		-122.454168,
+		37.630949
+	],
+	"moreland drive+longview drive": [
+		-122.454168,
+		37.630949
+	],
+	"santa barbara place+sneath lane": [
+		-122.454015,
+		37.627214
+	],
+	"sneath lane+santa barbara place": [
+		-122.454015,
+		37.627214
+	],
+	"sneath lane+sonoma court": [
+		-122.454815,
+		37.626866
+	],
+	"sonoma court+sneath lane": [
+		-122.454815,
+		37.626866
+	],
+	"siskiyou court+sneath lane": [
+		-122.455542,
+		37.624771
+	],
+	"sneath lane+siskiyou court": [
+		-122.455542,
+		37.624771
+	],
+	"sneath lane+stanislaus court": [
+		-122.455037,
+		37.624214
+	],
+	"stanislaus court+sneath lane": [
+		-122.455037,
+		37.624214
+	],
+	"sneath lane+trinity court": [
+		-122.45452,
+		37.623658
+	],
+	"trinity court+sneath lane": [
+		-122.45452,
+		37.623658
+	],
+	"gellert boulevard+westborough boulevard": [
+		-122.452799,
+		37.643379
+	],
+	"westborough boulevard+gellert boulevard": [
+		-122.452799,
+		37.643379
+	],
+	"archdale court+gellert boulevard": [
+		-122.452636,
+		37.643012
+	],
+	"gellert boulevard+archdale court": [
+		-122.452636,
+		37.643012
+	],
+	"barrington court+gellert boulevard": [
+		-122.452068,
+		37.64277
+	],
+	"gellert boulevard+barrington court": [
+		-122.452068,
+		37.64277
+	],
+	"appian way+downey court": [
+		-122.45135,
+		37.642414
+	],
+	"appian way+gellert boulevard": [
+		-122.451309,
+		37.642503
+	],
+	"downey court+appian way": [
+		-122.45135,
+		37.642414
+	],
+	"downey court+gellert boulevard": [
+		-122.45135,
+		37.642414
+	],
+	"gellert boulevard+appian way": [
+		-122.451309,
+		37.642503
+	],
+	"gellert boulevard+downey court": [
+		-122.45135,
+		37.642414
+	],
+	"gellert boulevard+kenry way": [
+		-122.448731,
+		37.641694
+	],
+	"kenry way+gellert boulevard": [
+		-122.448731,
+		37.641694
+	],
+	"gellert boulevard+wexford avenue": [
+		-122.450448,
+		37.642244
+	],
+	"wexford avenue+gellert boulevard": [
+		-122.450448,
+		37.642244
+	],
+	"derry way+gellert boulevard": [
+		-122.446768,
+		37.640056
+	],
+	"gellert boulevard+derry way": [
+		-122.446768,
+		37.640056
+	],
+	"delvin way+gellert boulevard": [
+		-122.446459,
+		37.63941
+	],
+	"gellert boulevard+delvin way": [
+		-122.446459,
+		37.63941
+	],
+	"gellert boulevard+gellert court": [
+		-122.446009,
+		37.638319
+	],
+	"gellert boulevard+shannon drive": [
+		-122.446009,
+		37.638319
+	],
+	"gellert court+gellert boulevard": [
+		-122.446009,
+		37.638319
+	],
+	"gellert court+shannon drive": [
+		-122.446009,
+		37.638319
+	],
+	"shannon drive+gellert boulevard": [
+		-122.446009,
+		37.638319
+	],
+	"shannon drive+gellert court": [
+		-122.446009,
+		37.638319
+	],
+	"delvin way+vista court": [
+		-122.446459,
+		37.63941
+	],
+	"gellert boulevard+vista court": [
+		-122.446459,
+		37.63941
+	],
+	"vista court+delvin way": [
+		-122.446459,
+		37.63941
+	],
+	"vista court+gellert boulevard": [
+		-122.446459,
+		37.63941
+	],
+	"appian way+valleyview way": [
+		-122.445926,
+		37.641449
+	],
+	"valleyview way+appian way": [
+		-122.445926,
+		37.641449
+	],
+	"avalon drive+junipero serra boulevard": [
+		-122.441552,
+		37.640089
+	],
+	"junipero serra boulevard+avalon drive": [
+		-122.441552,
+		37.640089
+	],
+	"donegal avenue+ulster way": [
+		-122.451445,
+		37.639029
+	],
+	"ulster way+donegal avenue": [
+		-122.451445,
+		37.639029
+	],
+	"tipperary avenue+ulster way": [
+		-122.452097,
+		37.638601
+	],
+	"ulster way+tipperary avenue": [
+		-122.452097,
+		37.638601
+	],
+	"turnberry avenue+turnberry drive": [
+		-122.453196,
+		37.637228
+	],
+	"turnberry drive+turnberry avenue": [
+		-122.453196,
+		37.637228
+	],
+	"orrey way+tipperary avenue": [
+		-122.450578,
+		37.637385
+	],
+	"tipperary avenue+orrey way": [
+		-122.450578,
+		37.637385
+	],
+	"donegal avenue+tipperary avenue": [
+		-122.448321,
+		37.636997
+	],
+	"tipperary avenue+donegal avenue": [
+		-122.448321,
+		37.636997
+	],
+	"tipperary avenue+wexford avenue": [
+		-122.447918,
+		37.637616
+	],
+	"wexford avenue+tipperary avenue": [
+		-122.447918,
+		37.637616
+	],
+	"burren way+donegal avenue": [
+		-122.450827,
+		37.638499
+	],
+	"donegal avenue+burren way": [
+		-122.450827,
+		37.638499
+	],
+	"burren way+wexford avenue": [
+		-122.450175,
+		37.638934
+	],
+	"wexford avenue+burren way": [
+		-122.450175,
+		37.638934
+	],
+	"shannon drive+wexford avenue": [
+		-122.447171,
+		37.637228
+	],
+	"wexford avenue+shannon drive": [
+		-122.447171,
+		37.637228
+	],
+	"chabot drive+fleetwood drive": [
+		-122.453291,
+		37.632729
+	],
+	"fleetwood drive+chabot drive": [
+		-122.453291,
+		37.632729
+	],
+	"crestwood drive+fleetwood drive": [
+		-122.438803,
+		37.633191
+	],
+	"fleetwood drive+crestwood drive": [
+		-122.438803,
+		37.633191
+	],
+	"fleetwood drive+rollingwood drive": [
+		-122.449126,
+		37.627914
+	],
+	"rollingwood drive+fleetwood drive": [
+		-122.449126,
+		37.627914
+	],
+	"catalpa way+fleetwood drive": [
+		-122.442742,
+		37.627141
+	],
+	"fleetwood drive+catalpa way": [
+		-122.442742,
+		37.627141
+	],
+	"fleetwood drive+sequoia avenue": [
+		-122.443816,
+		37.62604
+	],
+	"sequoia avenue+fleetwood drive": [
+		-122.443816,
+		37.62604
+	],
+	"fleetwood drive+greenwood way": [
+		-122.444685,
+		37.62579
+	],
+	"greenwood way+fleetwood drive": [
+		-122.444685,
+		37.62579
+	],
+	"cottonwood drive+fleetwood drive": [
+		-122.449763,
+		37.628596
+	],
+	"fleetwood drive+cottonwood drive": [
+		-122.449763,
+		37.628596
+	],
+	"evergreen drive+fleetwood drive": [
+		-122.452651,
+		37.632152
+	],
+	"fleetwood drive+evergreen drive": [
+		-122.452651,
+		37.632152
+	],
+	"albright way+sherwood drive": [
+		-122.448093,
+		37.635091
+	],
+	"sherwood drive+albright way": [
+		-122.448093,
+		37.635091
+	],
+	"evergreen drive+valleywood drive": [
+		-122.445111,
+		37.632599
+	],
+	"valleywood drive+evergreen drive": [
+		-122.445111,
+		37.632599
+	],
+	"evergreen drive+pinecrest drive": [
+		-122.446192,
+		37.634605
+	],
+	"pinecrest drive+evergreen drive": [
+		-122.446192,
+		37.634605
+	],
+	"alden court+evergreen drive": [
+		-122.447231,
+		37.634632
+	],
+	"alden court+maywood drive": [
+		-122.447231,
+		37.634632
+	],
+	"evergreen drive+alden court": [
+		-122.447231,
+		37.634632
+	],
+	"evergreen drive+maywood drive": [
+		-122.447231,
+		37.634632
+	],
+	"maywood drive+alden court": [
+		-122.447231,
+		37.634632
+	],
+	"maywood drive+evergreen drive": [
+		-122.447231,
+		37.634632
+	],
+	"evergreen drive+sherwood drive": [
+		-122.448089,
+		37.634618
+	],
+	"sherwood drive+evergreen drive": [
+		-122.448089,
+		37.634618
+	],
+	"evergreen drive+willow way": [
+		-122.451707,
+		37.632662
+	],
+	"willow way+evergreen drive": [
+		-122.451707,
+		37.632662
+	],
+	"maywood drive+sherwood drive": [
+		-122.449737,
+		37.63122
+	],
+	"sherwood drive+maywood drive": [
+		-122.449737,
+		37.63122
+	],
+	"maywood drive+willow way": [
+		-122.450471,
+		37.63082
+	],
+	"willow way+maywood drive": [
+		-122.450471,
+		37.63082
+	],
+	"shannon drive+summit court": [
+		-122.446793,
+		37.63769
+	],
+	"summit court+shannon drive": [
+		-122.446793,
+		37.63769
+	],
+	"alden court+marbella lane": [
+		-122.446946,
+		37.636142
+	],
+	"marbella lane+alden court": [
+		-122.446946,
+		37.636142
+	],
+	"seville way+valleyview way": [
+		-122.442716,
+		37.636236
+	],
+	"valleyview way+seville way": [
+		-122.442716,
+		37.636236
+	],
+	"chateau court+seville way": [
+		-122.443517,
+		37.635668
+	],
+	"seville way+chateau court": [
+		-122.443517,
+		37.635668
+	],
+	"avalon drive+seville way": [
+		-122.44205,
+		37.637208
+	],
+	"seville way+avalon drive": [
+		-122.44205,
+		37.637208
+	],
+	"pinecrest drive+valleywood drive": [
+		-122.445935,
+		37.63213
+	],
+	"valleywood drive+pinecrest drive": [
+		-122.445935,
+		37.63213
+	],
+	"crestwood drive+valleywood drive": [
+		-122.440254,
+		37.63604
+	],
+	"valleywood drive+crestwood drive": [
+		-122.440254,
+		37.63604
+	],
+	"fernwood drive+valleywood drive": [
+		-122.441374,
+		37.635394
+	],
+	"valleywood drive+fernwood drive": [
+		-122.441374,
+		37.635394
+	],
+	"valleywood drive+willow way": [
+		-122.449982,
+		37.630242
+	],
+	"willow way+valleywood drive": [
+		-122.449982,
+		37.630242
+	],
+	"yellowstone drive+yosemite drive": [
+		-122.441027,
+		37.644355
+	],
+	"yosemite drive+yellowstone drive": [
+		-122.441027,
+		37.644355
+	],
+	"valverde drive+yellowstone drive": [
+		-122.443208,
+		37.643455
+	],
+	"yellowstone drive+valverde drive": [
+		-122.443208,
+		37.643455
+	],
+	"almanor avenue+yosemite drive": [
+		-122.440654,
+		37.643681
+	],
+	"yosemite drive+almanor avenue": [
+		-122.440654,
+		37.643681
+	],
+	"almanor avenue+tahoe court": [
+		-122.442055,
+		37.643157
+	],
+	"tahoe court+almanor avenue": [
+		-122.442055,
+		37.643157
+	],
+	"almanor avenue+valverde drive": [
+		-122.442763,
+		37.642842
+	],
+	"valverde drive+almanor avenue": [
+		-122.442763,
+		37.642842
+	],
+	"shasta court+yosemite drive": [
+		-122.440349,
+		37.643092
+	],
+	"yosemite drive+shasta court": [
+		-122.440349,
+		37.643092
+	],
+	"mariposa drive+yosemite drive": [
+		-122.439929,
+		37.642508
+	],
+	"yosemite drive+mariposa drive": [
+		-122.439929,
+		37.642508
+	],
+	"alta vista drive+valverde drive": [
+		-122.439379,
+		37.637813
+	],
+	"valverde drive+alta vista drive": [
+		-122.439379,
+		37.637813
+	],
+	"corrido way+valverde drive": [
+		-122.439736,
+		37.638522
+	],
+	"valverde drive+corrido way": [
+		-122.439736,
+		37.638522
+	],
+	"granada drive+valverde drive": [
+		-122.440017,
+		37.639145
+	],
+	"valverde drive+granada drive": [
+		-122.440017,
+		37.639145
+	],
+	"valverde drive+zamora drive": [
+		-122.440437,
+		37.639769
+	],
+	"zamora drive+valverde drive": [
+		-122.440437,
+		37.639769
+	],
+	"avalon drive+valverde drive": [
+		-122.440879,
+		37.640397
+	],
+	"valverde drive+avalon drive": [
+		-122.440879,
+		37.640397
+	],
+	"valencia drive+valverde drive": [
+		-122.441367,
+		37.641002
+	],
+	"valverde drive+valencia drive": [
+		-122.441367,
+		37.641002
+	],
+	"mariposa drive+valverde drive": [
+		-122.441908,
+		37.641574
+	],
+	"valverde drive+mariposa drive": [
+		-122.441908,
+		37.641574
+	],
+	"alhambra road+zamora drive": [
+		-122.437773,
+		37.641028
+	],
+	"zamora drive+alhambra road": [
+		-122.437773,
+		37.641028
+	],
+	"avalon drive+valencia drive": [
+		-122.435369,
+		37.643545
+	],
+	"valencia drive+avalon drive": [
+		-122.435369,
+		37.643545
+	],
+	"ponderosa road+valencia drive": [
+		-122.436712,
+		37.64367
+	],
+	"valencia drive+ponderosa road": [
+		-122.436712,
+		37.64367
+	],
+	"alhambra road+valencia drive": [
+		-122.438691,
+		37.642259
+	],
+	"valencia drive+alhambra road": [
+		-122.438691,
+		37.642259
+	],
+	"alhambra road+granada drive": [
+		-122.437323,
+		37.640406
+	],
+	"granada drive+alhambra road": [
+		-122.437323,
+		37.640406
+	],
+	"alhambra road+avalon drive": [
+		-122.438231,
+		37.641634
+	],
+	"avalon drive+alhambra road": [
+		-122.438231,
+		37.641634
+	],
+	"alhambra road+ponderosa road": [
+		-122.437173,
+		37.644255
+	],
+	"ponderosa road+alhambra road": [
+		-122.437173,
+		37.644255
+	],
+	"avalon drive+dorado way": [
+		-122.434787,
+		37.643866
+	],
+	"dorado way+avalon drive": [
+		-122.434787,
+		37.643866
+	],
+	"avalon drive+granada drive": [
+		-122.436016,
+		37.643202
+	],
+	"granada drive+avalon drive": [
+		-122.436016,
+		37.643202
+	],
+	"conmur street+granada drive": [
+		-122.436845,
+		37.64063
+	],
+	"granada drive+conmur street": [
+		-122.436845,
+		37.64063
+	],
+	"granada drive+mira vista way": [
+		-122.438888,
+		37.639662
+	],
+	"mira vista way+granada drive": [
+		-122.438888,
+		37.639662
+	],
+	"bryce avenue+lassen court": [
+		-122.434918,
+		37.64761
+	],
+	"bryce avenue+lassen street": [
+		-122.434918,
+		37.64761
+	],
+	"lassen court+bryce avenue": [
+		-122.434918,
+		37.64761
+	],
+	"lassen court+lassen street": [
+		-122.434918,
+		37.64761
+	],
+	"lassen street+bryce avenue": [
+		-122.434918,
+		37.64761
+	],
+	"lassen street+lassen court": [
+		-122.434918,
+		37.64761
+	],
+	"bryce avenue+haven avenue": [
+		-122.434108,
+		37.648433
+	],
+	"haven avenue+bryce avenue": [
+		-122.434108,
+		37.648433
+	],
+	"comerwood court+ponderosa road": [
+		-122.435757,
+		37.645399
+	],
+	"ponderosa road+comerwood court": [
+		-122.435757,
+		37.645399
+	],
+	"haven avenue+rainier avenue": [
+		-122.432172,
+		37.648089
+	],
+	"rainier avenue+haven avenue": [
+		-122.432172,
+		37.648089
+	],
+	"carlsbad court+haven avenue": [
+		-122.43329,
+		37.648216
+	],
+	"haven avenue+carlsbad court": [
+		-122.43329,
+		37.648216
+	],
+	"lassen street+ponderosa road": [
+		-122.433768,
+		37.646477
+	],
+	"ponderosa road+lassen street": [
+		-122.433768,
+		37.646477
+	],
+	"lassen street+rainier avenue": [
+		-122.434076,
+		37.64679
+	],
+	"rainier avenue+lassen street": [
+		-122.434076,
+		37.64679
+	],
+	"constitution way+pisa court": [
+		-122.43257,
+		37.644189
+	],
+	"constitution way+taylor drive": [
+		-122.433035,
+		37.64399
+	],
+	"pisa court+constitution way": [
+		-122.43257,
+		37.644189
+	],
+	"pisa court+taylor drive": [
+		-122.43257,
+		37.644189
+	],
+	"taylor drive+constitution way": [
+		-122.433035,
+		37.64399
+	],
+	"taylor drive+pisa court": [
+		-122.43257,
+		37.644189
+	],
+	"avalon drive+dana court": [
+		-122.434577,
+		37.644587
+	],
+	"dana court+avalon drive": [
+		-122.434577,
+		37.644587
+	],
+	"castile way+dorado way": [
+		-122.43422,
+		37.643125
+	],
+	"dorado way+castile way": [
+		-122.43422,
+		37.643125
+	],
+	"avalon drive+constitution way": [
+		-122.43386,
+		37.645097
+	],
+	"constitution way+avalon drive": [
+		-122.43386,
+		37.645097
+	],
+	"country club drive+dorado way": [
+		-122.433852,
+		37.642633
+	],
+	"dorado way+country club drive": [
+		-122.433852,
+		37.642633
+	],
+	"constitution way+country club drive": [
+		-122.432048,
+		37.643485
+	],
+	"country club drive+constitution way": [
+		-122.432048,
+		37.643485
+	],
+	"alta vista drive+dorado way": [
+		-122.433933,
+		37.640626
+	],
+	"dorado way+alta vista drive": [
+		-122.433933,
+		37.640626
+	],
+	"avalon drive+waverly court": [
+		-122.442716,
+		37.638697
+	],
+	"waverly court+avalon drive": [
+		-122.442716,
+		37.638697
+	],
+	"avalon drive+canyon court": [
+		-122.441287,
+		37.63689
+	],
+	"canyon court+avalon drive": [
+		-122.441287,
+		37.63689
+	],
+	"avalon drive+crestwood drive": [
+		-122.440485,
+		37.636387
+	],
+	"crestwood drive+avalon drive": [
+		-122.440485,
+		37.636387
+	],
+	"corrido way+mira vista way": [
+		-122.438491,
+		37.639115
+	],
+	"mira vista way+corrido way": [
+		-122.438491,
+		37.639115
+	],
+	"alta vista drive+de nardi way": [
+		-122.437346,
+		37.639019
+	],
+	"de nardi way+alta vista drive": [
+		-122.437346,
+		37.639019
+	],
+	"alta vista drive+mira vista way": [
+		-122.438063,
+		37.638613
+	],
+	"mira vista way+alta vista drive": [
+		-122.438063,
+		37.638613
+	],
+	"north loop drive+third drive north": [
+		-122.436653,
+		37.636839
+	],
+	"third drive north+north loop drive": [
+		-122.436653,
+		37.636839
+	],
+	"crestwood drive+rollingwood drive": [
+		-122.43761,
+		37.630446
+	],
+	"rollingwood drive+crestwood drive": [
+		-122.43761,
+		37.630446
+	],
+	"alpine court+alta vista drive": [
+		-122.436557,
+		37.639399
+	],
+	"alta vista drive+alpine court": [
+		-122.436557,
+		37.639399
+	],
+	"conmur street+northwood drive": [
+		-122.435299,
+		37.638648
+	],
+	"northwood drive+conmur street": [
+		-122.435299,
+		37.638648
+	],
+	"conmur street+dianne court": [
+		-122.435647,
+		37.639102
+	],
+	"dianne court+conmur street": [
+		-122.435647,
+		37.639102
+	],
+	"alta vista drive+conmur street": [
+		-122.436072,
+		37.639625
+	],
+	"conmur street+alta vista drive": [
+		-122.436072,
+		37.639625
+	],
+	"adas way+alta vista drive": [
+		-122.435378,
+		37.639945
+	],
+	"alta vista drive+adas way": [
+		-122.435378,
+		37.639945
+	],
+	"briarwood drive+rosewood way": [
+		-122.432705,
+		37.638123
+	],
+	"rosewood way+briarwood drive": [
+		-122.432705,
+		37.638123
+	],
+	"briarwood drive+wildwood drive": [
+		-122.435378,
+		37.636998
+	],
+	"wildwood drive+briarwood drive": [
+		-122.435378,
+		37.636998
+	],
+	"briarwood drive+hazelwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"briarwood drive+northwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"hazelwood drive+briarwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"hazelwood drive+northwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"northwood drive+briarwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"northwood drive+hazelwood drive": [
+		-122.435997,
+		37.63758
+	],
+	"rockwood drive+rosewood way": [
+		-122.432856,
+		37.63574
+	],
+	"rosewood way+rockwood drive": [
+		-122.432856,
+		37.63574
+	],
+	"rosewood way+wildwood drive": [
+		-122.432838,
+		37.638304
+	],
+	"wildwood drive+rosewood way": [
+		-122.432838,
+		37.638304
+	],
+	"hazelwood drive+rosewood way": [
+		-122.433226,
+		37.638844
+	],
+	"rosewood way+hazelwood drive": [
+		-122.433226,
+		37.638844
+	],
+	"northwood drive+rosewood way": [
+		-122.433673,
+		37.639406
+	],
+	"rosewood way+northwood drive": [
+		-122.433673,
+		37.639406
+	],
+	"sherwood way+wildwood drive": [
+		-122.431936,
+		37.638735
+	],
+	"wildwood drive+sherwood way": [
+		-122.431936,
+		37.638735
+	],
+	"greenwood drive+rockwood drive": [
+		-122.433386,
+		37.635203
+	],
+	"rockwood drive+greenwood drive": [
+		-122.433386,
+		37.635203
+	],
+	"north loop drive+second drive north": [
+		-122.435685,
+		37.63596
+	],
+	"second drive north+north loop drive": [
+		-122.435685,
+		37.63596
+	],
+	"circle drive+north loop drive": [
+		-122.434236,
+		37.633742
+	],
+	"north loop drive+circle drive": [
+		-122.434236,
+		37.633742
+	],
+	"first drive north+north loop drive": [
+		-122.434719,
+		37.635083
+	],
+	"north loop drive+first drive north": [
+		-122.434719,
+		37.635083
+	],
+	"fork drive+north loop drive": [
+		-122.434115,
+		37.634428
+	],
+	"north loop drive+fork drive": [
+		-122.434115,
+		37.634428
+	],
+	"circle drive+nimitz drive": [
+		-122.433295,
+		37.633016
+	],
+	"nimitz drive+circle drive": [
+		-122.433295,
+		37.633016
+	],
+	"circle drive+south drive": [
+		-122.433558,
+		37.632013
+	],
+	"south drive+circle drive": [
+		-122.433558,
+		37.632013
+	],
+	"circle drive+mound drive": [
+		-122.43378,
+		37.631911
+	],
+	"mound drive+circle drive": [
+		-122.43378,
+		37.631911
+	],
+	"fork drive+south drive": [
+		-122.432922,
+		37.632221
+	],
+	"south drive+fork drive": [
+		-122.432922,
+		37.632221
+	],
+	"moreland drive+riverside drive": [
+		-122.453208,
+		37.628442
+	],
+	"riverside drive+moreland drive": [
+		-122.453208,
+		37.628442
+	],
+	"riverside drive+yuba court": [
+		-122.452956,
+		37.628185
+	],
+	"yuba court+riverside drive": [
+		-122.452956,
+		37.628185
+	],
+	"riverside drive+sneath lane": [
+		-122.452535,
+		37.627299
+	],
+	"sneath lane+riverside drive": [
+		-122.452535,
+		37.627299
+	],
+	"riverside drive+yolo court": [
+		-122.45254,
+		37.627734
+	],
+	"yolo court+riverside drive": [
+		-122.45254,
+		37.627734
+	],
+	"cottonwood drive+willow way": [
+		-122.44898,
+		37.629001
+	],
+	"willow way+cottonwood drive": [
+		-122.44898,
+		37.629001
+	],
+	"carmel drive+willow way": [
+		-122.449471,
+		37.629588
+	],
+	"willow way+carmel drive": [
+		-122.449471,
+		37.629588
+	],
+	"ca 35+sneath lane": [
+		-122.447317,
+		37.624303
+	],
+	"skyline boulevard+sneath lane": [
+		-122.447317,
+		37.624303
+	],
+	"sneath lane+ca 35": [
+		-122.447317,
+		37.624303
+	],
+	"sneath lane+skyline boulevard": [
+		-122.447317,
+		37.624303
+	],
+	"san joaquin court+sneath lane": [
+		-122.452932,
+		37.627337
+	],
+	"sneath lane+san joaquin court": [
+		-122.452932,
+		37.627337
+	],
+	"plumas court+sneath lane": [
+		-122.451977,
+		37.627155
+	],
+	"sneath lane+plumas court": [
+		-122.451977,
+		37.627155
+	],
+	"mendocino court+sneath lane": [
+		-122.451754,
+		37.627074
+	],
+	"sneath lane+mendocino court": [
+		-122.451754,
+		37.627074
+	],
+	"inyo court+sneath lane": [
+		-122.451207,
+		37.626861
+	],
+	"sneath lane+inyo court": [
+		-122.451207,
+		37.626861
+	],
+	"amador avenue+monterey drive": [
+		-122.44812,
+		37.623186
+	],
+	"monterey drive+amador avenue": [
+		-122.44812,
+		37.623186
+	],
+	"amador avenue+del norte drive": [
+		-122.44904,
+		37.623378
+	],
+	"del norte drive+amador avenue": [
+		-122.44904,
+		37.623378
+	],
+	"amador avenue+tulare drive": [
+		-122.44986,
+		37.623544
+	],
+	"tulare drive+amador avenue": [
+		-122.44986,
+		37.623544
+	],
+	"amador avenue+lassen drive": [
+		-122.450649,
+		37.624043
+	],
+	"lassen drive+amador avenue": [
+		-122.450649,
+		37.624043
+	],
+	"amador avenue+lake drive": [
+		-122.452436,
+		37.623989
+	],
+	"lake drive+amador avenue": [
+		-122.452436,
+		37.623989
+	],
+	"amador avenue+merced drive": [
+		-122.453131,
+		37.623586
+	],
+	"merced drive+amador avenue": [
+		-122.453131,
+		37.623586
+	],
+	"amador avenue+sneath lane": [
+		-122.453991,
+		37.623086
+	],
+	"sneath lane+amador avenue": [
+		-122.453991,
+		37.623086
+	],
+	"monterey drive+sneath lane": [
+		-122.453766,
+		37.621332
+	],
+	"sneath lane+monterey drive": [
+		-122.453766,
+		37.621332
+	],
+	"alameda place+sneath lane": [
+		-122.4497,
+		37.625631
+	],
+	"sneath lane+alameda place": [
+		-122.4497,
+		37.625631
+	],
+	"colusa court+sneath lane": [
+		-122.450148,
+		37.626213
+	],
+	"sneath lane+colusa court": [
+		-122.450148,
+		37.626213
+	],
+	"sneath lane+sneath lane trail": [
+		-122.453946,
+		37.619218
+	],
+	"sneath lane trail+sneath lane": [
+		-122.453946,
+		37.619218
+	],
+	"carmel drive+cottonwood drive": [
+		-122.44548,
+		37.629711
+	],
+	"cottonwood drive+carmel drive": [
+		-122.44548,
+		37.629711
+	],
+	"cottonwood drive+rollingwood drive": [
+		-122.443926,
+		37.629486
+	],
+	"rollingwood drive+cottonwood drive": [
+		-122.443926,
+		37.629486
+	],
+	"cottonwood drive+greenwood way": [
+		-122.447312,
+		37.629413
+	],
+	"greenwood way+cottonwood drive": [
+		-122.447312,
+		37.629413
+	],
+	"arbor court+greenwood way": [
+		-122.446999,
+		37.627977
+	],
+	"greenwood way+arbor court": [
+		-122.446999,
+		37.627977
+	],
+	"birch court+greenwood way": [
+		-122.446467,
+		37.627494
+	],
+	"greenwood way+birch court": [
+		-122.446467,
+		37.627494
+	],
+	"greenwood way+palm court": [
+		-122.445858,
+		37.626991
+	],
+	"palm court+greenwood way": [
+		-122.445858,
+		37.626991
+	],
+	"greenwood way+rollingwood drive": [
+		-122.447222,
+		37.62865
+	],
+	"rollingwood drive+greenwood way": [
+		-122.447222,
+		37.62865
+	],
+	"catalpa way+rollingwood drive": [
+		-122.438553,
+		37.630173
+	],
+	"rollingwood drive+catalpa way": [
+		-122.438553,
+		37.630173
+	],
+	"rollingwood drive+toyon way": [
+		-122.439356,
+		37.630385
+	],
+	"toyon way+rollingwood drive": [
+		-122.439356,
+		37.630385
+	],
+	"eucalyptus way+rollingwood drive": [
+		-122.442944,
+		37.629885
+	],
+	"rollingwood drive+eucalyptus way": [
+		-122.442944,
+		37.629885
+	],
+	"rollingwood drive+sequoia avenue": [
+		-122.446072,
+		37.628732
+	],
+	"sequoia avenue+rollingwood drive": [
+		-122.446072,
+		37.628732
+	],
+	"eucalyptus way+heather lane": [
+		-122.443111,
+		37.628596
+	],
+	"heather lane+eucalyptus way": [
+		-122.443111,
+		37.628596
+	],
+	"heather lane+sequoia avenue": [
+		-122.44524,
+		37.627923
+	],
+	"sequoia avenue+heather lane": [
+		-122.44524,
+		37.627923
+	],
+	"elder court+eucalyptus way": [
+		-122.443549,
+		37.627753
+	],
+	"eucalyptus way+elder court": [
+		-122.443549,
+		37.627753
+	],
+	"eucalyptus way+sequoia avenue": [
+		-122.444072,
+		37.626699
+	],
+	"sequoia avenue+eucalyptus way": [
+		-122.444072,
+		37.626699
+	],
+	"earl avenue+sneath lane": [
+		-122.446517,
+		37.624592
+	],
+	"sneath lane+earl avenue": [
+		-122.446517,
+		37.624592
+	],
+	"sequoia avenue+sneath lane": [
+		-122.443655,
+		37.62562
+	],
+	"sneath lane+sequoia avenue": [
+		-122.443655,
+		37.62562
+	],
+	"claremont drive+sneath lane": [
+		-122.445572,
+		37.62494
+	],
+	"sneath lane+claremont drive": [
+		-122.445572,
+		37.62494
+	],
+	"earl avenue+moore court": [
+		-122.44512,
+		37.623299
+	],
+	"moore court+earl avenue": [
+		-122.44512,
+		37.623299
+	],
+	"claremont drive+windsor court": [
+		-122.444304,
+		37.623791
+	],
+	"windsor court+claremont drive": [
+		-122.444304,
+		37.623791
+	],
+	"earl avenue+glenview drive": [
+		-122.441882,
+		37.622516
+	],
+	"glenview drive+earl avenue": [
+		-122.441882,
+		37.622516
+	],
+	"daley court+earl avenue": [
+		-122.443754,
+		37.622315
+	],
+	"earl avenue+daley court": [
+		-122.443754,
+		37.622315
+	],
+	"crosby court+earl avenue": [
+		-122.44428,
+		37.622789
+	],
+	"earl avenue+crosby court": [
+		-122.44428,
+		37.622789
+	],
+	"glenview drive+plymouth way": [
+		-122.442357,
+		37.625435
+	],
+	"plymouth way+glenview drive": [
+		-122.442357,
+		37.625435
+	],
+	"plymouth way+vermont way": [
+		-122.443258,
+		37.625167
+	],
+	"vermont way+plymouth way": [
+		-122.443258,
+		37.625167
+	],
+	"claremont drive+plymouth way": [
+		-122.44164,
+		37.625783
+	],
+	"plymouth way+claremont drive": [
+		-122.44164,
+		37.625783
+	],
+	"claremont drive+vermont way": [
+		-122.442791,
+		37.622986
+	],
+	"vermont way+claremont drive": [
+		-122.442791,
+		37.622986
+	],
+	"claremont drive+glenview drive": [
+		-122.441978,
+		37.623279
+	],
+	"glenview drive+claremont drive": [
+		-122.441978,
+		37.623279
+	],
+	"merced drive+monterey drive": [
+		-122.452642,
+		37.621446
+	],
+	"monterey drive+merced drive": [
+		-122.452642,
+		37.621446
+	],
+	"lake drive+monterey drive": [
+		-122.451808,
+		37.621474
+	],
+	"monterey drive+lake drive": [
+		-122.451808,
+		37.621474
+	],
+	"lassen drive+monterey drive": [
+		-122.45092,
+		37.621402
+	],
+	"monterey drive+lassen drive": [
+		-122.45092,
+		37.621402
+	],
+	"monterey drive+tulare drive": [
+		-122.450322,
+		37.620999
+	],
+	"tulare drive+monterey drive": [
+		-122.450322,
+		37.620999
+	],
+	"del norte drive+monterey drive": [
+		-122.449804,
+		37.620474
+	],
+	"monterey drive+del norte drive": [
+		-122.449804,
+		37.620474
+	],
+	"monterey drive+tehama court": [
+		-122.449195,
+		37.62023
+	],
+	"tehama court+monterey drive": [
+		-122.449195,
+		37.62023
+	],
+	"lake drive+lassen drive": [
+		-122.450923,
+		37.619075
+	],
+	"lassen drive+lake drive": [
+		-122.450923,
+		37.619075
+	],
+	"catalpa way+toyon way": [
+		-122.440871,
+		37.627753
+	],
+	"toyon way+catalpa way": [
+		-122.440871,
+		37.627753
+	],
+	"quail point circle+sneath lane": [
+		-122.438559,
+		37.628966
+	],
+	"sneath lane+quail point circle": [
+		-122.438559,
+		37.628966
+	],
+	"engvall court+sneath lane": [
+		-122.437888,
+		37.629478
+	],
+	"sneath lane+engvall court": [
+		-122.437888,
+		37.629478
+	],
+	"claremont drive+hampton court": [
+		-122.440804,
+		37.624946
+	],
+	"hampton court+claremont drive": [
+		-122.440804,
+		37.624946
+	],
+	"claremont drive+fairmont drive": [
+		-122.441345,
+		37.623204
+	],
+	"fairmont drive+claremont drive": [
+		-122.441345,
+		37.623204
+	],
+	"concord way+fairmont drive": [
+		-122.441251,
+		37.623978
+	],
+	"fairmont drive+concord way": [
+		-122.441251,
+		37.623978
+	],
+	"claremont drive+concord way": [
+		-122.438899,
+		37.622688
+	],
+	"concord way+claremont drive": [
+		-122.438899,
+		37.622688
+	],
+	"rollingwood drive+sneath lane": [
+		-122.436236,
+		37.629873
+	],
+	"sneath lane+rollingwood drive": [
+		-122.436236,
+		37.629873
+	],
+	"trenton drive+whitecliff way": [
+		-122.431896,
+		37.624389
+	],
+	"whitecliff way+trenton drive": [
+		-122.431896,
+		37.624389
+	],
+	"charleston avenue+whitecliff way": [
+		-122.433361,
+		37.622963
+	],
+	"whitecliff way+charleston avenue": [
+		-122.433361,
+		37.622963
+	],
+	"estates drive+glenview drive": [
+		-122.441564,
+		37.620744
+	],
+	"glenview drive+estates drive": [
+		-122.441564,
+		37.620744
+	],
+	"ca 35+san andreas trail": [
+		-122.442134,
+		37.618495
+	],
+	"san andreas trail+ca 35": [
+		-122.442134,
+		37.618495
+	],
+	"san andreas trail+skyline boulevard": [
+		-122.442134,
+		37.618495
+	],
+	"skyline boulevard+san andreas trail": [
+		-122.442134,
+		37.618495
+	],
+	"ca 35+san bruno avenue west": [
+		-122.441969,
+		37.618333
+	],
+	"san bruno avenue west+ca 35": [
+		-122.441969,
+		37.618333
+	],
+	"san bruno avenue west+skyline boulevard": [
+		-122.441969,
+		37.618333
+	],
+	"skyline boulevard+san bruno avenue west": [
+		-122.441969,
+		37.618333
+	],
+	"glenview drive+san bruno avenue west": [
+		-122.440976,
+		37.618946
+	],
+	"san bruno avenue west+glenview drive": [
+		-122.440976,
+		37.618946
+	],
+	"glenview drive+ridgeway avenue": [
+		-122.438806,
+		37.615604
+	],
+	"glenview drive+skyline boulevard": [
+		-122.438806,
+		37.615604
+	],
+	"ridgeway avenue+glenview drive": [
+		-122.438806,
+		37.615604
+	],
+	"ridgeway avenue+skyline boulevard": [
+		-122.438806,
+		37.615604
+	],
+	"skyline boulevard+glenview drive": [
+		-122.438806,
+		37.615604
+	],
+	"skyline boulevard+ridgeway avenue": [
+		-122.438806,
+		37.615604
+	],
+	"glenview drive+skycrest drive": [
+		-122.440764,
+		37.61843
+	],
+	"skycrest drive+glenview drive": [
+		-122.440764,
+		37.61843
+	],
+	"alpine way+san bruno avenue west": [
+		-122.438458,
+		37.619728
+	],
+	"san bruno avenue west+alpine way": [
+		-122.438458,
+		37.619728
+	],
+	"crestmoor drive+san bruno avenue west": [
+		-122.43716,
+		37.619507
+	],
+	"san bruno avenue west+crestmoor drive": [
+		-122.43716,
+		37.619507
+	],
+	"crestmoor drive+el dorado court": [
+		-122.437261,
+		37.617901
+	],
+	"el dorado court+crestmoor drive": [
+		-122.437261,
+		37.617901
+	],
+	"crestmoor drive+kent court": [
+		-122.436899,
+		37.617191
+	],
+	"kent court+crestmoor drive": [
+		-122.436899,
+		37.617191
+	],
+	"crestmoor drive+ridgeway avenue": [
+		-122.436473,
+		37.616373
+	],
+	"ridgeway avenue+crestmoor drive": [
+		-122.436473,
+		37.616373
+	],
+	"kingston avenue+lexington way": [
+		-122.433773,
+		37.621448
+	],
+	"lexington way+kingston avenue": [
+		-122.433773,
+		37.621448
+	],
+	"crestmoor drive+lexington way": [
+		-122.43692,
+		37.620781
+	],
+	"lexington way+crestmoor drive": [
+		-122.43692,
+		37.620781
+	],
+	"crestmoor drive+trenton drive": [
+		-122.437068,
+		37.620025
+	],
+	"trenton drive+crestmoor drive": [
+		-122.437068,
+		37.620025
+	],
+	"kingston avenue+trenton drive": [
+		-122.431796,
+		37.62073
+	],
+	"trenton drive+kingston avenue": [
+		-122.431796,
+		37.62073
+	],
+	"essex court+trenton drive": [
+		-122.432934,
+		37.62024
+	],
+	"trenton drive+essex court": [
+		-122.432934,
+		37.62024
+	],
+	"charleston avenue+crestmoor drive": [
+		-122.434112,
+		37.62304
+	],
+	"crestmoor drive+charleston avenue": [
+		-122.434112,
+		37.62304
+	],
+	"crestmoor drive+hamilton avenue": [
+		-122.434166,
+		37.622381
+	],
+	"hamilton avenue+crestmoor drive": [
+		-122.434166,
+		37.622381
+	],
+	"crestmoor drive+kingston avenue": [
+		-122.434356,
+		37.621716
+	],
+	"kingston avenue+crestmoor drive": [
+		-122.434356,
+		37.621716
+	],
+	"madison avenue+princeton drive": [
+		-122.431716,
+		37.618975
+	],
+	"princeton drive+madison avenue": [
+		-122.431716,
+		37.618975
+	],
+	"princeton drive+whitman way": [
+		-122.435392,
+		37.618649
+	],
+	"whitman way+princeton drive": [
+		-122.435392,
+		37.618649
+	],
+	"crestmoor drive+princeton drive": [
+		-122.437272,
+		37.618838
+	],
+	"princeton drive+crestmoor drive": [
+		-122.437272,
+		37.618838
+	],
+	"crestmoor drive+yorkshire court": [
+		-122.436092,
+		37.615643
+	],
+	"yorkshire court+crestmoor drive": [
+		-122.436092,
+		37.615643
+	],
+	"alcott road+bennington drive": [
+		-122.43412,
+		37.613351
+	],
+	"bennington drive+alcott road": [
+		-122.43412,
+		37.613351
+	],
+	"alcott road+rosewood drive": [
+		-122.434477,
+		37.615263
+	],
+	"rosewood drive+alcott road": [
+		-122.434477,
+		37.615263
+	],
+	"amapola avenue+calaveras avenue": [
+		-122.474706,
+		37.612821
+	],
+	"amapola avenue+reina del mar avenue": [
+		-122.474706,
+		37.612821
+	],
+	"calaveras avenue+amapola avenue": [
+		-122.474706,
+		37.612821
+	],
+	"reina del mar avenue+amapola avenue": [
+		-122.474706,
+		37.612821
+	],
+	"amapola avenue+dardanelle west avenue": [
+		-122.472842,
+		37.613734
+	],
+	"dardanelle west avenue+amapola avenue": [
+		-122.472842,
+		37.613734
+	],
+	"calaveras avenue+dardenelle avenue": [
+		-122.473564,
+		37.612338
+	],
+	"dardenelle avenue+calaveras avenue": [
+		-122.473564,
+		37.612338
+	],
+	"calaveras avenue+vallecito lane": [
+		-122.472508,
+		37.611245
+	],
+	"vallecito lane+calaveras avenue": [
+		-122.472508,
+		37.611245
+	],
+	"berendos avenue+calaveras avenue": [
+		-122.472654,
+		37.610133
+	],
+	"calaveras avenue+berendos avenue": [
+		-122.472654,
+		37.610133
+	],
+	"aurora court+berendos avenue": [
+		-122.473608,
+		37.610842
+	],
+	"berendos avenue+aurora court": [
+		-122.473608,
+		37.610842
+	],
+	"berendos avenue+modoc place": [
+		-122.47315,
+		37.609541
+	],
+	"modoc place+berendos avenue": [
+		-122.47315,
+		37.609541
+	],
+	"baquiano trail+sweeney ridge trail": [
+		-122.458056,
+		37.604385
+	],
+	"sweeney ridge trail+baquiano trail": [
+		-122.458056,
+		37.604385
+	],
+	"sneath lane trail+sweeney ridge trail": [
+		-122.45838,
+		37.605778
+	],
+	"sweeney ridge trail+sneath lane trail": [
+		-122.45838,
+		37.605778
+	],
+	"everglades drive+picardo court": [
+		-122.470635,
+		37.593631
+	],
+	"everglades drive+picardo ranch": [
+		-122.470635,
+		37.593631
+	],
+	"picardo court+everglades drive": [
+		-122.470635,
+		37.593631
+	],
+	"picardo court+picardo ranch": [
+		-122.470635,
+		37.593631
+	],
+	"picardo ranch+everglades drive": [
+		-122.470635,
+		37.593631
+	],
+	"picardo ranch+picardo court": [
+		-122.470635,
+		37.593631
+	],
+	"big sur way+park pacifica avenue": [
+		-122.472629,
+		37.588887
+	],
+	"park pacifica avenue+big sur way": [
+		-122.472629,
+		37.588887
+	],
+	"everglades drive+oddstad boulevard": [
+		-122.465098,
+		37.591005
+	],
+	"oddstad boulevard+everglades drive": [
+		-122.465098,
+		37.591005
+	],
+	"everglades drive+park pacifica avenue": [
+		-122.468702,
+		37.593074
+	],
+	"park pacifica avenue+everglades drive": [
+		-122.468702,
+		37.593074
+	],
+	"everglades drive+kendall court": [
+		-122.469865,
+		37.593268
+	],
+	"kendall court+everglades drive": [
+		-122.469865,
+		37.593268
+	],
+	"kathleen court+park pacifica avenue": [
+		-122.471466,
+		37.589714
+	],
+	"park pacifica avenue+kathleen court": [
+		-122.471466,
+		37.589714
+	],
+	"aspen drive+park pacifica avenue": [
+		-122.473606,
+		37.587631
+	],
+	"park pacifica avenue+aspen drive": [
+		-122.473606,
+		37.587631
+	],
+	"grand teton drive+park pacifica avenue": [
+		-122.469138,
+		37.592454
+	],
+	"park pacifica avenue+grand teton drive": [
+		-122.469138,
+		37.592454
+	],
+	"big bend drive+grand teton drive": [
+		-122.467657,
+		37.589369
+	],
+	"grand teton drive+big bend drive": [
+		-122.467657,
+		37.589369
+	],
+	"oddstad boulevard+shenandoah way": [
+		-122.465493,
+		37.590389
+	],
+	"shenandoah way+oddstad boulevard": [
+		-122.465493,
+		37.590389
+	],
+	"banff way+oddstad boulevard": [
+		-122.465842,
+		37.589691
+	],
+	"oddstad boulevard+banff way": [
+		-122.465842,
+		37.589691
+	],
+	"park pacifica avenue+point reyes way": [
+		-122.472739,
+		37.5861
+	],
+	"point reyes way+park pacifica avenue": [
+		-122.472739,
+		37.5861
+	],
+	"oddstad boulevard+terra nova boulevard": [
+		-122.474124,
+		37.583457
+	],
+	"terra nova boulevard+oddstad boulevard": [
+		-122.474124,
+		37.583457
+	],
+	"park pacifica avenue+yellowstone way": [
+		-122.473729,
+		37.58474
+	],
+	"yellowstone way+park pacifica avenue": [
+		-122.473729,
+		37.58474
+	],
+	"oddstad boulevard+park pacifica avenue": [
+		-122.473139,
+		37.584105
+	],
+	"park pacifica avenue+oddstad boulevard": [
+		-122.473139,
+		37.584105
+	],
+	"bryce canyon way+park pacifica avenue": [
+		-122.472669,
+		37.585829
+	],
+	"park pacifica avenue+bryce canyon way": [
+		-122.472669,
+		37.585829
+	],
+	"park pacifica avenue+yosemite drive": [
+		-122.472916,
+		37.586453
+	],
+	"yosemite drive+park pacifica avenue": [
+		-122.472916,
+		37.586453
+	],
+	"muir way+oddstad boulevard": [
+		-122.470001,
+		37.585842
+	],
+	"oddstad boulevard+muir way": [
+		-122.470001,
+		37.585842
+	],
+	"oddstad boulevard+tioga way": [
+		-122.471219,
+		37.584644
+	],
+	"tioga way+oddstad boulevard": [
+		-122.471219,
+		37.584644
+	],
+	"oddstad boulevard+sequoia way": [
+		-122.472296,
+		37.584347
+	],
+	"sequoia way+oddstad boulevard": [
+		-122.472296,
+		37.584347
+	],
+	"crater lake way+oddstad boulevard": [
+		-122.470519,
+		37.585111
+	],
+	"oddstad boulevard+crater lake way": [
+		-122.470519,
+		37.585111
+	],
+	"park pacifica avenue+sheridan place": [
+		-122.472777,
+		37.583854
+	],
+	"sheridan place+park pacifica avenue": [
+		-122.472777,
+		37.583854
+	],
+	"valley view trail+weiler ranch trail": [
+		-122.472668,
+		37.579739
+	],
+	"weiler ranch trail+valley view trail": [
+		-122.472668,
+		37.579739
+	],
+	"judson place+park pacifica avenue": [
+		-122.472208,
+		37.58157
+	],
+	"park pacifica avenue+judson place": [
+		-122.472208,
+		37.58157
+	],
+	"carleton place+park pacifica avenue": [
+		-122.472716,
+		37.581424
+	],
+	"park pacifica avenue+carleton place": [
+		-122.472716,
+		37.581424
+	],
+	"lincoln boulevard+park pacifica avenue": [
+		-122.472076,
+		37.583281
+	],
+	"park pacifica avenue+lincoln boulevard": [
+		-122.472076,
+		37.583281
+	],
+	"lincoln boulevard+woodrow place": [
+		-122.471284,
+		37.583131
+	],
+	"woodrow place+lincoln boulevard": [
+		-122.471284,
+		37.583131
+	],
+	"lincoln boulevard+randolf place": [
+		-122.471205,
+		37.583103
+	],
+	"randolf place+lincoln boulevard": [
+		-122.471205,
+		37.583103
+	],
+	"barton place+lincoln boulevard": [
+		-122.470578,
+		37.582622
+	],
+	"lincoln boulevard+barton place": [
+		-122.470578,
+		37.582622
+	],
+	"brooks place+lincoln boulevard": [
+		-122.470505,
+		37.582544
+	],
+	"brooks place+lincoln place": [
+		-122.470505,
+		37.582544
+	],
+	"lincoln boulevard+brooks place": [
+		-122.470505,
+		37.582544
+	],
+	"lincoln boulevard+lincoln place": [
+		-122.470505,
+		37.582544
+	],
+	"lincoln place+brooks place": [
+		-122.470505,
+		37.582544
+	],
+	"lincoln place+lincoln boulevard": [
+		-122.470505,
+		37.582544
+	],
+	"kings canyon way+yosemite drive": [
+		-122.47037,
+		37.587216
+	],
+	"yosemite drive+kings canyon way": [
+		-122.47037,
+		37.587216
+	],
+	"oddstad boulevard+yosemite drive": [
+		-122.469628,
+		37.586462
+	],
+	"yosemite drive+oddstad boulevard": [
+		-122.469628,
+		37.586462
+	],
+	"big bend drive+oddstad boulevard": [
+		-122.466319,
+		37.589048
+	],
+	"oddstad boulevard+big bend drive": [
+		-122.466319,
+		37.589048
+	],
+	"humboldt court+yosemite drive": [
+		-122.466344,
+		37.585409
+	],
+	"yosemite drive+humboldt court": [
+		-122.466344,
+		37.585409
+	],
+	"cape breton court+cape breton drive": [
+		-122.463727,
+		37.595375
+	],
+	"cape breton court+oddstad boulevard": [
+		-122.463727,
+		37.595375
+	],
+	"cape breton drive+cape breton court": [
+		-122.463727,
+		37.595375
+	],
+	"cape breton drive+oddstad boulevard": [
+		-122.463727,
+		37.595375
+	],
+	"oddstad boulevard+cape breton court": [
+		-122.463727,
+		37.595375
+	],
+	"oddstad boulevard+cape breton drive": [
+		-122.463727,
+		37.595375
+	],
+	"buffalo court+oddstad boulevard": [
+		-122.462437,
+		37.595943
+	],
+	"oddstad boulevard+buffalo court": [
+		-122.462437,
+		37.595943
+	],
+	"elk court+oddstad boulevard": [
+		-122.46374,
+		37.594162
+	],
+	"oddstad boulevard+elk court": [
+		-122.46374,
+		37.594162
+	],
+	"oddstad boulevard+saint lawrence drive": [
+		-122.463523,
+		37.593066
+	],
+	"saint lawrence drive+oddstad boulevard": [
+		-122.463523,
+		37.593066
+	],
+	"glacier avenue+saint lawrence court": [
+		-122.461516,
+		37.592457
+	],
+	"glacier avenue+saint lawrence drive": [
+		-122.461516,
+		37.592457
+	],
+	"saint lawrence court+glacier avenue": [
+		-122.461516,
+		37.592457
+	],
+	"saint lawrence court+saint lawrence drive": [
+		-122.461516,
+		37.592457
+	],
+	"saint lawrence drive+glacier avenue": [
+		-122.461516,
+		37.592457
+	],
+	"saint lawrence drive+saint lawrence court": [
+		-122.461516,
+		37.592457
+	],
+	"rainier avenue+saint lawrence drive": [
+		-122.462692,
+		37.592814
+	],
+	"saint lawrence drive+rainier avenue": [
+		-122.462692,
+		37.592814
+	],
+	"cape breton drive+glacier avenue": [
+		-122.460078,
+		37.595127
+	],
+	"glacier avenue+cape breton drive": [
+		-122.460078,
+		37.595127
+	],
+	"cape breton drive+rainier avenue": [
+		-122.462328,
+		37.595104
+	],
+	"rainier avenue+cape breton drive": [
+		-122.462328,
+		37.595104
+	],
+	"big bend drive+rainier avenue": [
+		-122.465268,
+		37.588762
+	],
+	"rainier avenue+big bend drive": [
+		-122.465268,
+		37.588762
+	],
+	"prairie creek drive+rainier avenue": [
+		-122.464949,
+		37.589543
+	],
+	"rainier avenue+prairie creek drive": [
+		-122.464949,
+		37.589543
+	],
+	"pio pico way+rainier avenue": [
+		-122.464561,
+		37.590284
+	],
+	"rainier avenue+pio pico way": [
+		-122.464561,
+		37.590284
+	],
+	"big bend drive+prairie creek drive": [
+		-122.459638,
+		37.587991
+	],
+	"prairie creek drive+big bend drive": [
+		-122.459638,
+		37.587991
+	],
+	"big bend drive+glacier avenue": [
+		-122.462691,
+		37.588714
+	],
+	"glacier avenue+big bend drive": [
+		-122.462691,
+		37.588714
+	],
+	"glacier avenue+prairie creek drive": [
+		-122.462541,
+		37.589403
+	],
+	"prairie creek drive+glacier avenue": [
+		-122.462541,
+		37.589403
+	],
+	"(private)+sweeney horse trail": [
+		-122.452848,
+		37.591842
+	],
+	"sweeney horse trail+(private)": [
+		-122.452848,
+		37.591842
+	],
+	"sweeney horse trail+sweeney ridge trail": [
+		-122.453412,
+		37.599601
+	],
+	"sweeney ridge trail+sweeney horse trail": [
+		-122.453412,
+		37.599601
+	],
+	"sweeney meadow trail+sweeney ridge trail": [
+		-122.445862,
+		37.595329
+	],
+	"sweeney ridge trail+sweeney meadow trail": [
+		-122.445862,
+		37.595329
+	],
+	"cambridge lane+crestmoor drive": [
+		-122.435011,
+		37.612985
+	],
+	"crestmoor drive+cambridge lane": [
+		-122.435011,
+		37.612985
+	],
+	"cambridge lane+skyline boulevard": [
+		-122.435901,
+		37.612624
+	],
+	"skyline boulevard+cambridge lane": [
+		-122.435901,
+		37.612624
+	],
+	"bryant way+skyline boulevard": [
+		-122.43411,
+		37.610739
+	],
+	"skyline boulevard+bryant way": [
+		-122.43411,
+		37.610739
+	],
+	"bennington drive+crestmoor drive": [
+		-122.434976,
+		37.613612
+	],
+	"crestmoor drive+bennington drive": [
+		-122.434976,
+		37.613612
+	],
+	"bennington drive+lowell avenue": [
+		-122.431787,
+		37.612862
+	],
+	"lowell avenue+bennington drive": [
+		-122.431787,
+		37.612862
+	],
+	"crestmoor drive+rosewood drive": [
+		-122.435311,
+		37.614664
+	],
+	"rosewood drive+crestmoor drive": [
+		-122.435311,
+		37.614664
+	],
+	"bryant way+crestmoor drive": [
+		-122.433418,
+		37.611164
+	],
+	"crestmoor drive+bryant way": [
+		-122.433418,
+		37.611164
+	],
+	"sweeney horse trail+sweeney meadow trail": [
+		-122.451441,
+		37.595594
+	],
+	"sweeney meadow trail+sweeney horse trail": [
+		-122.451441,
+		37.595594
+	],
+	"northwood drive+ravenwood way": [
+		-122.43204,
+		37.640175
+	],
+	"ravenwood way+northwood drive": [
+		-122.43204,
+		37.640175
+	],
+	"old san pedro mountain road+the mile": [
+		-122.503217,
+		37.579763
+	],
+	"the mile+old san pedro mountain road": [
+		-122.503217,
+		37.579763
+	]
+}

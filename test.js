@@ -3,7 +3,7 @@ const {test} = require('tap');
 const {indexer, load, search} = require('./');
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
-const output = path.join(__dirname, 'test', 'fixtures', 'cross-street-index');
+const output = path.join(__dirname, 'test', 'fixtures', 'sample-index');
 const tiles = [
     [654, 1584, 12], [655, 1584, 12],
     [654, 1585, 12], [655, 1585, 12]
