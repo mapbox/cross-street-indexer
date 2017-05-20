@@ -8,10 +8,10 @@ const cli = meow(`
     $ cross-street-search <name1> <name2>
   Options:
     --output    [cross-street-index] filepath to Cross Street index output folder
-    --bbox      (not implemented) Excludes Tiles by BBox
-    --tiles     Excludes by an Array of Tiles
+    --tiles     Lookup index files via Tiles or Quadkeys
+    --bbox      (not implemented) Lookup index files via BBox
   Examples:
-    $ cross-street-search "Chester St" "ABBOT AVE."
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
 `);
 
 // Handle user Inputs
@@ -34,8 +34,15 @@ if (options.bbox) {
 // Tiles
 if (options.tiles) {
     options.tiles = JSON.parse(options.tiles);
-    if (!Array.isArray(options.tiles[0]) || options.tiles[0].length !== 3) throw new Error('invalid tiles');
+    if (Array.isArray(options.tiles)) {
+        if (typeof options.tiles[0] === 'number') throw new Error('quadkeys must be strings');
+        else if (
+            typeof options.tiles[0] !== 'string' &&
+            Array.isArray(options.tiles) &&
+            options.tiles[0].length !== 3) throw new Error('tiles must contain 3 numbers [x,y,z]');
+    } else throw new Error('invalid tiles');
 }
+
 // Load all tiles from folder (if Tiles not defined)
 if (!options.tiles) {
     options.tiles = fs.readdirSync(output).map(filepath => {
