@@ -2,7 +2,7 @@ const path = require('path');
 const {test} = require('tap');
 const crossStreetIndexer = require('./');
 
-const qaTiles = path.join(__dirname, 'test', 'latest.planet.mbtiles');
+const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
 
 test('tiles', t => {
     const tiles = [
