@@ -32,6 +32,25 @@ $ npm install
 $ npm test
 ```
 
+## CLI
+
+```
+$ cross-street-indexer --help
+
+  Cross Street Indexer
+
+  Usage:
+    $ cross-street-indexer <qa-tiles>
+  Options:
+    --output    [cross-street-index] Filepath to store outputs
+    --bbox      Excludes QATiles by BBox
+    --tiles     Excludes QATiles by an Array of Tiles
+    --debug     [false] Enables DEBUG mode
+    --verbose   [false] Verbose output
+  Examples:
+    $ cross-street-indexer latest.planet.mbtiles cross-street-index/
+```
+
 ## OSM Attributes
 
 - `name`: Street name (Abbot Avenue)
