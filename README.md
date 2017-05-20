@@ -8,6 +8,16 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 
 ![image](https://cloud.githubusercontent.com/assets/550895/26235719/a8f8e7da-3c21-11e7-9240-c811f9b6a4aa.png)
 
+## Features
+
+- Blazing fast 1/20th of a millisecond search (275,000 ops/sec)
+- Processed United States OSM QA Tiles in 35m 13s (189714 tiles)
+- Easy to use CLI to build index
+- Node 6 & 7 compatible
+- Only uses Tile Reduce + Turf
+- Ready for S3 Upload or LevelDB
+- Bundled 5MB QA-Tiles for testing purposes
+
 ## Process
 
 - [x] **Step 1**: Filter data from QA-Tiles (`lib/qa-tiles-filter.js`)
@@ -16,13 +26,6 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags (`lib/geocoding-pairs`).
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
 - [ ] **Step 6**: Publish to S3 or LevelDB
-
-## Features
-
-- Easy to use CLI
-- Node 6 & 7 compatible
-- Only uses Tile Reduce + Turf
-- Bundled 5MB QA-Tiles for testing purposes
 
 ## Quickstart (in development)
 

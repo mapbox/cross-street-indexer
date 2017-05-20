@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const meow = require('meow');
-const crossStreetIndexer = require('../');
+const {indexer} = require('../');
 
 const cli = meow(`
   Usage:
@@ -42,4 +42,4 @@ if (options.tiles) {
     if (!Array.isArray(options.tiles[0]) || options.tiles[0].length !== 3) throw new Error('invalid tiles');
 }
 
-crossStreetIndexer(mbtiles, output, options);
+indexer(mbtiles, output, options);

@@ -3,7 +3,7 @@ const load = require('load-json-file');
 const {test} = require('tap');
 const {hash} = require('../lib/utils');
 const intersections = require('../lib/intersections');
-const geocodingPairs = require('../lib/geocoding-pairs');
+const createIndex = require('../lib/create-index');
 
 test('chester street+abbot avenue.geojson', t => {
     const geojson = load.sync(path.join(__dirname, 'fixtures', 'chester street+abbot avenue.geojson'));
@@ -14,9 +14,9 @@ test('chester street+abbot avenue.geojson', t => {
     t.true(intersects.get(hash([-122.4577111, 37.6885435])).size = 2);
 
     // Geocoding Pairs
-    const pairs = geocodingPairs(intersects);
-    t.true(pairs.size === 2);
-    t.true(pairs.has('abbot avenue+chester street'));
-    t.true(pairs.has('chester street+abbot avenue'));
+    const index = createIndex(intersects);
+    t.true(index.size === 2);
+    t.true(index.has('abbot avenue+chester street'));
+    t.true(index.has('chester street+abbot avenue'));
     t.end();
 });
