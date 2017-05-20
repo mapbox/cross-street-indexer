@@ -25,6 +25,13 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - Only uses Tile Reduce + Turf
 - Bundled 5MB QA-Tiles for testing purposes
 
+## Quickstart (in development)
+
+```bash
+$ npm install
+$ npm test
+```
+
 ## OSM Attributes
 
 - `name`: Street name (Abbot Avenue)
