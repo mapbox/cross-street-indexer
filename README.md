@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/cross-street-indexer.svg)](https://badge.fury.io/js/cross-street-indexer)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DenisCarriere/cross-street-indexer/master/LICENSE)
 
-Light weigth reverse geocoding for cross street (intersecting roads).
+Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles](https://osmlab.github.io/osm-qa-tiles/).
 
 ![image](https://cloud.githubusercontent.com/assets/550895/26235719/a8f8e7da-3c21-11e7-9240-c811f9b6a4aa.png)
 
@@ -12,10 +12,11 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 
 - [x] **Step 1**: Filter data from QA-Tiles (`lib/qa-tiles-filter.js`)
 - [x] **Step 2**: Extract road intersections from QA-Tiles (`lib/intersections.js`)
-- [ ] **Step 3**: Convert intersections into multiple points using a combination of `road` & `ref` tags.
-- [ ] **Step 4**: Normalize QA-Tile Street name & Search function
-- [ ] **Step 5**: Create NLP web friendly hash
-- [ ] **Step 6**: Dump hashes ready for S3 upload
+- [x] **Step 3**: Normalize street name (`ABBOT AVE. => abbot avenue`)
+- [ ] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags.
+- [ ] **Step 5**: Convert points to normalized hashes
+- [ ] **Step 6**: Group all hashes into single Quadkey JSON object.
+- [ ] **Step 7**: Publish to S3 or LevelDB
 
 ## Features
 
@@ -24,14 +25,14 @@ Light weigth reverse geocoding for cross street (intersecting roads).
 - Only uses Tile Reduce + Turf
 - Bundled 5MB QA-Tiles for testing purposes
 
-## Attributes
+## OSM Attributes
 
-- `name` OSM attribute
-- `ref` OSM attribute
-- [`highway`](http://wiki.openstreetmap.org/wiki/Key:highway) OSM attribute
-- [`bridge`](http://wiki.openstreetmap.org/wiki/Key:bridge) OSM attribute
-- [`tunnel`](http://wiki.openstreetmap.org/wiki/Key:tunnel) OSM attribute
-- `@id` OSM road way
+- `name`: Street name (Abbot Avenue)
+- `ref` Reference number normaly used to tag highways numbers
+- [`highway`](http://wiki.openstreetmap.org/wiki/Key:highway) classification (residential, primary, secondary)
+- [`bridge`](http://wiki.openstreetmap.org/wiki/Key:bridge) yes/no
+- [`tunnel`](http://wiki.openstreetmap.org/wiki/Key:tunnel) yes/no
+- `@id` OSM ID of street (way)
 
 ## Normalization
 
@@ -74,8 +75,6 @@ Adding `--debug` will store `.geojson` items for each process & for each QA-Tile
 ### Loops
 
 Loops would return multiple cross street matches, only the last matched point is stored.
-
-
 
 ### Turning Circles
 

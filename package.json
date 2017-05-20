@@ -11,7 +11,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "tap test.js && tap test/",
+    "test": "tap test/ && tap test.js",
     "bench": "node bench.js"
   },
   "bin": {
