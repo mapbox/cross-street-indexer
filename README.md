@@ -101,6 +101,35 @@ Normalization should follow the following standards:
   - S => south
   - NE => northeast
 
+## Index
+
+The Cross Street Index is stored in an easy to read JSON format
+
+- key: Normalized road pairs (`<name1>+<name2>`)
+- value: Longitude & Latitude
+
+```json
+{
+	"johnson avenue+manor drive": [
+		-122.488691,
+		37.649018
+	],
+	"johnson avenue+south johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"manor drive+johnson avenue": [
+		-122.488691,
+		37.649018
+	],
+	"manor drive+south johnson avenue": [
+		-122.488691,
+		37.649018
+	]
+  ...
+}
+```
+
 ## OSM Attributes
 
 - `name`: Street name (Abbot Avenue)
@@ -128,6 +157,7 @@ Adding `--debug` will store `.geojson` items for each process & for each QA-Tile
 - `debug/<quadkey>/features.geojson` - raw GeoJSON of QA-Tile
 - `debug/<quadkey>/lines.geojson` - Filtered (Multi)LinesString from QA-Tile
 - `debug/<quadkey>/intersects.geojson` - Point which are intersecting roads
+- `debug/<quadkey>/index.json` - Final Cross Street index
 
 ## Limitations
 
