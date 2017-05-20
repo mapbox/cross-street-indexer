@@ -12,11 +12,10 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 
 - [x] **Step 1**: Filter data from QA-Tiles (`lib/qa-tiles-filter.js`)
 - [x] **Step 2**: Extract road intersections from QA-Tiles (`lib/intersections.js`)
-- [x] **Step 3**: Normalize street name (`ABBOT AVE. => abbot avenue`)
-- [ ] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags.
-- [ ] **Step 5**: Convert points to normalized hashes
-- [ ] **Step 6**: Group all hashes into single Quadkey JSON object.
-- [ ] **Step 7**: Publish to S3 or LevelDB
+- [x] **Step 3**: Normalize street name `ABBOT AVE. => abbot avenue` (`lib/normalize.js`)
+- [x] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags (`lib/geocoding-pairs`).
+- [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
+- [ ] **Step 6**: Publish to S3 or LevelDB
 
 ## Features
 

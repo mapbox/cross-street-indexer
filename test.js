@@ -9,7 +9,7 @@ test('tiles', t => {
         [654, 1584, 12], [655, 1584, 12],
         [654, 1585, 12], [655, 1585, 12]
     ];
-    crossStreetIndexer(qaTiles, 'cross-street-index', {tiles, debug: true});
+    crossStreetIndexer(qaTiles, 's3-bucket', {tiles, debug: true});
     t.true(true);
     t.end();
 });

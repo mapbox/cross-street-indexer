@@ -1,4 +1,4 @@
-const {uniques2features} = require('../lib/utils');
+const {uniques2features, pairs2json} = require('../lib/utils');
 const {test} = require('tap');
 
 test('uniques2features', t => {
@@ -8,5 +8,16 @@ test('uniques2features', t => {
 
     const collection = uniques2features(uniques);
     t.true(collection.features.length === 2);
+    t.end();
+});
+
+test('pairs2json', t => {
+    const pairs = new Map([
+        ['abbot avenue+chester street', [-122.4577111, 37.6885435]],
+        ['chester street+abbot avenue', [-122.4577111, 37.6885435]]
+    ]);
+    const json = pairs2json(pairs);
+    t.deepEqual(json['abbot avenue+chester street'], [-122.4577111, 37.6885435]);
+    t.deepEqual(json['chester street+abbot avenue'], [-122.4577111, 37.6885435]);
     t.end();
 });
