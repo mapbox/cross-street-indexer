@@ -34,7 +34,7 @@ function indexer(mbtiles, output, options) {
 /**
  * Load JSON from Cross Street Indexer cache
  *
- * @param {Tile[]} tiles Array of [x, y, z]
+ * @param {Tile[]|Quadkey[]} tiles Array of [x, y, z] or Quadkey
  * @param {string} output filepath of cross-street-indexer cache
  * @returns {Map<string, [number, number]>} index Map<CrossStreet, LngLat>
  * @example
@@ -49,7 +49,8 @@ function load(tiles, output) {
     // Array of Tiles
     const index = new Map();
     tiles.forEach(tile => {
-        const quadkey = tilebelt.tileToQuadkey(tile);
+        let quadkey = tile;
+        if (typeof tile !== 'string') quadkey = tilebelt.tileToQuadkey(tile);
         const dump = loadJSON.sync(path.join(output, quadkey + '.json'));
         Object.keys(dump).forEach(hash => {
             index.set(hash, dump[hash]);
