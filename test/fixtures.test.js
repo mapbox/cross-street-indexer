@@ -1,9 +1,9 @@
 const path = require('path');
 const load = require('load-json-file');
-const {test} = require('tap');
-const {hash} = require('../lib/utils');
-const intersections = require('../lib/intersections');
+const test = require('tap').test;
+const hash = require('../lib/utils').hash;
 const createIndex = require('../lib/create-index');
+const intersections = require('../lib/intersections');
 
 test('chester street+abbot avenue.geojson', t => {
     const geojson = load.sync(path.join(__dirname, 'fixtures', 'chester street+abbot avenue.geojson'));

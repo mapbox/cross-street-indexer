@@ -2,8 +2,9 @@
 const fs = require('fs');
 const meow = require('meow');
 const readline = require('readline');
-const slippyGrid = require('slippy-grid');
-const {search, load} = require('../');
+const bbox2tiles = require('../lib/utils').bbox2tiles;
+const search = require('../').search;
+const load = require('../').load;
 
 const cli = meow(`
   Usage:
@@ -32,13 +33,13 @@ const name2 = cli.input[1];
 // Handle Options
 const options = cli.flags;
 
-let tiles;
+var tiles;
 
 // BBox
 if (options.bbox) {
     const bbox = JSON.parse(options.bbox);
     if (bbox && bbox.length !== 4) throw new Error('invalid bbox');
-    tiles = slippyGrid(bbox);
+    tiles = bbox2tiles(bbox);
 // Tiles
 } else if (options.tiles) {
     tiles = JSON.parse(options.tiles);
@@ -49,17 +50,20 @@ if (options.bbox) {
 
 // Read index from stream
 if (options.stream) {
-    const stream = readline.createInterface({
-        input: process.stdin
-    });
+    const stream = readline.createInterface({input: process.stdin});
     stream.on('line', line => {
-        const index = JSON.parse(line);
-        const match = search(name1, name2, index);
-        if (match) {
-            if (options.latlng) match.reverse();
-            process.stdout.write(match + '\n');
-            stream.close();
-        }
+        // Split concatenated streams
+        // cat cross-street-index/023010221110.json < cat cross-street-index/023010221111.json
+        line = line.trim();
+        line.split(/\}\{/g).forEach(data => {
+            const index = JSON.parse(data);
+            const match = search(name1, name2, index);
+            if (match) {
+                if (options.latlng) match.reverse();
+                process.stdout.write(match + '\n');
+                stream.close();
+            }
+        });
     });
 
 // Read index from files
@@ -73,7 +77,6 @@ if (options.stream) {
             return filepath.replace('.json', '');
         });
     }
-
     // Finds a match for each tile
     for (const tile of tiles) {
         const index = load(tile, output);

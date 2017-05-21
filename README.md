@@ -14,7 +14,7 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - Processed United States OSM QA Tiles in 24m 27s (189714 tiles)
 - Reads streaming index data
 - Easy to use CLI to create & search index
-- Node 6 & 7 compatible
+- NodeJS 6 & 7 compatible
 - Only uses Tile Reduce + Turf
 - Indexes published on S3 buckets
 - Bundled 5MB QA-Tiles for testing purposes
@@ -29,6 +29,14 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 6**: Read streaming data with CLI
 - [x] **Step 7**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
 - [ ] **Step 8**: Add download S3 option to CLI
+
+## Design Considerations
+
+- [ ] Support NodeJS 4 & 5
+- [x] Does not save empty z12 cross street indexes (reduces total number of files).
+- [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
+- [ ] Loops would return multiple cross street matches, only the last matched point is stored.
+- [ ] Turning Circles without any names are exclude, thus not finding any matches.
 
 ## Install
 
@@ -161,22 +169,6 @@ Additional files will be created in the `debug/` folder:
 - `debug/<quadkey>/intersects.geojson` - Point which are intersecting roads
 - `debug/<quadkey>/index.json` - Final Cross Street index
 - `debug/<quadkey>/debug.json` - Debug details
-
-## Considerations
-
-- [ ] Not saving output if index is empty, many z12 have no data or road intersections.
-
-## Limitations
-
-### Loops
-
-Loops would return multiple cross street matches, only the last matched point is stored.
-
-### Turning Circles
-
-Turning Circles without any names are exclude, thus not finding any matches.
-
-![image](https://cloud.githubusercontent.com/assets/550895/26234213/d26554b4-3c17-11e7-8f89-bee790f7118c.png)
 
 ## References
 

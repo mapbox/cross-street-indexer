@@ -1,4 +1,4 @@
-const {test} = require('tap');
+const test = require('tap').test;
 const normalize = require('../lib/normalize');
 
 test('normalize', t => {

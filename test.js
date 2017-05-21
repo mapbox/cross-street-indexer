@@ -1,6 +1,9 @@
 const path = require('path');
-const {test} = require('tap');
-const {indexer, load, search} = require('./');
+const test = require('tap').test;
+const load = require('./').load;
+const loads = require('./').loads;
+const search = require('./').search;
+const indexer = require('./').indexer;
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
 const output = path.join(__dirname, 'test', 'fixtures', 'sample-index');
@@ -23,6 +26,13 @@ test('indexer', t => {
 test('load', t => {
     t.true(load(tiles[0], output).size === 3882, 'tiles');
     t.true(load(quadkeys[0], output).size === 3882, 'quadkeys');
+    t.end();
+});
+
+test('loads', t => {
+    t.true(loads(tiles, output).size === 10300, 'tiles');
+    t.true(loads(quadkeys, output).size === 10300, 'quadkeys');
+    t.true(loads(bbox, output).size === 10300, 'quadkeys');
     t.end();
 });
 
