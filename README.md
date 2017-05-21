@@ -12,7 +12,8 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 
 - Blazing fast 1/20th of a millisecond search (275,000 ops/sec)
 - Processed United States OSM QA Tiles in 35m 13s (189714 tiles)
-- Easy to use CLI to build index
+- Reads streaming index data
+- Easy to use CLI to create & search index
 - Node 6 & 7 compatible
 - Only uses Tile Reduce + Turf
 - Ready for S3 Upload or LevelDB
@@ -25,7 +26,8 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 3**: Normalize street name `ABBOT AVE. => abbot avenue` (`lib/normalize.js`)
 - [x] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags (`lib/geocoding-pairs`).
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
-- [ ] **Step 6**: Publish to S3 or LevelDB
+- [x] **Step 6**: Read streaming data with CLI
+- [ ] **Step 7**: Publish to S3 or LevelDB
 
 ## Install
 

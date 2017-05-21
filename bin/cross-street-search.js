@@ -30,8 +30,6 @@ const name2 = cli.input[1];
 
 // Handle Options
 const options = cli.flags;
-const output = options.output || 'cross-street-index';
-if (!fs.existsSync(output)) throw new Error(output + ' folder does not exists');
 
 let tiles;
 
@@ -65,6 +63,9 @@ if (options.stream) {
 
 // Read index from files
 } else {
+    const output = options.output || 'cross-street-index';
+    if (!fs.existsSync(output)) throw new Error(output + ' folder does not exists');
+
     // Load all tiles from folder (if Tiles not defined)
     if (!tiles) {
         tiles = fs.readdirSync(output).map(filepath => {
