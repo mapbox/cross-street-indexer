@@ -81,6 +81,7 @@ $ cross-street-search --help
     --output    [cross-street-index] filepath to Cross Street index output folder
     --tiles     Lookup index files via an Array of Tiles or Quadkeys
     --bbox      Lookup index files via BBox
+    --latlng    Outputs LatLng instead of the default LngLat
     --stream    Enables reading from streaming index file (ignores tiles options)
   Examples:
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
@@ -104,6 +105,9 @@ Normalization should follow the following standards:
   - N => north
   - S => south
   - NE => northeast
+- Numbered streets to full word
+  - 9th => ninth
+  - 5th => fifth
 
 ## Index (JSON Lines)
 

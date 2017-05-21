@@ -12,13 +12,14 @@ const cli = meow(`
     --output    [cross-street-index] filepath to Cross Street index output folder
     --tiles     Lookup index files via an Array of Tiles or Quadkeys
     --bbox      Lookup index files via BBox
+    --latlng    Outputs LatLng instead of the default LngLat
     --stream    Enables reading from streaming index file (ignores tiles options)
   Examples:
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
 `, {
-    boolean: ['stream']
+    boolean: ['stream', 'latlng']
 });
 
 // Handle user Inputs
@@ -56,6 +57,7 @@ if (options.stream) {
         const index = JSON.parse(line);
         const match = search(name1, name2, index);
         if (match) {
+            if (options.latlng) match.reverse();
             process.stdout.write(match + '\n');
             stream.close();
         }
@@ -75,6 +77,7 @@ if (options.stream) {
         const index = load(tile, output);
         const match = search(name1, name2, index);
         if (match) {
+            if (options.latlng) match.reverse();
             process.stdout.write(match + '\n');
             break;
         }
