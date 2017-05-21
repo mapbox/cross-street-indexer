@@ -16,7 +16,7 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - Easy to use CLI to create & search index
 - Node 6 & 7 compatible
 - Only uses Tile Reduce + Turf
-- Ready for S3 Upload or LevelDB
+- Indexes published on S3 buckets
 - Bundled 5MB QA-Tiles for testing purposes
 
 ## Process
@@ -27,7 +27,7 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags (`lib/geocoding-pairs`).
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
 - [x] **Step 6**: Read streaming data with CLI
-- [ ] **Step 7**: Publish to S3 or LevelDB
+- [x] **Step 7**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
 
 ## Install
 

@@ -18,6 +18,7 @@ const cli = meow(`
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
+    $ curl -s https://s3.amazonaws.com/cross-street-index/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
 `, {
     boolean: ['stream', 'latlng']
 });
