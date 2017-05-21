@@ -35,6 +35,8 @@ Blazing fast tile based geocoder that matches cross street (road intersections) 
 - [ ] Support NodeJS 4 & 5
 - [x] Does not save empty z12 cross street indexes (reduces total number of files).
 - [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
+- [ ] Split `ref` code with `;` into Array of names.
+- [ ] Extract numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
 - [ ] Search output has `\n` at the end (`-122,37\n` or `-122,37`)
 - [ ] Loops would return multiple cross street matches, only the last matched point is stored.
 - [ ] Turning Circles without any names are exclude, thus not finding any matches.
@@ -123,6 +125,8 @@ Normalization should follow the following standards:
 - Numbered streets to full word
   - 9th => ninth
   - 5th => fifth
+- Remove any additional information
+  - rodeo avenue trail (dead end ford bikes--no bikes on 101) => rodeo avenue trail
 
 ## Index (JSON Lines)
 

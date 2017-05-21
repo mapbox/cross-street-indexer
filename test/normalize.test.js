@@ -9,5 +9,6 @@ test('normalize', t => {
     t.equal(normalize('ABBOT AVE.'), 'abbot avenue', 'drop period');
     t.equal(normalize('ABBOT       AVENUE'), 'abbot avenue', 'multiple spaces');
     t.equal(normalize('ABBOT   AVENUE    N'), 'abbot avenue north', 'multiple word spaces');
+    t.equal(normalize('rodeo avenue trail (dead end ford bikes--no bikes on 101)'), 'rodeo avenue trail', 'extra comment');
     t.end();
 });

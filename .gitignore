@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Debuging
+cross-street-index
+!test/fixtures/cross-street-index
 debug
 tmp
 
