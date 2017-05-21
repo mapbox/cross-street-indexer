@@ -1,7 +1,7 @@
 {
   "name": "cross-street-indexer",
   "version": "0.4.4",
-  "description": "Cross Street Indexer",
+  "description": "Blazing fast tile based geocoder that matches cross street (road intersections) entirely sourced by OSM QA Tiles.",
   "main": "index.js",
   "files": [
     "index.js",
@@ -10,8 +10,9 @@
     "lib"
   ],
   "scripts": {
-    "test": "tap test/ && tap test.js",
-    "bench": "node bench.js"
+    "test": "npm run lint && tap test/ && tap test.js",
+    "bench": "node bench.js",
+    "lint": "eslint lib && eslint index.js"
   },
   "bin": {
     "cross-street-indexer": "bin/cross-street-indexer.js",

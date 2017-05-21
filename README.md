@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/cross-street-indexer.svg)](https://badge.fury.io/js/cross-street-indexer)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DenisCarriere/cross-street-indexer/master/LICENSE)
 
-Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles](https://osmlab.github.io/osm-qa-tiles/).
+Blazing fast tile based geocoder that matches cross street (road intersections) entirely sourced by [OSM QA Tiles](https://osmlab.github.io/osm-qa-tiles/).
 
 ![image](https://cloud.githubusercontent.com/assets/550895/26235719/a8f8e7da-3c21-11e7-9240-c811f9b6a4aa.png)
 
@@ -26,17 +26,19 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 3**: Normalize street name `ABBOT AVE. => abbot avenue` (`lib/normalize.js`)
 - [x] **Step 4**: Convert intersections into multiple points using a combination of `road` & `ref` tags (`lib/geocoding-pairs`).
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
-- [x] **Step 6**: Read streaming data with CLI
-- [x] **Step 7**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
-- [ ] **Step 8**: Add download S3 option to CLI
+- [x] **Step 6**: Generate index cache from QA Tiles via CLI (`bin/cross-street-indexer.js`)
+- [x] **Step 7**: Stream or read from disk index caches via CLI (`bin/cross-street-search.js`)
+- [x] **Step 8**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
 
 ## Design Considerations
 
 - [ ] Support NodeJS 4 & 5
 - [x] Does not save empty z12 cross street indexes (reduces total number of files).
 - [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
+- [ ] Search output has `\n` at the end (`-122,37\n` or `-122,37`)
 - [ ] Loops would return multiple cross street matches, only the last matched point is stored.
 - [ ] Turning Circles without any names are exclude, thus not finding any matches.
+- [ ] Loading more than 1 index cache might result in loss of data, however these conflicts are very minimal (ex: only 0.2% conflicts using 4 San Francisco tiles)
 
 ## Install
 
@@ -93,11 +95,13 @@ $ cross-street-search --help
     --tiles     Lookup index files via an Array of Tiles or Quadkeys
     --bbox      Lookup index files via BBox
     --latlng    Outputs LatLng instead of the default LngLat
-    --stream    Enables reading from streaming index file (ignores tiles options)
+    --stream    Enables reading from streaming index file (ignores tiles/bbox options)
   Examples:
-    $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
-    $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12],[653,1585,12]]
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles "023010221110,023010221110"
+    $ cross-street-search "Chester St" "ABBOT AVE." --bbox [-122.5,37.6,-122.1,37.9]
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
+    $ curl -s https://s3.amazonaws.com/cross-street-index/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
 ```
 
 ## Normalization Process
@@ -146,8 +150,14 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 ## Debugging
 
-Adding `--debug` will store `.geojson` items for each process & for each QA-Tile:
+Including `--debug` will store additional files for each QA-Tile which can be helpful for debugging.
 
+- `<output>/<quadkey>.json` - Cross Street index cache
+- `<output>/<quadkey>/lines.geojson` - Filtered (Multi)LinesString from QA-Tile
+- `<output>/<quadkey>/intersects.geojson` - Point which are intersecting roads
+- `<output>/<quadkey>/debug.json` - Debug details
+
+**debug.json**
 ```json
 {
 	"tile": [
@@ -163,12 +173,6 @@ Adding `--debug` will store `.geojson` items for each process & for each QA-Tile
 }
 
 ```
-Additional files will be created in the `debug/` folder:
-
-- `debug/<quadkey>/lines.geojson` - Filtered (Multi)LinesString from QA-Tile
-- `debug/<quadkey>/intersects.geojson` - Point which are intersecting roads
-- `debug/<quadkey>/index.json` - Final Cross Street index
-- `debug/<quadkey>/debug.json` - Debug details
 
 ## References
 

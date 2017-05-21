@@ -6,7 +6,7 @@ const search = require('./').search;
 const indexer = require('./').indexer;
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
-const output = path.join(__dirname, 'test', 'fixtures', 'sample-index');
+const output = path.join(__dirname, 'test', 'fixtures', 'cross-street-index');
 const bbox = [-122.5, 37.6, -122.1, 37.9];
 const tiles = [
     [654, 1584, 12], [655, 1584, 12],
@@ -18,7 +18,7 @@ const quadkeys = [
 ];
 
 test('indexer', t => {
-    indexer(qaTiles, 'cross-street-index', {tiles, debug: true});
+    indexer(qaTiles, 'debug', {tiles, debug: true});
     t.true(true);
     t.end();
 });

@@ -14,14 +14,16 @@ const cli = meow(`
     --tiles     Lookup index files via an Array of Tiles or Quadkeys
     --bbox      Lookup index files via BBox
     --latlng    Outputs LatLng instead of the default LngLat
-    --stream    Enables reading from streaming index file (ignores tiles options)
+    --stream    Enables reading from streaming index file (ignores tiles/bbox options)
   Examples:
-    $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
-    $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12],[653,1585,12]]
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles "023010221110,023010221110"
+    $ cross-street-search "Chester St" "ABBOT AVE." --bbox [-122.5,37.6,-122.1,37.9]
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
     $ curl -s https://s3.amazonaws.com/cross-street-index/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
 `, {
-    boolean: ['stream', 'latlng']
+    boolean: ['stream', 'latlng'],
+    string: ['tiles']
 });
 
 // Handle user Inputs
@@ -42,7 +44,11 @@ if (options.bbox) {
     tiles = bbox2tiles(bbox);
 // Tiles
 } else if (options.tiles) {
-    tiles = JSON.parse(options.tiles);
+    // Array of [x,y,z] tiles
+    if (options.tiles.match(/[\[\]]/)) tiles = JSON.parse(options.tiles);
+    // Array of Quadkeys divided by commas (,)
+    else tiles = options.tiles.split(/[, ]+/g);
+
     if (!Array.isArray(tiles)) throw new Error('invalid tiles');
     if (typeof tiles[0] === 'number') throw new Error('quadkeys must be strings');
     if (Array.isArray(tiles[0]) && tiles[0].length !== 3) throw new Error('tiles must contain 3 numbers [x,y,z]');
