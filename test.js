@@ -4,6 +4,7 @@ const {indexer, load, search} = require('./');
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
 const output = path.join(__dirname, 'test', 'fixtures', 'sample-index');
+const bbox = [-122.5, 37.6, -122.1, 37.9];
 const tiles = [
     [654, 1584, 12], [655, 1584, 12],
     [654, 1585, 12], [655, 1585, 12]

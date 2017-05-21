@@ -62,9 +62,10 @@ $ cross-street-indexer --help
     --bbox      Excludes QATiles by BBox
     --tiles     Excludes QATiles by an Array of Tiles
     --debug     [false] Enables DEBUG mode
-    --verbose   [false] Verbose output
   Examples:
     $ cross-street-indexer latest.planet.mbtiles
+    $ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
+    $ cross-street-indexer latest.planet.mbtiles --bbox [-122.519,37.629,-122.168,37.917]
 ```
 
 ### Cross Street Search
@@ -78,10 +79,13 @@ $ cross-street-search --help
     $ cross-street-search <name1> <name2>
   Options:
     --output    [cross-street-index] filepath to Cross Street index output folder
-    --tiles     Lookup index files via Tiles or Quadkeys
-    --bbox      (not implemented) Lookup index files via BBox
+    --tiles     Lookup index files via an Array of Tiles or Quadkeys
+    --bbox      Lookup index files via BBox
+    --stream    Enables reading from streaming index file (ignores tiles options)
   Examples:
+    $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
+    $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
 ```
 
 ## Normalization Process

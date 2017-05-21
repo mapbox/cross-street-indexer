@@ -12,7 +12,9 @@ const cli = meow(`
     --tiles     Excludes QATiles by an Array of Tiles
     --debug     [false] Enables DEBUG mode
   Examples:
+    $ cross-street-indexer latest.planet.mbtiles
     $ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
+    $ cross-street-indexer latest.planet.mbtiles --bbox [-122.5,37.6,-122.1,37.9]
 `, {
     boolean: ['debug']
 });
