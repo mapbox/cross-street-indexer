@@ -12,10 +12,14 @@ const cli = meow(`
     --output    [cross-street-index] filepath to Cross Street index output folder
     --tiles     Lookup index files via an Array of Tiles or Quadkeys
     --bbox      Lookup index files via BBox
+    --stream    Enables reading from streaming index file (ignores tiles options)
   Examples:
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles '["023010221110"]'
-`);
+    $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
+`, {
+    boolean: ['stream']
+});
 
 // Handle user Inputs
 if (!cli.input[0]) throw new Error('<name1> is required');
@@ -43,36 +47,36 @@ if (options.bbox) {
     if (Array.isArray(tiles[0]) && tiles[0].length !== 3) throw new Error('tiles must contain 3 numbers [x,y,z]');
 }
 
-// Pipe index
-// // Array of Tiles
-// return new Promise(resolve => {
-//     const stream = readline.createInterface({
-//         input: fs.createReadStream(path.join(output, quadkey + '.json'))
-//     });
-//     stream.on('line', line => {
-//         line = JSON.parse(line);
-//         const key = Object.keys(line)[0];
-//         console.log(key);
-//         index.set(key, line[key]);
-//     });
-//     stream.on('close', () => {
-//         return resolve(index);
-//     });
-// });
-
-// Load all tiles from folder (if Tiles not defined)
-if (!tiles) {
-    tiles = fs.readdirSync(output).map(filepath => {
-        return filepath.replace('.json', '');
+// Read index from stream
+if (options.stream) {
+    const stream = readline.createInterface({
+        input: process.stdin
     });
-}
+    stream.on('line', line => {
+        const index = JSON.parse(line);
+        const match = search(name1, name2, index);
+        if (match) {
+            process.stdout.write(match + '\n');
+            stream.close();
+        }
+    });
 
-// Find first match
-for (const tile of tiles) {
-    const index = load(tile, output);
-    const match = search(name1, name2, index);
-    if (match) {
-        process.stdout.write(match + '\n');
-        break;
+// Read index from files
+} else {
+    // Load all tiles from folder (if Tiles not defined)
+    if (!tiles) {
+        tiles = fs.readdirSync(output).map(filepath => {
+            return filepath.replace('.json', '');
+        });
+    }
+
+    // Finds a match for each tile
+    for (const tile of tiles) {
+        const index = load(tile, output);
+        const match = search(name1, name2, index);
+        if (match) {
+            process.stdout.write(match + '\n');
+            break;
+        }
     }
 }

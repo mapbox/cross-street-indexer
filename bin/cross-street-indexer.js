@@ -11,11 +11,10 @@ const cli = meow(`
     --bbox      Excludes QATiles by BBox
     --tiles     Excludes QATiles by an Array of Tiles
     --debug     [false] Enables DEBUG mode
-    --verbose   [false] Verbose output
   Examples:
     $ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
 `, {
-    boolean: ['verbose', 'debug']
+    boolean: ['debug']
 });
 
 // Handle user Inputs
