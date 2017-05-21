@@ -11,7 +11,7 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 ## Features
 
 - Blazing fast 1/20th of a millisecond search (275,000 ops/sec)
-- Processed United States OSM QA Tiles in 35m 13s (189714 tiles)
+- Processed United States OSM QA Tiles in 24m 27s (189714 tiles)
 - Reads streaming index data
 - Easy to use CLI to create & search index
 - Node 6 & 7 compatible
