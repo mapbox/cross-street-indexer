@@ -127,23 +127,29 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 ## Debugging
 
-Adding `--verbose` will `stdout` a JSON object for each QA-Tile with the following information:
-
-```
-{
-  tile: [ 655, 1586, 12 ],
-  quadkey: '023010221131',
-  features: 9626,
-  intersects: 1053
-}
-```
-
 Adding `--debug` will store `.geojson` items for each process & for each QA-Tile:
 
-- `debug/<quadkey>/features.geojson` - raw GeoJSON of QA-Tile
+```json
+{
+	"tile": [
+		654,
+		1584,
+		12
+	],
+	"quadkey": "023010221110",
+	"features": 49003,
+	"lines": 2427,
+	"intersects": 1921,
+	"index": 3882
+}
+
+```
+Additional files will be created in the `debug/` folder:
+
 - `debug/<quadkey>/lines.geojson` - Filtered (Multi)LinesString from QA-Tile
 - `debug/<quadkey>/intersects.geojson` - Point which are intersecting roads
 - `debug/<quadkey>/index.json` - Final Cross Street index
+- `debug/<quadkey>/debug.json` - Debug details
 
 ## Limitations
 
