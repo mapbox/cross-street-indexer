@@ -28,6 +28,7 @@ Light weigth reverse geocoding for cross street 100% sourced from [OSM QA Tiles]
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
 - [x] **Step 6**: Read streaming data with CLI
 - [x] **Step 7**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
+- [ ] **Step 8**: Add download S3 option to CLI
 
 ## Install
 
@@ -160,6 +161,10 @@ Additional files will be created in the `debug/` folder:
 - `debug/<quadkey>/intersects.geojson` - Point which are intersecting roads
 - `debug/<quadkey>/index.json` - Final Cross Street index
 - `debug/<quadkey>/debug.json` - Debug details
+
+## Considerations
+
+- [ ] Not saving output if index is empty, many z12 have no data or road intersections.
 
 ## Limitations
 
