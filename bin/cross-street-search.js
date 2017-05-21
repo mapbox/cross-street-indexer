@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const meow = require('meow');
+const readline = require('readline');
 const slippyGrid = require('slippy-grid');
 const {search, load} = require('../');
 
@@ -42,6 +43,23 @@ if (options.bbox) {
     if (Array.isArray(tiles[0]) && tiles[0].length !== 3) throw new Error('tiles must contain 3 numbers [x,y,z]');
 }
 
+// Pipe index
+// // Array of Tiles
+// return new Promise(resolve => {
+//     const stream = readline.createInterface({
+//         input: fs.createReadStream(path.join(output, quadkey + '.json'))
+//     });
+//     stream.on('line', line => {
+//         line = JSON.parse(line);
+//         const key = Object.keys(line)[0];
+//         console.log(key);
+//         index.set(key, line[key]);
+//     });
+//     stream.on('close', () => {
+//         return resolve(index);
+//     });
+// });
+
 // Load all tiles from folder (if Tiles not defined)
 if (!tiles) {
     tiles = fs.readdirSync(output).map(filepath => {
@@ -49,6 +67,12 @@ if (!tiles) {
     });
 }
 
-const index = load(tiles, output);
-const match = search(name1, name2, index);
-if (match) process.stdout.write(match + '\n');
+// Find first match
+for (const tile of tiles) {
+    const index = load(tile, output);
+    const match = search(name1, name2, index);
+    if (match) {
+        process.stdout.write(match + '\n');
+        break;
+    }
+}

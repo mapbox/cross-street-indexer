@@ -20,13 +20,13 @@ test('indexer', t => {
 });
 
 test('load', t => {
-    t.true(load(tiles, output).size === 10300, 'tiles');
-    t.true(load(quadkeys, output).size === 10300, 'quadkeys');
+    t.true(load(tiles[0], output).size === 3882, 'tiles');
+    t.true(load(quadkeys[0], output).size === 3882, 'quadkeys');
     t.end();
 });
 
 test('search', t => {
-    const match = search('Chester St', 'ABBOT AVE.', load(tiles, output));
+    const match = search('Chester St', 'ABBOT AVE.', load(tiles[0], output));
     t.true(Array.isArray(match));
     t.end();
 });

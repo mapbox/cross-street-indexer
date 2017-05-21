@@ -29,6 +29,7 @@
     "@turf/meta": "^4.3.0",
     "load-json-file": "^2.0.0",
     "meow": "^3.7.0",
+    "mkdirp": "^0.5.1",
     "slippy-grid": "^2.1.1",
     "tile-reduce": "3.1.1",
     "tilebelt": "^1.0.1",

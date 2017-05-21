@@ -101,33 +101,19 @@ Normalization should follow the following standards:
   - S => south
   - NE => northeast
 
-## Index
+## Index (JSON Lines)
 
-The Cross Street Index is stored in an easy to read key/value JSON format.
+The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 - **key**: Normalized road pairs (`<name1>+<name2>`)
 - **value**: Longitude & Latitude
 
 ```json
-{
-	"johnson avenue+manor drive": [
-		-122.488691,
-		37.649018
-	],
-	"johnson avenue+south johnson avenue": [
-		-122.488691,
-		37.649018
-	],
-	"manor drive+johnson avenue": [
-		-122.488691,
-		37.649018
-	],
-	"manor drive+south johnson avenue": [
-		-122.488691,
-		37.649018
-	]
-  ...
-}
+{"abbot avenue+chester street":[-122.457711,37.688544]}
+{"chester street+abbot avenue":[-122.457711,37.688544]}
+{"chester street+lisbon street":[-122.45821,37.68796]}
+{"lisbon street+chester street":[-122.45821,37.68796]}
+{"hoffman street+lisbon street":[-122.456764,37.687179]}
 ```
 
 ## OSM Attributes
