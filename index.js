@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const tilebelt = require('tilebelt');
 const tileReduce = require('tile-reduce');
-const normalize = require('./lib/normalize');
+const normalize = require('./lib/normalization').normalize;
 const bbox2tiles = require('./lib/utils').bbox2tiles;
 
 /**
