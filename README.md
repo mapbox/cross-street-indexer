@@ -30,17 +30,11 @@ Blazing fast tile based geocoder that matches cross street (road intersections) 
 - [x] **Step 7**: Stream or read from disk index caches via CLI (`bin/cross-street-search.js`)
 - [x] **Step 8**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
 
-## Design Considerations
+## OSM QA Tiles
 
-- [ ] Support NodeJS 4 & 5
-- [x] Does not save empty z12 cross street indexes (reduces total number of files).
-- [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
-- [x] Split `name` & `ref` code with `;` into Array of names.
-- [ ] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
-- [x] Search output has `\n` at the end (`-122,37\n` or `-122,37`)
-- [x] Loops create conflicts if cross street is in the same z12 tile.
-- [x] Turning Circles without any names are exclude.
-- [x] Loading more than 1 index cache might result in loss of data, however these conflicts are very minimal (ex: only 0.2% conflicts using 4 San Francisco tiles)
+Users can download the entire planet or country extracts of OSM QA Tiles from https://osmlab.github.io/osm-qa-tiles.
+
+![image](https://cloud.githubusercontent.com/assets/550895/26292784/cd17a0b8-3e86-11e7-8fde-cbc42de3f51e.png)
 
 ## Install
 
@@ -52,12 +46,6 @@ $ npm install --global cross-street-indexer
 ```
 $ yarn global add cross-street-indexer
 ```
-
-## OSM QA Tiles
-
-Users can download the entire planet or country extracts of OSM QA Tiles from https://osmlab.github.io/osm-qa-tiles.
-
-![image](https://cloud.githubusercontent.com/assets/550895/26292784/cd17a0b8-3e86-11e7-8fde-cbc42de3f51e.png)
 
 ## Quickstart
 
@@ -149,6 +137,18 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 {"lisbon street+chester street":[-122.45821,37.68796]}
 {"hoffman street+lisbon street":[-122.456764,37.687179]}
 ```
+
+## Design Considerations
+
+- [ ] Support NodeJS 4 & 5
+- [x] Does not save empty z12 cross street indexes (reduces total number of files).
+- [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
+- [x] Split `name` & `ref` code with `;` into Array of names.
+- [ ] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
+- [x] Search output has `\n` at the end (`-122,37\n` or `-122,37`)
+- [x] Loops create conflicts if cross street is in the same z12 tile.
+- [x] Turning Circles without any names are exclude.
+- [x] Loading more than 1 index cache might result in loss of data, however these conflicts are very minimal (ex: only 0.2% conflicts using 4 San Francisco tiles)
 
 ## OSM Attributes
 
