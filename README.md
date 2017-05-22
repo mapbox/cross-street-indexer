@@ -6,7 +6,7 @@
 
 Blazing fast tile based geocoder that matches cross street (road intersections) entirely sourced by [OSM QA Tiles](https://osmlab.github.io/osm-qa-tiles/).
 
-![image](https://cloud.githubusercontent.com/assets/550895/26235719/a8f8e7da-3c21-11e7-9240-c811f9b6a4aa.png)
+![image](https://cloud.githubusercontent.com/assets/550895/26292801/e6529ccc-3e86-11e7-9276-43b4bd11e336.png)
 
 ## Features
 
@@ -52,6 +52,12 @@ $ npm install --global cross-street-indexer
 ```
 $ yarn global add cross-street-indexer
 ```
+
+## OSM QA Tiles
+
+Users can download the entire planet or country extracts of OSM QA Tiles from https://osmlab.github.io/osm-qa-tiles.
+
+![image](https://cloud.githubusercontent.com/assets/550895/26292784/cd17a0b8-3e86-11e7-8fde-cbc42de3f51e.png)
 
 ## Quickstart
 
