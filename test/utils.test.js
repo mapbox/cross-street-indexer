@@ -36,6 +36,6 @@ test('index2json', t => {
 
 test('bbox2tiles', t => {
     const bbox = [-122.5, 37.6, -122.1, 37.9];
-    console.log(bbox2tiles(bbox).length);
+    t.equal(bbox2tiles(bbox).length, 25, 'bbox');
     t.end();
 });

@@ -86,14 +86,14 @@
 {"aldenglen drive+oak avenue":[-122.431516,37.659685]}
 {"grand avenue+aldenglen drive":[-122.431516,37.659685]}
 {"oak avenue+aldenglen drive":[-122.431516,37.659685]}
-{"1st street+a street":[-122.431433,37.653397]}
-{"a street+1st street":[-122.431433,37.653397]}
-{"2nd street+ca 82":[-122.431549,37.65194]}
-{"2nd street+el camino real":[-122.431549,37.65194]}
-{"ca 82+2nd street":[-122.431549,37.65194]}
+{"a street+first street":[-122.431433,37.653397]}
+{"first street+a street":[-122.431433,37.653397]}
 {"ca 82+el camino real":[-122.430674,37.650222]}
-{"el camino real+2nd street":[-122.431549,37.65194]}
+{"ca 82+second street":[-122.431549,37.65194]}
 {"el camino real+ca 82":[-122.430674,37.650222]}
+{"el camino real+second street":[-122.431549,37.65194]}
+{"second street+ca 82":[-122.431549,37.65194]}
+{"second street+el camino real":[-122.431549,37.65194]}
 {"prague street+russia avenue":[-122.428392,37.717389]}
 {"russia avenue+prague street":[-122.428392,37.717389]}
 {"dublin street+russia avenue":[-122.427596,37.717008]}
@@ -610,8 +610,8 @@
 {"wabash terrace+racine lane":[-122.400232,37.714323]}
 {"bayshore boulevard+hester avenue":[-122.400035,37.713588]}
 {"hester avenue+bayshore boulevard":[-122.400035,37.713588]}
-{"3rd street+bayshore boulevard":[-122.398774,37.715298]}
-{"bayshore boulevard+3rd street":[-122.398774,37.715298]}
+{"bayshore boulevard+third street":[-122.398774,37.715298]}
+{"third street+bayshore boulevard":[-122.398774,37.715298]}
 {"arleta avenue+bayshore boulevard":[-122.402524,37.71209]}
 {"arleta avenue+san bruno avenue":[-122.402684,37.712354]}
 {"bayshore boulevard+arleta avenue":[-122.402524,37.71209]}
@@ -660,8 +660,8 @@
 {"recycle road+alanna way":[-122.396188,37.708338]}
 {"beatty road+tunnel avenue":[-122.401148,37.706713]}
 {"tunnel avenue+beatty road":[-122.401148,37.706713]}
-{"3rd street+meade avenue":[-122.397965,37.718176]}
-{"meade avenue+3rd street":[-122.397965,37.718176]}
+{"meade avenue+third street":[-122.397965,37.718176]}
+{"third street+meade avenue":[-122.397965,37.718176]}
 {"jennings court+meade avenue":[-122.396776,37.717509]}
 {"meade avenue+jennings court":[-122.396776,37.717509]}
 {"le conte avenue+meade avenue":[-122.39615,37.717041]}
@@ -936,28 +936,28 @@
 {"summerrain drive+aldenglen drive":[-122.43124,37.66091]}
 {"chestnut avenue+treeside court":[-122.429476,37.661413]}
 {"treeside court+chestnut avenue":[-122.429476,37.661413]}
-{"4th lane+chestnut avenue":[-122.429984,37.660099]}
-{"chestnut avenue+4th lane":[-122.429984,37.660099]}
+{"chestnut avenue+forth lane":[-122.429984,37.660099]}
+{"forth lane+chestnut avenue":[-122.429984,37.660099]}
 {"chestnut avenue+miller avenue":[-122.429809,37.660575]}
 {"miller avenue+chestnut avenue":[-122.429809,37.660575]}
-{"3rd lane+chestnut avenue":[-122.43034,37.659106]}
-{"chestnut avenue+3rd lane":[-122.43034,37.659106]}
+{"chestnut avenue+third lane":[-122.43034,37.659106]}
+{"third lane+chestnut avenue":[-122.43034,37.659106]}
 {"chestnut avenue+commercial avenue":[-122.430843,37.657668]}
 {"commercial avenue+chestnut avenue":[-122.430843,37.657668]}
-{"2nd lane+chestnut avenue":[-122.430675,37.658149]}
-{"chestnut avenue+2nd lane":[-122.430675,37.658149]}
+{"chestnut avenue+second lane":[-122.430675,37.658149]}
+{"second lane+chestnut avenue":[-122.430675,37.658149]}
 {"baden avenue+chestnut avenue":[-122.43051,37.65862]}
 {"chestnut avenue+baden avenue":[-122.43051,37.65862]}
 {"treeside court+woodside court":[-122.428915,37.661282]}
 {"woodside court+treeside court":[-122.428915,37.661282]}
 {"baden avenue+laurel avenue":[-122.428937,37.658272]}
 {"laurel avenue+baden avenue":[-122.428937,37.658272]}
-{"3rd lane+laurel avenue":[-122.428768,37.658755]}
-{"laurel avenue+3rd lane":[-122.428768,37.658755]}
+{"laurel avenue+third lane":[-122.428768,37.658755]}
+{"third lane+laurel avenue":[-122.428768,37.658755]}
 {"grand avenue+laurel avenue":[-122.428596,37.659248]}
 {"laurel avenue+grand avenue":[-122.428596,37.659248]}
-{"4th lane+laurel avenue":[-122.428419,37.659754]}
-{"laurel avenue+4th lane":[-122.428419,37.659754]}
+{"forth lane+laurel avenue":[-122.428419,37.659754]}
+{"laurel avenue+forth lane":[-122.428419,37.659754]}
 {"laurel avenue+miller avenue":[-122.428249,37.66023]}
 {"miller avenue+laurel avenue":[-122.428249,37.66023]}
 {"laurel avenue+tamarack lane":[-122.42808,37.660722]}
@@ -966,16 +966,16 @@
 {"eucalyptus avenue+circle court":[-122.42756,37.65626]}
 {"commercial avenue+eucalyptus avenue":[-122.427278,37.656879]}
 {"eucalyptus avenue+commercial avenue":[-122.427278,37.656879]}
-{"2nd lane+eucalyptus avenue":[-122.427109,37.657359]}
-{"eucalyptus avenue+2nd lane":[-122.427109,37.657359]}
+{"eucalyptus avenue+second lane":[-122.427109,37.657359]}
+{"second lane+eucalyptus avenue":[-122.427109,37.657359]}
 {"baden avenue+eucalyptus avenue":[-122.426944,37.657833]}
 {"eucalyptus avenue+baden avenue":[-122.426944,37.657833]}
-{"3rd lane+eucalyptus avenue":[-122.426777,37.65831]}
-{"eucalyptus avenue+3rd lane":[-122.426777,37.65831]}
+{"eucalyptus avenue+third lane":[-122.426777,37.65831]}
+{"third lane+eucalyptus avenue":[-122.426777,37.65831]}
 {"eucalyptus avenue+grand avenue":[-122.426602,37.658809]}
 {"grand avenue+eucalyptus avenue":[-122.426602,37.658809]}
-{"4th lane+eucalyptus avenue":[-122.426425,37.659315]}
-{"eucalyptus avenue+4th lane":[-122.426425,37.659315]}
+{"eucalyptus avenue+forth lane":[-122.426425,37.659315]}
+{"forth lane+eucalyptus avenue":[-122.426425,37.659315]}
 {"eucalyptus avenue+miller avenue":[-122.426256,37.659789]}
 {"miller avenue+eucalyptus avenue":[-122.426256,37.659789]}
 {"eucalyptus avenue+tamarack lane":[-122.426088,37.66028]}
@@ -994,16 +994,16 @@
 {"mountain road+carnelian road":[-122.423011,37.665049]}
 {"cottonwood avenue+orange avenue":[-122.421491,37.660379]}
 {"orange avenue+cottonwood avenue":[-122.421491,37.660379]}
-{"3rd lane+orange avenue":[-122.423244,37.657527]}
-{"orange avenue+3rd lane":[-122.423244,37.657527]}
-{"3rd lane+acacia avenue":[-122.42501,37.657926]}
-{"acacia avenue+3rd lane":[-122.42501,37.657926]}
+{"orange avenue+third lane":[-122.423244,37.657527]}
+{"third lane+orange avenue":[-122.423244,37.657527]}
+{"acacia avenue+third lane":[-122.42501,37.657926]}
+{"third lane+acacia avenue":[-122.42501,37.657926]}
 {"acacia avenue+baden avenue":[-122.425181,37.657443]}
 {"baden avenue+acacia avenue":[-122.425181,37.657443]}
 {"acacia avenue+grand avenue":[-122.424837,37.658421]}
 {"grand avenue+acacia avenue":[-122.424837,37.658421]}
-{"4th lane+acacia avenue":[-122.424689,37.658932]}
-{"acacia avenue+4th lane":[-122.424689,37.658932]}
+{"acacia avenue+forth lane":[-122.424689,37.658932]}
+{"forth lane+acacia avenue":[-122.424689,37.658932]}
 {"acacia avenue+miller avenue":[-122.42458,37.659418]}
 {"miller avenue+acacia avenue":[-122.42458,37.659418]}
 {"acacia avenue+tamarack lane":[-122.424411,37.659903]}
@@ -1038,14 +1038,14 @@
 {"magnolia avenue+grand avenue":[-122.419545,37.657256]}
 {"grand avenue+locust avenue":[-122.421713,37.657733]}
 {"locust avenue+grand avenue":[-122.421713,37.657733]}
-{"4th lane+orange avenue":[-122.422907,37.65854]}
-{"orange avenue+4th lane":[-122.422907,37.65854]}
-{"4th lane+locust avenue":[-122.421536,37.658238]}
-{"locust avenue+4th lane":[-122.421536,37.658238]}
-{"4th lane+magnolia avenue":[-122.419368,37.65776]}
-{"magnolia avenue+4th lane":[-122.419368,37.65776]}
-{"4th lane+spruce avenue":[-122.415837,37.656982]}
-{"spruce avenue+4th lane":[-122.415837,37.656982]}
+{"forth lane+orange avenue":[-122.422907,37.65854]}
+{"orange avenue+forth lane":[-122.422907,37.65854]}
+{"forth lane+locust avenue":[-122.421536,37.658238]}
+{"locust avenue+forth lane":[-122.421536,37.658238]}
+{"forth lane+magnolia avenue":[-122.419368,37.65776]}
+{"magnolia avenue+forth lane":[-122.419368,37.65776]}
+{"forth lane+spruce avenue":[-122.415837,37.656982]}
+{"spruce avenue+forth lane":[-122.415837,37.656982]}
 {"orange avenue+tamarack lane":[-122.42243,37.659474]}
 {"tamarack lane+orange avenue":[-122.42243,37.659474]}
 {"orange avenue+park way":[-122.420984,37.661778]}
@@ -1056,10 +1056,10 @@
 {"tennis drive+eucalyptus avenue":[-122.427723,37.655736]}
 {"orange avenue+tennis drive":[-122.424203,37.654993]}
 {"tennis drive+orange avenue":[-122.424203,37.654993]}
-{"2nd street+b street":[-122.429924,37.652581]}
-{"b street+2nd street":[-122.429924,37.652581]}
-{"2nd street+a street":[-122.430725,37.652265]}
-{"a street+2nd street":[-122.430725,37.652265]}
+{"b street+second street":[-122.429924,37.652581]}
+{"second street+b street":[-122.429924,37.652581]}
+{"a street+second street":[-122.430725,37.652265]}
+{"second street+a street":[-122.430725,37.652265]}
 {"a street+west orange avenue":[-122.429704,37.65063]}
 {"west orange avenue+a street":[-122.429704,37.65063]}
 {"ca 82+west orange avenue":[-122.430674,37.650222]}
@@ -1084,12 +1084,12 @@
 {"orange avenue+railroad avenue":[-122.424046,37.655214]}
 {"railroad avenue+circle court":[-122.424046,37.655214]}
 {"railroad avenue+orange avenue":[-122.424046,37.655214]}
-{"1st lane+orange avenue":[-122.423894,37.655643]}
-{"orange avenue+1st lane":[-122.423894,37.655643]}
+{"first lane+orange avenue":[-122.423894,37.655643]}
+{"orange avenue+first lane":[-122.423894,37.655643]}
 {"commercial avenue+orange avenue":[-122.423739,37.656096]}
 {"orange avenue+commercial avenue":[-122.423739,37.656096]}
-{"2nd lane+orange avenue":[-122.423578,37.656578]}
-{"orange avenue+2nd lane":[-122.423578,37.656578]}
+{"orange avenue+second lane":[-122.423578,37.656578]}
+{"second lane+orange avenue":[-122.423578,37.656578]}
 {"baden avenue+orange avenue":[-122.423418,37.657054]}
 {"orange avenue+baden avenue":[-122.423418,37.657054]}
 {"north canal street+orange avenue":[-122.425645,37.653407]}
@@ -1202,14 +1202,14 @@
 {"park way+magnolia avenue":[-122.417851,37.661282]}
 {"magnolia avenue+railroad avenue":[-122.420529,37.65444]}
 {"railroad avenue+magnolia avenue":[-122.420529,37.65444]}
-{"1st lane+magnolia avenue":[-122.420382,37.654863]}
-{"magnolia avenue+1st lane":[-122.420382,37.654863]}
-{"2nd lane+magnolia avenue":[-122.420055,37.655797]}
-{"magnolia avenue+2nd lane":[-122.420055,37.655797]}
+{"first lane+magnolia avenue":[-122.420382,37.654863]}
+{"magnolia avenue+first lane":[-122.420382,37.654863]}
+{"magnolia avenue+second lane":[-122.420055,37.655797]}
+{"second lane+magnolia avenue":[-122.420055,37.655797]}
 {"baden avenue+magnolia avenue":[-122.419888,37.656275]}
 {"magnolia avenue+baden avenue":[-122.419888,37.656275]}
-{"3rd lane+magnolia avenue":[-122.419724,37.656744]}
-{"magnolia avenue+3rd lane":[-122.419724,37.656744]}
+{"magnolia avenue+third lane":[-122.419724,37.656744]}
+{"third lane+magnolia avenue":[-122.419724,37.656744]}
 {"magnolia avenue+tamarack lane":[-122.419032,37.658722]}
 {"tamarack lane+magnolia avenue":[-122.419032,37.658722]}
 {"cypress avenue+tamarack lane":[-122.407853,37.656255]}
@@ -1294,8 +1294,8 @@
 {"olive avenue+hawthorne place":[-122.409105,37.662764]}
 {"maple avenue+miller avenue":[-122.41214,37.656667]}
 {"miller avenue+maple avenue":[-122.41214,37.656667]}
-{"6th lane+maple avenue":[-122.411637,37.658101]}
-{"maple avenue+6th lane":[-122.411637,37.658101]}
+{"maple avenue+sixth lane":[-122.411637,37.658101]}
+{"sixth lane+maple avenue":[-122.411637,37.658101]}
 {"airport boulevard+baden avenue":[-122.408354,37.653729]}
 {"baden avenue+airport boulevard":[-122.408354,37.653729]}
 {"baden avenue+cypress avenue":[-122.40907,37.653887]}
@@ -1306,26 +1306,26 @@
 {"maple avenue+baden avenue":[-122.412831,37.654717]}
 {"baden avenue+spruce avenue":[-122.416357,37.655496]}
 {"spruce avenue+baden avenue":[-122.416357,37.655496]}
-{"2nd lane+airport boulevard":[-122.408595,37.65326]}
-{"airport boulevard+2nd lane":[-122.408595,37.65326]}
-{"2nd lane+linden avenue":[-122.410644,37.653717]}
-{"linden avenue+2nd lane":[-122.410644,37.653717]}
-{"2nd lane+maple avenue":[-122.412998,37.654235]}
-{"maple avenue+2nd lane":[-122.412998,37.654235]}
-{"2nd lane+spruce avenue":[-122.416525,37.655016]}
-{"spruce avenue+2nd lane":[-122.416525,37.655016]}
+{"airport boulevard+second lane":[-122.408595,37.65326]}
+{"second lane+airport boulevard":[-122.408595,37.65326]}
+{"linden avenue+second lane":[-122.410644,37.653717]}
+{"second lane+linden avenue":[-122.410644,37.653717]}
+{"maple avenue+second lane":[-122.412998,37.654235]}
+{"second lane+maple avenue":[-122.412998,37.654235]}
+{"second lane+spruce avenue":[-122.416525,37.655016]}
+{"spruce avenue+second lane":[-122.416525,37.655016]}
 {"miller avenue+spruce avenue":[-122.415673,37.65745]}
 {"spruce avenue+miller avenue":[-122.415673,37.65745]}
-{"1st lane+linden avenue":[-122.410971,37.652765]}
-{"1st lane+village way":[-122.410971,37.652765]}
-{"linden avenue+1st lane":[-122.410971,37.652765]}
+{"first lane+linden avenue":[-122.410971,37.652765]}
+{"first lane+village way":[-122.410971,37.652765]}
+{"linden avenue+first lane":[-122.410971,37.652765]}
 {"linden avenue+village way":[-122.410767,37.65336]}
-{"village way+1st lane":[-122.410971,37.652765]}
+{"village way+first lane":[-122.410971,37.652765]}
 {"village way+linden avenue":[-122.410767,37.65336]}
-{"1st lane+maple avenue":[-122.41333,37.653318]}
-{"maple avenue+1st lane":[-122.41333,37.653318]}
-{"1st lane+spruce avenue":[-122.41685,37.654084]}
-{"spruce avenue+1st lane":[-122.41685,37.654084]}
+{"first lane+maple avenue":[-122.41333,37.653318]}
+{"maple avenue+first lane":[-122.41333,37.653318]}
+{"first lane+spruce avenue":[-122.41685,37.654084]}
+{"spruce avenue+first lane":[-122.41685,37.654084]}
 {"linden avenue+railroad avenue":[-122.411115,37.652365]}
 {"linden avenue+south linden avenue":[-122.411115,37.652365]}
 {"railroad avenue+linden avenue":[-122.411115,37.652365]}
@@ -1340,8 +1340,8 @@
 {"south spruce avenue+spruce avenue":[-122.417002,37.653652]}
 {"spruce avenue+railroad avenue":[-122.417002,37.653652]}
 {"spruce avenue+south spruce avenue":[-122.417002,37.653652]}
-{"3rd lane+spruce avenue":[-122.416192,37.655966]}
-{"spruce avenue+3rd lane":[-122.416192,37.655966]}
+{"spruce avenue+third lane":[-122.416192,37.655966]}
+{"third lane+spruce avenue":[-122.416192,37.655966]}
 {"north canal street+south linden avenue":[-122.411802,37.650396]}
 {"south linden avenue+north canal street":[-122.411802,37.650396]}
 {"north canal street+south spruce avenue":[-122.417713,37.651607]}
@@ -1354,10 +1354,10 @@
 {"starlite street+south canal street":[-122.416211,37.650938]}
 {"grand avenue+walnut avenue":[-122.414293,37.656099]}
 {"walnut avenue+grand avenue":[-122.414293,37.656099]}
-{"3rd lane+linden avenue":[-122.410309,37.654669]}
-{"linden avenue+3rd lane":[-122.410309,37.654669]}
-{"3rd lane+maple avenue":[-122.412667,37.655187]}
-{"maple avenue+3rd lane":[-122.412667,37.655187]}
+{"linden avenue+third lane":[-122.410309,37.654669]}
+{"third lane+linden avenue":[-122.410309,37.654669]}
+{"maple avenue+third lane":[-122.412667,37.655187]}
+{"third lane+maple avenue":[-122.412667,37.655187]}
 {"grand avenue+maple avenue":[-122.412479,37.6557]}
 {"maple avenue+grand avenue":[-122.412479,37.6557]}
 {"airport boulevard+lux avenue":[-122.406922,37.656541]}
@@ -1366,18 +1366,18 @@
 {"lux avenue+cypress avenue":[-122.407626,37.656698]}
 {"linden avenue+lux avenue":[-122.409457,37.6571]}
 {"lux avenue+linden avenue":[-122.409457,37.6571]}
-{"4th lane+maple avenue":[-122.412306,37.656191]}
-{"maple avenue+4th lane":[-122.412306,37.656191]}
+{"forth lane+maple avenue":[-122.412306,37.656191]}
+{"maple avenue+forth lane":[-122.412306,37.656191]}
 {"airport boulevard+miller avenue":[-122.407283,37.655594]}
 {"miller avenue+airport boulevard":[-122.407283,37.655594]}
 {"cypress avenue+miller avenue":[-122.408097,37.655773]}
 {"miller avenue+cypress avenue":[-122.408097,37.655773]}
 {"linden avenue+miller avenue":[-122.409783,37.656158]}
 {"miller avenue+linden avenue":[-122.409783,37.656158]}
-{"4th lane+cypress avenue":[-122.40833,37.655327]}
-{"cypress avenue+4th lane":[-122.40833,37.655327]}
-{"4th lane+linden avenue":[-122.409949,37.655679]}
-{"linden avenue+4th lane":[-122.409949,37.655679]}
+{"cypress avenue+forth lane":[-122.40833,37.655327]}
+{"forth lane+cypress avenue":[-122.40833,37.655327]}
+{"forth lane+linden avenue":[-122.409949,37.655679]}
+{"linden avenue+forth lane":[-122.409949,37.655679]}
 {"grand avenue+linden avenue":[-122.410124,37.655181]}
 {"linden avenue+grand avenue":[-122.410124,37.655181]}
 {"south canal street+south linden avenue":[-122.411935,37.650006]}
@@ -1546,22 +1546,22 @@
 {"pine avenue+cypress avenue":[-122.406678,37.658542]}
 {"linden avenue+pine avenue":[-122.408788,37.659013]}
 {"pine avenue+linden avenue":[-122.408788,37.659013]}
-{"6th lane+linden avenue":[-122.409288,37.657582]}
-{"linden avenue+6th lane":[-122.409288,37.657582]}
+{"linden avenue+sixth lane":[-122.409288,37.657582]}
+{"sixth lane+linden avenue":[-122.409288,37.657582]}
 {"california avenue+linden avenue":[-122.409122,37.658056]}
 {"linden avenue+california avenue":[-122.409122,37.658056]}
-{"7th lane+linden avenue":[-122.408955,37.658535]}
-{"linden avenue+7th lane":[-122.408955,37.658535]}
-{"8th lane+linden avenue":[-122.40862,37.659492]}
-{"linden avenue+8th lane":[-122.40862,37.659492]}
+{"linden avenue+seventh lane":[-122.408955,37.658535]}
+{"seventh lane+linden avenue":[-122.408955,37.658535]}
+{"eighth lane+linden avenue":[-122.40862,37.659492]}
+{"linden avenue+eighth lane":[-122.40862,37.659492]}
 {"airport boulevard+california avenue":[-122.406343,37.657444]}
 {"california avenue+airport boulevard":[-122.406343,37.657444]}
 {"california avenue+cypress avenue":[-122.40715,37.657624]}
 {"cypress avenue+california avenue":[-122.40715,37.657624]}
-{"8th lane+cypress avenue":[-122.406447,37.658991]}
-{"cypress avenue+8th lane":[-122.406447,37.658991]}
-{"7th lane+cypress avenue":[-122.406913,37.658085]}
-{"cypress avenue+7th lane":[-122.406913,37.658085]}
+{"cypress avenue+eighth lane":[-122.406447,37.658991]}
+{"eighth lane+cypress avenue":[-122.406447,37.658991]}
+{"cypress avenue+seventh lane":[-122.406913,37.658085]}
+{"seventh lane+cypress avenue":[-122.406913,37.658085]}
 {"armour avenue+cypress avenue":[-122.405668,37.660509]}
 {"cypress avenue+armour avenue":[-122.405668,37.660509]}
 {"airport boulevard+armour avenue":[-122.404834,37.660076]}
@@ -1604,10 +1604,10 @@
 {"executive drive+east grand avenue":[-122.405785,37.654683]}
 {"corporate drive+executive drive":[-122.402355,37.65824]}
 {"executive drive+corporate drive":[-122.402355,37.65824]}
-{"6th lane+cypress avenue":[-122.407382,37.657172]}
-{"cypress avenue+6th lane":[-122.407382,37.657172]}
-{"3rd lane+cypress avenue":[-122.408839,37.654337]}
-{"cypress avenue+3rd lane":[-122.408839,37.654337]}
+{"cypress avenue+sixth lane":[-122.407382,37.657172]}
+{"sixth lane+cypress avenue":[-122.407382,37.657172]}
+{"cypress avenue+third lane":[-122.408839,37.654337]}
+{"third lane+cypress avenue":[-122.408839,37.654337]}
 {"cypress avenue+grand avenue":[-122.408579,37.654843]}
 {"grand avenue+cypress avenue":[-122.408579,37.654843]}
 {"airport boulevard+grand avenue":[-122.40786,37.654669]}

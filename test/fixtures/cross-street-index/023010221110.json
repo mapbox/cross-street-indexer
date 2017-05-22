@@ -1436,15 +1436,13 @@
 {"junipero serra freeway+john f foran freeway":[-122.471126,37.704839]}
 {"john daly boulevard+junipero serra boulevard":[-122.470749,37.704977]}
 {"junipero serra boulevard+john daly boulevard":[-122.470749,37.704977]}
-{"ca 1+i 280;ca 1":[-122.471538,37.697584]}
+{"ca 1+i 280":[-122.471783,37.681462]}
 {"ca 1+junipero serra freeway":[-122.471783,37.681462]}
-{"i 280;ca 1+ca 1":[-122.471538,37.697584]}
-{"i 280;ca 1+junipero serra boulevard":[-122.471538,37.697584]}
-{"i 280;ca 1+junipero serra freeway":[-122.471538,37.697584]}
-{"junipero serra boulevard+i 280;ca 1":[-122.471538,37.697584]}
+{"i 280+ca 1":[-122.471783,37.681462]}
+{"i 280+junipero serra boulevard":[-122.471538,37.697584]}
+{"junipero serra boulevard+i 280":[-122.471538,37.697584]}
 {"junipero serra boulevard+junipero serra freeway":[-122.471538,37.697584]}
 {"junipero serra freeway+ca 1":[-122.471783,37.681462]}
-{"junipero serra freeway+i 280;ca 1":[-122.471538,37.697584]}
 {"junipero serra freeway+junipero serra boulevard":[-122.471538,37.697584]}
 {"belle avenue+niantic avenue":[-122.469299,37.708647]}
 {"belle avenue+saint charles avenue":[-122.469299,37.708647]}
@@ -2040,8 +2038,6 @@
 {"sullivan avenue+92nd street":[-122.472243,37.689718]}
 {"91st street+junipero serra boulevard":[-122.470984,37.690416]}
 {"junipero serra boulevard+91st street":[-122.470984,37.690416]}
-{"ca 1+i 280":[-122.471783,37.681462]}
-{"i 280+ca 1":[-122.471783,37.681462]}
 {"92nd street+junipero serra boulevard":[-122.470996,37.689735]}
 {"junipero serra boulevard+92nd street":[-122.470996,37.689735]}
 {"92nd street+briggs street":[-122.471249,37.689731]}
@@ -2228,12 +2224,12 @@
 {"teresa street+hillside boulevard":[-122.461377,37.691053]}
 {"east market street+hillside boulevard":[-122.461169,37.689975]}
 {"hillside boulevard+east market street":[-122.461169,37.689975]}
-{"1st avenue+price street":[-122.464378,37.692956]}
-{"price street+1st avenue":[-122.464378,37.692956]}
-{"2nd avenue+price street":[-122.463469,37.692986]}
-{"price street+2nd avenue":[-122.463469,37.692986]}
-{"3rd avenue+price street":[-122.462567,37.693015]}
-{"price street+3rd avenue":[-122.462567,37.693015]}
+{"first avenue+price street":[-122.464378,37.692956]}
+{"price street+first avenue":[-122.464378,37.692956]}
+{"price street+second avenue":[-122.463469,37.692986]}
+{"second avenue+price street":[-122.463469,37.692986]}
+{"price street+third avenue":[-122.462567,37.693015]}
+{"third avenue+price street":[-122.462567,37.693015]}
 {"price street+wyandotte avenue":[-122.460002,37.693098]}
 {"wyandotte avenue+price street":[-122.460002,37.693098]}
 {"lausanne avenue+price street":[-122.459108,37.693128]}
@@ -2274,32 +2270,32 @@
 {"orange court+blossom court":[-122.457276,37.692334]}
 {"east market street+guadalupe canyon parkway":[-122.456381,37.69252]}
 {"guadalupe canyon parkway+east market street":[-122.456381,37.69252]}
-{"2nd avenue+castle street":[-122.463425,37.69172]}
-{"castle street+2nd avenue":[-122.463425,37.69172]}
-{"2nd avenue+east market street":[-122.463151,37.68974]}
-{"east market street+2nd avenue":[-122.463151,37.68974]}
-{"1st avenue+castle street":[-122.464328,37.691692]}
-{"castle street+1st avenue":[-122.464328,37.691692]}
-{"3rd avenue+castle street":[-122.462511,37.691749]}
-{"castle street+3rd avenue":[-122.462511,37.691749]}
+{"castle street+second avenue":[-122.463425,37.69172]}
+{"second avenue+castle street":[-122.463425,37.69172]}
+{"east market street+second avenue":[-122.463151,37.68974]}
+{"second avenue+east market street":[-122.463151,37.68974]}
+{"castle street+first avenue":[-122.464328,37.691692]}
+{"first avenue+castle street":[-122.464328,37.691692]}
+{"castle street+third avenue":[-122.462511,37.691749]}
+{"third avenue+castle street":[-122.462511,37.691749]}
 {"castle street+wyandotte avenue":[-122.459911,37.691822]}
 {"wyandotte avenue+castle street":[-122.459911,37.691822]}
-{"3rd avenue+east market street":[-122.462117,37.689751]}
-{"east market street+3rd avenue":[-122.462117,37.689751]}
-{"1st avenue+east market street":[-122.464227,37.689741]}
-{"east market street+1st avenue":[-122.464227,37.689741]}
-{"1st avenue+valley street":[-122.464186,37.687864]}
-{"valley street+1st avenue":[-122.464186,37.687864]}
+{"east market street+third avenue":[-122.462117,37.689751]}
+{"third avenue+east market street":[-122.462117,37.689751]}
+{"east market street+first avenue":[-122.464227,37.689741]}
+{"first avenue+east market street":[-122.464227,37.689741]}
+{"first avenue+valley street":[-122.464186,37.687864]}
+{"valley street+first avenue":[-122.464186,37.687864]}
 {"teresa street+wyandotte avenue":[-122.459908,37.691109]}
 {"wyandotte avenue+teresa street":[-122.459908,37.691109]}
 {"east market street+wyandotte avenue":[-122.459886,37.690547]}
 {"wyandotte avenue+east market street":[-122.459886,37.690547]}
 {"hillside boulevard+lisbon street":[-122.461035,37.689326]}
 {"lisbon street+hillside boulevard":[-122.461035,37.689326]}
-{"3rd avenue+cobblestone court":[-122.462101,37.689175]}
-{"cobblestone court+3rd avenue":[-122.462101,37.689175]}
-{"3rd avenue+craig court":[-122.462092,37.688672]}
-{"craig court+3rd avenue":[-122.462092,37.688672]}
+{"cobblestone court+third avenue":[-122.462101,37.689175]}
+{"third avenue+cobblestone court":[-122.462101,37.689175]}
+{"craig court+third avenue":[-122.462092,37.688672]}
+{"third avenue+craig court":[-122.462092,37.688672]}
 {"craig court+estelle lane":[-122.461251,37.688808]}
 {"estelle lane+craig court":[-122.461251,37.688808]}
 {"estelle lane+valley street":[-122.461091,37.688313]}
@@ -2310,10 +2306,10 @@
 {"lisbon street+byrne street":[-122.459706,37.688767]}
 {"abbot avenue+byrne street":[-122.459191,37.689311]}
 {"byrne street+abbot avenue":[-122.459191,37.689311]}
-{"2nd avenue+a street":[-122.463139,37.686091]}
-{"a street+2nd avenue":[-122.463139,37.686091]}
-{"3rd avenue+a street":[-122.462101,37.686091]}
-{"a street+3rd avenue":[-122.462101,37.686091]}
+{"a street+second avenue":[-122.463139,37.686091]}
+{"second avenue+a street":[-122.463139,37.686091]}
+{"a street+third avenue":[-122.462101,37.686091]}
+{"third avenue+a street":[-122.462101,37.686091]}
 {"a street+clark avenue":[-122.460805,37.686091]}
 {"clark avenue+a street":[-122.460805,37.686091]}
 {"a street+chester street":[-122.45973,37.6862]}
@@ -2328,10 +2324,10 @@
 {"linden street+a street":[-122.45973,37.6862]}
 {"linden street+chester street":[-122.45973,37.6862]}
 {"linden street+hillside boulevard":[-122.45973,37.6862]}
-{"2nd avenue+valley street":[-122.463139,37.687871]}
-{"valley street+2nd avenue":[-122.463139,37.687871]}
-{"3rd avenue+valley street":[-122.462068,37.687883]}
-{"valley street+3rd avenue":[-122.462068,37.687883]}
+{"second avenue+valley street":[-122.463139,37.687871]}
+{"valley street+second avenue":[-122.463139,37.687871]}
+{"third avenue+valley street":[-122.462068,37.687883]}
+{"valley street+third avenue":[-122.462068,37.687883]}
 {"deanne lane+valley street":[-122.461594,37.688068]}
 {"valley street+deanne lane":[-122.461594,37.688068]}
 {"hillside boulevard+sylvan street":[-122.460726,37.688379]}
@@ -3852,28 +3848,28 @@
 {"chestnut avenue+antoinette lane":[-122.43359,37.655648]}
 {"chestnut avenue+south san francisco centennial way":[-122.433424,37.65556]}
 {"south san francisco centennial way+chestnut avenue":[-122.433424,37.65556]}
-{"1st street+ca 82":[-122.43242,37.652997]}
-{"1st street+el camino real":[-122.43242,37.652997]}
-{"ca 82+1st street":[-122.43242,37.652997]}
-{"el camino real+1st street":[-122.43242,37.652997]}
+{"ca 82+first street":[-122.43242,37.652997]}
+{"el camino real+first street":[-122.43242,37.652997]}
+{"first street+ca 82":[-122.43242,37.652997]}
+{"first street+el camino real":[-122.43242,37.652997]}
 {"hillcrest court+west orange avenue":[-122.43552,37.651406]}
 {"west orange avenue+hillcrest court":[-122.43552,37.651406]}
 {"southwood drive+west orange avenue":[-122.434998,37.650807]}
 {"west orange avenue+southwood drive":[-122.434998,37.650807]}
 {"hill avenue+southwood drive":[-122.434988,37.649659]}
 {"southwood drive+hill avenue":[-122.434988,37.649659]}
-{"1st street+southwood drive":[-122.43242,37.652997]}
 {"ca 82+southwood drive":[-122.43242,37.652997]}
 {"el camino real+southwood drive":[-122.43242,37.652997]}
-{"southwood drive+1st street":[-122.43242,37.652997]}
+{"first street+southwood drive":[-122.43242,37.652997]}
 {"southwood drive+ca 82":[-122.43242,37.652997]}
 {"southwood drive+el camino real":[-122.43242,37.652997]}
+{"southwood drive+first street":[-122.43242,37.652997]}
 {"fairway drive+southwood drive":[-122.433721,37.652141]}
 {"southwood drive+fairway drive":[-122.433721,37.652141]}
-{"2nd street+ca 82":[-122.431713,37.651875]}
-{"2nd street+el camino real":[-122.431713,37.651875]}
-{"ca 82+2nd street":[-122.431713,37.651875]}
-{"el camino real+2nd street":[-122.431713,37.651875]}
+{"ca 82+second street":[-122.431713,37.651875]}
+{"el camino real+second street":[-122.431713,37.651875]}
+{"second street+ca 82":[-122.431713,37.651875]}
+{"second street+el camino real":[-122.431713,37.651875]}
 {"fairway drive+west orange avenue":[-122.431943,37.649478]}
 {"west orange avenue+fairway drive":[-122.431943,37.649478]}
 {"fairway drive+knoll circle":[-122.432162,37.650857]}

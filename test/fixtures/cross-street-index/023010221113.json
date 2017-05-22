@@ -596,8 +596,8 @@
 {"san bruno avenue west+san mateo avenue":[-122.411378,37.630751]}
 {"san mateo avenue+san bruno avenue east":[-122.411378,37.630751]}
 {"san mateo avenue+san bruno avenue west":[-122.411378,37.630751]}
-{"2nd avenue+san bruno avenue east":[-122.41037,37.630851]}
-{"san bruno avenue east+2nd avenue":[-122.41037,37.630851]}
+{"san bruno avenue east+second avenue":[-122.41037,37.630851]}
+{"second avenue+san bruno avenue east":[-122.41037,37.630851]}
 {"ca 82+sylvan avenue":[-122.413116,37.623692]}
 {"el camino real+sylvan avenue":[-122.413116,37.623692]}
 {"sylvan avenue+ca 82":[-122.413116,37.623692]}
@@ -814,22 +814,22 @@
 {"south airport boulevard+belle aire road":[-122.402374,37.640929]}
 {"beacon street+south airport boulevard":[-122.401709,37.63981]}
 {"south airport boulevard+beacon street":[-122.401709,37.63981]}
-{"7th avenue+shaw road":[-122.406093,37.635302]}
-{"shaw road+7th avenue":[-122.406093,37.635302]}
-{"2nd avenue+walnut street":[-122.410388,37.632659]}
-{"walnut street+2nd avenue":[-122.410388,37.632659]}
-{"3rd avenue+walnut street":[-122.409505,37.632673]}
-{"walnut street+3rd avenue":[-122.409505,37.632673]}
-{"4th avenue+walnut street":[-122.408611,37.632683]}
-{"walnut street+4th avenue":[-122.408611,37.632683]}
-{"5th avenue+walnut street":[-122.407693,37.632696]}
-{"walnut street+5th avenue":[-122.407693,37.632696]}
-{"6th avenue+walnut street":[-122.406809,37.632708]}
-{"walnut street+6th avenue":[-122.406809,37.632708]}
-{"7th avenue+walnut street":[-122.405719,37.63275]}
-{"walnut street+7th avenue":[-122.405719,37.63275]}
-{"7th avenue+east san bruno avenue":[-122.405488,37.630949]}
-{"east san bruno avenue+7th avenue":[-122.405488,37.630949]}
+{"seventh avenue+shaw road":[-122.406093,37.635302]}
+{"shaw road+seventh avenue":[-122.406093,37.635302]}
+{"second avenue+walnut street":[-122.410388,37.632659]}
+{"walnut street+second avenue":[-122.410388,37.632659]}
+{"third avenue+walnut street":[-122.409505,37.632673]}
+{"walnut street+third avenue":[-122.409505,37.632673]}
+{"forth avenue+walnut street":[-122.408611,37.632683]}
+{"walnut street+forth avenue":[-122.408611,37.632683]}
+{"fifth avenue+walnut street":[-122.407693,37.632696]}
+{"walnut street+fifth avenue":[-122.407693,37.632696]}
+{"sixth avenue+walnut street":[-122.406809,37.632708]}
+{"walnut street+sixth avenue":[-122.406809,37.632708]}
+{"seventh avenue+walnut street":[-122.405719,37.63275]}
+{"walnut street+seventh avenue":[-122.405719,37.63275]}
+{"east san bruno avenue+seventh avenue":[-122.405472,37.630864]}
+{"seventh avenue+east san bruno avenue":[-122.405472,37.630864]}
 {"north access road+south airport boulevard":[-122.400792,37.638611]}
 {"south airport boulevard+north access road":[-122.400792,37.638611]}
 {"colma creek service road+littlefield avenue":[-122.397333,37.644422]}
@@ -848,56 +848,52 @@
 {"north field road+north access road":[-122.390814,37.638827]}
 {"clearwater drive+north access road":[-122.385935,37.63635]}
 {"north access road+clearwater drive":[-122.385935,37.63635]}
-{"east san bruno avenue+san bruno avenue e; east san bruno avenue":[-122.403789,37.630928]}
-{"east san bruno avenue+san bruno avenue east":[-122.405809,37.630901]}
-{"san bruno avenue e; east san bruno avenue+east san bruno avenue":[-122.403789,37.630928]}
-{"san bruno avenue e; east san bruno avenue+san bruno avenue east":[-122.405809,37.630901]}
-{"san bruno avenue east+east san bruno avenue":[-122.405809,37.630901]}
-{"san bruno avenue east+san bruno avenue e; east san bruno avenue":[-122.405809,37.630901]}
-{"6th avenue+san bruno avenue east":[-122.406758,37.630891]}
-{"san bruno avenue east+6th avenue":[-122.406758,37.630891]}
-{"5th avenue+san bruno avenue east":[-122.407662,37.630881]}
-{"san bruno avenue east+5th avenue":[-122.407662,37.630881]}
-{"4th avenue+san bruno avenue east":[-122.408555,37.630871]}
-{"san bruno avenue east+4th avenue":[-122.408555,37.630871]}
-{"3rd avenue+san bruno avenue east":[-122.409465,37.630861]}
-{"san bruno avenue east+3rd avenue":[-122.409465,37.630861]}
-{"2nd avenue+angus avenue east":[-122.408296,37.626662]}
-{"angus avenue east+2nd avenue":[-122.408296,37.626662]}
-{"2nd avenue+pine street":[-122.409244,37.628285]}
-{"pine street+2nd avenue":[-122.409244,37.628285]}
-{"3rd avenue+angus avenue east":[-122.407512,37.626949]}
-{"angus avenue east+3rd avenue":[-122.407512,37.626949]}
-{"3rd avenue+pine street":[-122.408435,37.628581]}
-{"pine street+3rd avenue":[-122.408435,37.628581]}
-{"7th avenue+pine street":[-122.405333,37.629716]}
-{"pine street+7th avenue":[-122.405333,37.629716]}
-{"6th avenue+pine street":[-122.405983,37.629478]}
-{"pine street+6th avenue":[-122.405983,37.629478]}
-{"5th avenue+pine street":[-122.406795,37.629181]}
-{"pine street+5th avenue":[-122.406795,37.629181]}
-{"4th avenue+pine street":[-122.407608,37.628884]}
-{"pine street+4th avenue":[-122.407608,37.628884]}
-{"1st avenue+pine street":[-122.40994,37.62803]}
-{"pine street+1st avenue":[-122.40994,37.62803]}
-{"4th avenue+angus avenue east":[-122.406684,37.627256]}
-{"angus avenue east+4th avenue":[-122.406684,37.627256]}
-{"6th avenue+7th avenue":[-122.405112,37.627827]}
-{"6th avenue+angus avenue east":[-122.405112,37.627827]}
-{"7th avenue+6th avenue":[-122.405112,37.627827]}
-{"7th avenue+angus avenue east":[-122.405112,37.627827]}
-{"angus avenue east+6th avenue":[-122.405112,37.627827]}
-{"angus avenue east+7th avenue":[-122.405112,37.627827]}
-{"5th avenue+6th avenue":[-122.406829,37.63342]}
-{"6th avenue+5th avenue":[-122.406829,37.63342]}
-{"5th avenue+7th avenue":[-122.404855,37.625882]}
-{"7th avenue+5th avenue":[-122.404855,37.625882]}
-{"5th avenue+angus avenue east":[-122.405869,37.62755]}
-{"angus avenue east+5th avenue":[-122.405869,37.62755]}
-{"7th avenue+san bruno avenue e; east san bruno avenue":[-122.405472,37.630864]}
-{"san bruno avenue e; east san bruno avenue+7th avenue":[-122.405472,37.630864]}
-{"1st avenue+angus avenue east":[-122.409,37.626405]}
-{"angus avenue east+1st avenue":[-122.409,37.626405]}
+{"east san bruno avenue+san bruno avenue east":[-122.403789,37.630928]}
+{"san bruno avenue east+east san bruno avenue":[-122.403789,37.630928]}
+{"san bruno avenue east+sixth avenue":[-122.406758,37.630891]}
+{"sixth avenue+san bruno avenue east":[-122.406758,37.630891]}
+{"fifth avenue+san bruno avenue east":[-122.407662,37.630881]}
+{"san bruno avenue east+fifth avenue":[-122.407662,37.630881]}
+{"forth avenue+san bruno avenue east":[-122.408555,37.630871]}
+{"san bruno avenue east+forth avenue":[-122.408555,37.630871]}
+{"san bruno avenue east+third avenue":[-122.409465,37.630861]}
+{"third avenue+san bruno avenue east":[-122.409465,37.630861]}
+{"angus avenue east+second avenue":[-122.408296,37.626662]}
+{"second avenue+angus avenue east":[-122.408296,37.626662]}
+{"pine street+second avenue":[-122.409244,37.628285]}
+{"second avenue+pine street":[-122.409244,37.628285]}
+{"angus avenue east+third avenue":[-122.407512,37.626949]}
+{"third avenue+angus avenue east":[-122.407512,37.626949]}
+{"pine street+third avenue":[-122.408435,37.628581]}
+{"third avenue+pine street":[-122.408435,37.628581]}
+{"pine street+seventh avenue":[-122.405333,37.629716]}
+{"seventh avenue+pine street":[-122.405333,37.629716]}
+{"pine street+sixth avenue":[-122.405983,37.629478]}
+{"sixth avenue+pine street":[-122.405983,37.629478]}
+{"fifth avenue+pine street":[-122.406795,37.629181]}
+{"pine street+fifth avenue":[-122.406795,37.629181]}
+{"forth avenue+pine street":[-122.407608,37.628884]}
+{"pine street+forth avenue":[-122.407608,37.628884]}
+{"first avenue+pine street":[-122.40994,37.62803]}
+{"pine street+first avenue":[-122.40994,37.62803]}
+{"angus avenue east+forth avenue":[-122.406684,37.627256]}
+{"forth avenue+angus avenue east":[-122.406684,37.627256]}
+{"angus avenue east+seventh avenue":[-122.405112,37.627827]}
+{"angus avenue east+sixth avenue":[-122.405112,37.627827]}
+{"seventh avenue+angus avenue east":[-122.405112,37.627827]}
+{"seventh avenue+sixth avenue":[-122.405112,37.627827]}
+{"sixth avenue+angus avenue east":[-122.405112,37.627827]}
+{"sixth avenue+seventh avenue":[-122.405112,37.627827]}
+{"fifth avenue+sixth avenue":[-122.406829,37.63342]}
+{"sixth avenue+fifth avenue":[-122.406829,37.63342]}
+{"fifth avenue+seventh avenue":[-122.404855,37.625882]}
+{"seventh avenue+fifth avenue":[-122.404855,37.625882]}
+{"angus avenue east+fifth avenue":[-122.405869,37.62755]}
+{"fifth avenue+angus avenue east":[-122.405869,37.62755]}
+{"san bruno avenue east+seventh avenue":[-122.405472,37.630864]}
+{"seventh avenue+san bruno avenue east":[-122.405472,37.630864]}
+{"angus avenue east+first avenue":[-122.409,37.626405]}
+{"first avenue+angus avenue east":[-122.409,37.626405]}
 {"florida avenue+milton avenue":[-122.408356,37.622403]}
 {"milton avenue+florida avenue":[-122.408356,37.622403]}
 {"huntington avenue+san antonio avenue":[-122.405225,37.61944]}
@@ -1034,12 +1030,12 @@
 {"quail loop trail+buckeye trail":[-122.421398,37.612134]}
 {"live oak nature trail+quail loop trail":[-122.421392,37.613261]}
 {"quail loop trail+live oak nature trail":[-122.421392,37.613261]}
-{"ca 35+i 280;ca 35":[-122.424855,37.600522]}
+{"ca 35+i 280":[-122.424855,37.600522]}
 {"ca 35+junipero serra freeway":[-122.424855,37.600522]}
-{"i 280;ca 35+ca 35":[-122.424855,37.600522]}
-{"i 280;ca 35+junipero serra freeway":[-122.424855,37.600522]}
+{"i 280+ca 35":[-122.424855,37.600522]}
+{"i 280+junipero serra freeway":[-122.424855,37.600522]}
 {"junipero serra freeway+ca 35":[-122.424855,37.600522]}
-{"junipero serra freeway+i 280;ca 35":[-122.424855,37.600522]}
+{"junipero serra freeway+i 280":[-122.424855,37.600522]}
 {"helen drive+oak cove trail":[-122.422534,37.604658]}
 {"oak cove trail+helen drive":[-122.422534,37.604658]}
 {"lomita avenue+terrace drive":[-122.420173,37.60811]}

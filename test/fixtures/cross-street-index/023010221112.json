@@ -62,24 +62,24 @@
 {"west avalon drive+palmetto avenue":[-122.491673,37.647267]}
 {"palmetto avenue+sharon way":[-122.492594,37.64263]}
 {"sharon way+palmetto avenue":[-122.492594,37.64263]}
-{"4th avenue+5th avenue":[-122.493647,37.641918]}
-{"5th avenue+4th avenue":[-122.493647,37.641918]}
-{"4th avenue+dahlberg drive":[-122.493887,37.640301]}
-{"dahlberg drive+4th avenue":[-122.493887,37.640301]}
-{"4th avenue+6th avenue":[-122.493811,37.639946]}
-{"6th avenue+4th avenue":[-122.493811,37.639946]}
-{"3rd avenue+dahlberg drive":[-122.493494,37.640312]}
-{"dahlberg drive+3rd avenue":[-122.493494,37.640312]}
-{"3rd avenue+5th avenue":[-122.493563,37.641943]}
-{"5th avenue+3rd avenue":[-122.493563,37.641943]}
-{"1st avenue+5th avenue":[-122.492705,37.64197]}
-{"5th avenue+1st avenue":[-122.492705,37.64197]}
-{"2nd avenue+5th avenue":[-122.493151,37.641957]}
-{"5th avenue+2nd avenue":[-122.493151,37.641957]}
-{"2nd avenue+dahlberg drive":[-122.493091,37.640319]}
-{"dahlberg drive+2nd avenue":[-122.493091,37.640319]}
-{"1st avenue+dahlberg drive":[-122.492644,37.640326]}
-{"dahlberg drive+1st avenue":[-122.492644,37.640326]}
+{"fifth avenue+forth avenue":[-122.493647,37.641918]}
+{"forth avenue+fifth avenue":[-122.493647,37.641918]}
+{"dahlberg drive+forth avenue":[-122.493887,37.640301]}
+{"forth avenue+dahlberg drive":[-122.493887,37.640301]}
+{"forth avenue+sixth avenue":[-122.493811,37.639946]}
+{"sixth avenue+forth avenue":[-122.493811,37.639946]}
+{"dahlberg drive+third avenue":[-122.493494,37.640312]}
+{"third avenue+dahlberg drive":[-122.493494,37.640312]}
+{"fifth avenue+third avenue":[-122.493563,37.641943]}
+{"third avenue+fifth avenue":[-122.493563,37.641943]}
+{"fifth avenue+first avenue":[-122.492705,37.64197]}
+{"first avenue+fifth avenue":[-122.492705,37.64197]}
+{"fifth avenue+second avenue":[-122.493151,37.641957]}
+{"second avenue+fifth avenue":[-122.493151,37.641957]}
+{"dahlberg drive+second avenue":[-122.493091,37.640319]}
+{"second avenue+dahlberg drive":[-122.493091,37.640319]}
+{"dahlberg drive+first avenue":[-122.492644,37.640326]}
+{"first avenue+dahlberg drive":[-122.492644,37.640326]}
 {"avalon drive+edgemar avenue":[-122.489809,37.64705]}
 {"edgemar avenue+avalon drive":[-122.489809,37.64705]}
 {"arroyo drive+edgemar avenue":[-122.489912,37.646475]}
@@ -134,8 +134,8 @@
 {"cabrillo highway+ca 1":[-122.494864,37.608899]}
 {"dahlberg drive+palmetto avenue":[-122.492488,37.640326]}
 {"palmetto avenue+dahlberg drive":[-122.492488,37.640326]}
-{"6th avenue+palmetto avenue":[-122.492476,37.639938]}
-{"palmetto avenue+6th avenue":[-122.492476,37.639938]}
+{"palmetto avenue+sixth avenue":[-122.492476,37.639938]}
+{"sixth avenue+palmetto avenue":[-122.492476,37.639938]}
 {"shell street+shoreview avenue":[-122.493837,37.638871]}
 {"shoreview avenue+shell street":[-122.493837,37.638871]}
 {"palmetto avenue+shell street":[-122.492441,37.638874]}
@@ -1974,8 +1974,8 @@
 {"glacier avenue+big bend drive":[-122.462691,37.588714]}
 {"glacier avenue+prairie creek drive":[-122.462541,37.589403]}
 {"prairie creek drive+glacier avenue":[-122.462541,37.589403]}
-{"(private)+sweeney horse trail":[-122.452848,37.591842]}
-{"sweeney horse trail+(private)":[-122.452848,37.591842]}
+{"+sweeney horse trail":[-122.452848,37.591842]}
+{"sweeney horse trail+":[-122.452848,37.591842]}
 {"sweeney horse trail+sweeney ridge trail":[-122.453412,37.599601]}
 {"sweeney ridge trail+sweeney horse trail":[-122.453412,37.599601]}
 {"sweeney meadow trail+sweeney ridge trail":[-122.445862,37.595329]}
