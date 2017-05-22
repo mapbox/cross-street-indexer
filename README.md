@@ -117,9 +117,11 @@ Normalization should follow the following standards:
   - N => north
   - S => south
   - NE => northeast
-- Numbered streets to full word
-  - 9th => ninth
-  - 5th => fifth
+- Numbered street names to Abreviations
+  - first => 1st
+  - third => 3rd
+  - ninth => 9th
+  - fifth => 5th
 - Remove any additional information
   - rodeo avenue trail (dead end ford bikes--no bikes on 101) => rodeo avenue trail
 
