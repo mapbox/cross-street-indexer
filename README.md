@@ -141,10 +141,14 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 ## Design Considerations
 
 - [ ] Support NodeJS 4 & 5
+- [ ] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
+- [ ] Add extra hash combination with the removal of street suffix (`rodeo avenue` => [`rodeo avenue`, `rodeo`])
+- [ ] Normalize street suffix as abrevation instead of full name (reduce filesize & easier to normalize matches)
+  - Avenue => ave
+  - Street => st
 - [x] Does not save empty z12 cross street indexes (reduces total number of files).
 - [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
 - [x] Split `name` & `ref` code with `;` into Array of names.
-- [ ] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
 - [x] Search output has `\n` at the end (`-122,37\n` or `-122,37`)
 - [x] Loops create conflicts if cross street is in the same z12 tile.
 - [x] Turning Circles without any names are exclude.
