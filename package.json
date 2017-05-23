@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "pretest": "eslint lib index.js",
+    "pretest": "eslint bin lib models index.js",
     "test": "tap test test.js",
     "bench": "node bench.js"
   },
