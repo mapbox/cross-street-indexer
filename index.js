@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const mkdirp = require('mkdirp');
 const tilebelt = require('tilebelt');
 const tileReduce = require('tile-reduce');
 const {normalize} = require('./lib/normalize');
@@ -20,6 +21,9 @@ function indexer(mbtiles, output, options) {
     options = options || {};
     output = output || 'cross-street-index';
     const debug = options.debug;
+
+    // Create folder if not exists
+    if (!fs.existsSync(output)) mkdirp(output);
 
     Object.assign(options, {
         zoom: 12,

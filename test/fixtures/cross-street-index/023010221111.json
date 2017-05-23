@@ -95,13 +95,9 @@
 {"wilde+delta street":[-122.40746,37.717872]}
 {"wilde avenue+delta":[-122.40746,37.717872]}
 {"mill street+harkness avenue":[-122.406167,37.718266]}
-{"+harkness":[-122.406167,37.718266]}
-{"+harkness avenue":[-122.406167,37.718266]}
 {"mill street+harkness":[-122.406167,37.718266]}
 {"harkness avenue+mill street":[-122.406167,37.718266]}
-{"harkness+":[-122.406167,37.718266]}
 {"harkness+mill street":[-122.406167,37.718266]}
-{"harkness avenue+":[-122.406167,37.718266]}
 {"alder street+harkness avenue":[-122.40538,37.718047]}
 {"alder+harkness":[-122.40538,37.718047]}
 {"alder+harkness avenue":[-122.40538,37.718047]}
@@ -275,15 +271,11 @@
 {"south+chicago way":[-122.431401,37.710678]}
 {"south hill boulevard+chicago":[-122.431401,37.710678]}
 {"hill boulevard+chicago way":[-122.431401,37.710678]}
-{"+chicago":[-122.431401,37.710678]}
-{"+chicago way":[-122.431401,37.710678]}
 {"chicago way+south hill boulevard":[-122.431401,37.710678]}
 {"chicago+south":[-122.431401,37.710678]}
 {"chicago+south hill boulevard":[-122.431401,37.710678]}
 {"chicago way+south":[-122.431401,37.710678]}
 {"chicago way+hill boulevard":[-122.431401,37.710678]}
-{"chicago+":[-122.431401,37.710678]}
-{"chicago way+":[-122.431401,37.710678]}
 {"alta vista way+oakridge drive":[-122.428853,37.704973]}
 {"alta+oakridge":[-122.428853,37.704973]}
 {"alta+oakridge drive":[-122.428853,37.704973]}
@@ -417,15 +409,11 @@
 {"baltimore+south hill boulevard":[-122.430729,37.710203]}
 {"baltimore way+south":[-122.430729,37.710203]}
 {"baltimore way+hill boulevard":[-122.430729,37.710203]}
-{"baltimore+":[-122.430729,37.710203]}
-{"baltimore way+":[-122.430729,37.710203]}
 {"south hill boulevard+baltimore way":[-122.430729,37.710203]}
 {"south+baltimore":[-122.430729,37.710203]}
 {"south+baltimore way":[-122.430729,37.710203]}
 {"south hill boulevard+baltimore":[-122.430729,37.710203]}
 {"hill boulevard+baltimore way":[-122.430729,37.710203]}
-{"+baltimore":[-122.430729,37.710203]}
-{"+baltimore way":[-122.430729,37.710203]}
 {"baltimore way+toyon lane":[-122.431281,37.709653]}
 {"baltimore+toyon":[-122.431281,37.709653]}
 {"baltimore+toyon lane":[-122.431281,37.709653]}
@@ -567,36 +555,21 @@
 {"toyon+south hill boulevard":[-122.430253,37.709518]}
 {"toyon lane+south":[-122.430253,37.709518]}
 {"toyon lane+hill boulevard":[-122.430253,37.709518]}
-{"toyon+":[-122.430253,37.709518]}
-{"toyon lane+":[-122.430253,37.709518]}
 {"south hill boulevard+toyon lane":[-122.430253,37.709518]}
 {"south+toyon":[-122.430253,37.709518]}
 {"south+toyon lane":[-122.430253,37.709518]}
 {"south hill boulevard+toyon":[-122.430253,37.709518]}
 {"hill boulevard+toyon lane":[-122.430253,37.709518]}
-{"+toyon":[-122.430253,37.709518]}
-{"+toyon lane":[-122.430253,37.709518]}
 {"south hill boulevard+canyon drive":[-122.429896,37.708867]}
-{"south+":[-122.411089,37.688306]}
 {"south+canyon drive":[-122.429896,37.708867]}
-{"south hill boulevard+":[-122.429896,37.708867]}
 {"hill boulevard+canyon drive":[-122.429896,37.708867]}
-{"+":[-122.399069,37.678935]}
-{"+canyon drive":[-122.429896,37.708867]}
 {"canyon drive+south hill boulevard":[-122.429896,37.708867]}
-{"+south":[-122.411089,37.688306]}
-{"+south hill boulevard":[-122.429896,37.708867]}
 {"canyon drive+south":[-122.429896,37.708867]}
 {"canyon drive+hill boulevard":[-122.429896,37.708867]}
-{"canyon drive+":[-122.429896,37.708867]}
 {"canyon drive+robinson drive":[-122.429289,37.708871]}
-{"+robinson":[-122.429289,37.708871]}
-{"+robinson drive":[-122.429289,37.708871]}
 {"canyon drive+robinson":[-122.429289,37.708871]}
 {"robinson drive+canyon drive":[-122.429289,37.708871]}
-{"robinson+":[-122.429289,37.708871]}
 {"robinson+canyon drive":[-122.429289,37.708871]}
-{"robinson drive+":[-122.429289,37.708871]}
 {"robinson drive+south robinson drive":[-122.428258,37.708481]}
 {"robinson+south robinson":[-122.428258,37.708481]}
 {"robinson+south robinson drive":[-122.428258,37.708481]}
@@ -666,13 +639,9 @@
 {"saddleback+oak court":[-122.425989,37.707359]}
 {"saddleback drive+oak":[-122.425989,37.707359]}
 {"ridge court+saddleback drive":[-122.4261,37.70937]}
-{"+saddleback":[-122.4261,37.70937]}
-{"+saddleback drive":[-122.4261,37.70937]}
 {"ridge court+saddleback":[-122.4261,37.70937]}
 {"saddleback drive+ridge court":[-122.4261,37.70937]}
-{"saddleback+":[-122.4261,37.70937]}
 {"saddleback+ridge court":[-122.4261,37.70937]}
-{"saddleback drive+":[-122.4261,37.70937]}
 {"birchwood court+saddleback drive":[-122.426016,37.708881]}
 {"birchwood+saddleback":[-122.426016,37.708881]}
 {"birchwood+saddleback drive":[-122.426016,37.708881]}
@@ -1681,22 +1650,17 @@
 {"hill place+hill drive":[-122.422385,37.692281]}
 {"hill place+west hill drive":[-122.422385,37.692281]}
 {"west hill place+hill drive":[-122.422385,37.692281]}
-{"+west hill drive":[-122.420666,37.693304]}
-{"west hill place+":[-122.422385,37.692281]}
 {"west hill place+south hill drive":[-122.422385,37.692281]}
 {"west+south":[-122.422385,37.692281]}
 {"west+south hill drive":[-122.422385,37.692281]}
 {"west hill place+south":[-122.422385,37.692281]}
 {"hill place+south hill drive":[-122.422385,37.692281]}
-{"+south hill drive":[-122.411089,37.688306]}
 {"west hill drive+west hill place":[-122.422385,37.692281]}
 {"west+west hill place":[-122.422385,37.692281]}
 {"west hill drive+west":[-122.420666,37.693304]}
 {"hill drive+hill place":[-122.422385,37.692281]}
 {"hill drive+west hill place":[-122.422385,37.692281]}
 {"west hill drive+hill place":[-122.422385,37.692281]}
-{"+west hill place":[-122.422385,37.692281]}
-{"west hill drive+":[-122.420666,37.693304]}
 {"west hill drive+south hill drive":[-122.422385,37.692281]}
 {"west hill drive+south":[-122.422385,37.692281]}
 {"hill drive+hill drive":[-122.411089,37.688306]}
@@ -1707,7 +1671,6 @@
 {"south+west hill place":[-122.422385,37.692281]}
 {"south hill drive+west":[-122.422385,37.692281]}
 {"south hill drive+hill place":[-122.422385,37.692281]}
-{"south hill drive+":[-122.411089,37.688306]}
 {"south hill drive+west hill drive":[-122.422385,37.692281]}
 {"south+west hill drive":[-122.422385,37.692281]}
 {"hill drive+west hill drive":[-122.422385,37.692281]}
@@ -1725,21 +1688,16 @@
 {"silverspot+west hill drive":[-122.420666,37.693304]}
 {"silverspot drive+west":[-122.420666,37.693304]}
 {"silverspot drive+hill drive":[-122.420666,37.693304]}
-{"silverspot+":[-122.420666,37.693304]}
-{"silverspot drive+":[-122.420666,37.693304]}
 {"west hill drive+silverspot drive":[-122.420666,37.693304]}
 {"west+silverspot":[-122.420666,37.693304]}
 {"west+silverspot drive":[-122.420666,37.693304]}
 {"west hill drive+silverspot":[-122.420666,37.693304]}
 {"hill drive+silverspot drive":[-122.420666,37.693304]}
-{"+silverspot":[-122.420666,37.693304]}
-{"+silverspot drive":[-122.420666,37.693304]}
 {"west hill drive+west hill lane":[-122.420666,37.693304]}
 {"west+west hill lane":[-122.420666,37.693304]}
 {"hill drive+hill lane":[-122.420666,37.693304]}
 {"hill drive+west hill lane":[-122.420666,37.693304]}
 {"west hill drive+hill lane":[-122.420666,37.693304]}
-{"+west hill lane":[-122.420006,37.692009]}
 {"silverspot drive+west hill lane":[-122.420666,37.693304]}
 {"silverspot+west hill lane":[-122.420666,37.693304]}
 {"silverspot drive+hill lane":[-122.420666,37.693304]}
@@ -1748,7 +1706,6 @@
 {"hill lane+hill drive":[-122.420666,37.693304]}
 {"hill lane+west hill drive":[-122.420666,37.693304]}
 {"west hill lane+hill drive":[-122.420666,37.693304]}
-{"west hill lane+":[-122.420006,37.692009]}
 {"west hill lane+silverspot drive":[-122.420666,37.693304]}
 {"west hill lane+silverspot":[-122.420666,37.693304]}
 {"hill lane+silverspot drive":[-122.420666,37.693304]}
@@ -1841,15 +1798,11 @@
 {"blue+swallowtail court":[-122.417523,37.693187]}
 {"mission blue drive+swallowtail":[-122.417523,37.693187]}
 {"west hill lane+valley drive":[-122.420006,37.692009]}
-{"west+":[-122.420006,37.692009]}
 {"west+valley drive":[-122.420006,37.692009]}
 {"hill lane+valley drive":[-122.420006,37.692009]}
-{"+valley drive":[-122.401965,37.687002]}
 {"valley drive+west hill lane":[-122.420006,37.692009]}
-{"+west":[-122.420006,37.692009]}
 {"valley drive+west":[-122.420006,37.692009]}
 {"valley drive+hill lane":[-122.420006,37.692009]}
-{"valley drive+":[-122.401965,37.687002]}
 {"callippe court+swallowtail court":[-122.417523,37.693187]}
 {"callippe+swallowtail":[-122.417523,37.693187]}
 {"callippe+swallowtail court":[-122.417523,37.693187]}
@@ -1867,13 +1820,9 @@
 {"blue+callippe court":[-122.417523,37.693187]}
 {"mission blue drive+callippe":[-122.417523,37.693187]}
 {"crescent court+mission blue drive":[-122.415982,37.692932]}
-{"+blue":[-122.415982,37.692932]}
-{"+mission blue drive":[-122.415982,37.692932]}
 {"crescent court+blue":[-122.415982,37.692932]}
 {"mission blue drive+crescent court":[-122.415982,37.692932]}
-{"blue+":[-122.415982,37.692932]}
 {"blue+crescent court":[-122.415982,37.692932]}
-{"mission blue drive+":[-122.415982,37.692932]}
 {"linda vista drive+jacqueline lane":[-122.414509,37.699199]}
 {"linda+jacqueline":[-122.412937,37.699383]}
 {"linda+jacqueline lane":[-122.414509,37.699199]}
@@ -1970,15 +1919,11 @@
 {"south+quarry road":[-122.41103,37.686561]}
 {"south hill drive+quarry":[-122.41103,37.686561]}
 {"hill drive+quarry road":[-122.41103,37.686561]}
-{"+quarry":[-122.41103,37.686561]}
-{"+quarry road":[-122.41103,37.686561]}
 {"quarry road+south hill drive":[-122.41103,37.686561]}
 {"quarry+south":[-122.41103,37.686561]}
 {"quarry+south hill drive":[-122.41103,37.686561]}
 {"quarry road+south":[-122.41103,37.686561]}
 {"quarry road+hill drive":[-122.41103,37.686561]}
-{"quarry+":[-122.41103,37.686561]}
-{"quarry road+":[-122.41103,37.686561]}
 {"quarry road+inyo street":[-122.412247,37.685549]}
 {"quarry+inyo":[-122.412247,37.685549]}
 {"quarry+inyo street":[-122.412247,37.685549]}
@@ -1992,21 +1937,15 @@
 {"monarch+north hill drive":[-122.41049,37.68964]}
 {"monarch drive+north":[-122.41049,37.68964]}
 {"monarch drive+hill drive":[-122.41049,37.68964]}
-{"monarch+":[-122.41049,37.68964]}
-{"monarch drive+":[-122.41049,37.68964]}
 {"north hill drive+monarch drive":[-122.41049,37.68964]}
 {"north+monarch":[-122.41049,37.68964]}
 {"north+monarch drive":[-122.41049,37.68964]}
 {"north hill drive+monarch":[-122.41049,37.68964]}
 {"hill drive+monarch drive":[-122.41049,37.68964]}
-{"+monarch":[-122.41049,37.68964]}
-{"+monarch drive":[-122.41049,37.68964]}
 {"valley drive+south hill drive":[-122.411089,37.688306]}
 {"valley drive+south":[-122.411089,37.688306]}
 {"valley drive+hill drive":[-122.411089,37.688306]}
 {"valley drive+north hill drive":[-122.411089,37.688306]}
-{"+north":[-122.411089,37.688306]}
-{"+north hill drive":[-122.411089,37.688306]}
 {"valley drive+north":[-122.411089,37.688306]}
 {"south hill drive+valley drive":[-122.411089,37.688306]}
 {"south+valley drive":[-122.411089,37.688306]}
@@ -2017,34 +1956,22 @@
 {"south hill drive+north":[-122.411089,37.688306]}
 {"hill drive+north hill drive":[-122.411089,37.688306]}
 {"north hill drive+valley drive":[-122.411089,37.688306]}
-{"north+":[-122.411089,37.688306]}
 {"north+valley drive":[-122.411089,37.688306]}
-{"north hill drive+":[-122.411089,37.688306]}
 {"north hill drive+south hill drive":[-122.411089,37.688306]}
 {"north+south":[-122.411089,37.688306]}
 {"north+south hill drive":[-122.411089,37.688306]}
 {"north hill drive+south":[-122.411089,37.688306]}
 {"north hill drive+hill drive":[-122.411089,37.688306]}
 {"valley drive+cypress lane":[-122.406912,37.688188]}
-{"+cypress":[-122.406912,37.688188]}
-{"+cypress lane":[-122.406912,37.688188]}
 {"valley drive+cypress":[-122.406912,37.688188]}
 {"cypress lane+valley drive":[-122.406912,37.688188]}
-{"cypress+":[-122.406912,37.688188]}
 {"cypress+valley drive":[-122.406912,37.688188]}
-{"cypress lane+":[-122.406912,37.688188]}
 {"valley drive+park lane":[-122.401965,37.687002]}
-{"+park lane":[-122.401965,37.687002]}
 {"park lane+valley drive":[-122.401965,37.687002]}
-{"park lane+":[-122.401965,37.687002]}
 {"valley drive+bayshore boulevard":[-122.400537,37.687365]}
-{"+bayshore":[-122.398096,37.685457]}
-{"+bayshore boulevard":[-122.398096,37.685457]}
 {"valley drive+bayshore":[-122.400537,37.687365]}
 {"bayshore boulevard+valley drive":[-122.400537,37.687365]}
-{"bayshore+":[-122.398096,37.685457]}
 {"bayshore+valley drive":[-122.400537,37.687365]}
-{"bayshore boulevard+":[-122.398096,37.685457]}
 {"ervine street+wilde avenue":[-122.408265,37.71809]}
 {"ervine+wilde":[-122.408265,37.71809]}
 {"ervine+wilde avenue":[-122.408265,37.71809]}
@@ -2546,12 +2473,8 @@
 {"lois+bayshore boulevard":[-122.399774,37.713854]}
 {"lois lane+bayshore":[-122.399774,37.713854]}
 {"blanken avenue+tunnel avenue":[-122.4008,37.712024]}
-{"blanken+":[-122.4008,37.712024]}
 {"blanken+tunnel avenue":[-122.4008,37.712024]}
-{"blanken avenue+":[-122.4008,37.712024]}
 {"tunnel avenue+blanken avenue":[-122.4008,37.712024]}
-{"+blanken":[-122.4008,37.712024]}
-{"+blanken avenue":[-122.4008,37.712024]}
 {"tunnel avenue+blanken":[-122.4008,37.712024]}
 {"hester avenue+lois lane":[-122.397668,37.713316]}
 {"hester+lois":[-122.397668,37.713316]}
@@ -2578,21 +2501,13 @@
 {"wheeler+hester avenue":[-122.399398,37.71332]}
 {"wheeler avenue+hester":[-122.399398,37.71332]}
 {"tunnel avenue+lathrop avenue":[-122.401081,37.711058]}
-{"+lathrop":[-122.401081,37.711058]}
-{"+lathrop avenue":[-122.401081,37.711058]}
 {"tunnel avenue+lathrop":[-122.401081,37.711058]}
 {"lathrop avenue+tunnel avenue":[-122.401081,37.711058]}
-{"lathrop+":[-122.401081,37.711058]}
 {"lathrop+tunnel avenue":[-122.401081,37.711058]}
-{"lathrop avenue+":[-122.401081,37.711058]}
 {"tunnel avenue+recycle road":[-122.401341,37.708643]}
-{"+recycle":[-122.401341,37.708643]}
-{"+recycle road":[-122.401341,37.708643]}
 {"tunnel avenue+recycle":[-122.401341,37.708643]}
 {"recycle road+tunnel avenue":[-122.401341,37.708643]}
-{"recycle+":[-122.401341,37.708643]}
 {"recycle+tunnel avenue":[-122.401341,37.708643]}
-{"recycle road+":[-122.401341,37.708643]}
 {"wheeler avenue+blanken avenue":[-122.39994,37.711819]}
 {"wheeler+blanken":[-122.39994,37.711819]}
 {"wheeler+blanken avenue":[-122.39994,37.711819]}
@@ -2666,13 +2581,9 @@
 {"alanna+recycle road":[-122.396188,37.708338]}
 {"alanna way+recycle":[-122.396188,37.708338]}
 {"tunnel avenue+beatty road":[-122.401148,37.706713]}
-{"+beatty":[-122.401148,37.706713]}
-{"+beatty road":[-122.401148,37.706713]}
 {"tunnel avenue+beatty":[-122.401148,37.706713]}
 {"beatty road+tunnel avenue":[-122.401148,37.706713]}
-{"beatty+":[-122.401148,37.706713]}
 {"beatty+tunnel avenue":[-122.401148,37.706713]}
-{"beatty road+":[-122.401148,37.706713]}
 {"3rd street+meade avenue":[-122.397965,37.718176]}
 {"3rd+meade":[-122.397965,37.718176]}
 {"3rd+meade avenue":[-122.397965,37.718176]}
@@ -2890,13 +2801,9 @@
 {"hawes+jamestown avenue":[-122.391558,37.717568]}
 {"hawes street+jamestown":[-122.391558,37.717568]}
 {"key avenue+bayview park road":[-122.391749,37.71557]}
-{"+bayview":[-122.411866,37.668648]}
-{"+bayview park road":[-122.391749,37.71557]}
 {"key avenue+bayview":[-122.391749,37.71557]}
 {"bayview park road+key avenue":[-122.391749,37.71557]}
-{"bayview+":[-122.411866,37.668648]}
 {"bayview+key avenue":[-122.391749,37.71557]}
-{"bayview park road+":[-122.391749,37.71557]}
 {"jamestown avenue+gilroy street":[-122.389414,37.715617]}
 {"jamestown+gilroy":[-122.389414,37.715617]}
 {"jamestown+gilroy street":[-122.389414,37.715617]}
@@ -2962,12 +2869,8 @@
 {"executive+sandpiper cove way":[-122.392625,37.711324]}
 {"executive park boulevard+sandpiper":[-122.392625,37.711324]}
 {"executive park boulevard+crescent way":[-122.390845,37.71113]}
-{"executive+":[-122.390845,37.71113]}
 {"executive+crescent way":[-122.390845,37.71113]}
-{"executive park boulevard+":[-122.390845,37.71113]}
 {"crescent way+executive park boulevard":[-122.390845,37.71113]}
-{"+executive":[-122.390845,37.71113]}
-{"+executive park boulevard":[-122.390845,37.71113]}
 {"crescent way+executive":[-122.390845,37.71113]}
 {"harney way+executive park boulevard":[-122.390898,37.710345]}
 {"harney+executive":[-122.390898,37.710345]}
@@ -3069,15 +2972,11 @@
 {"guadalupe+north hill drive":[-122.406304,37.692589]}
 {"guadalupe canyon parkway+north":[-122.406304,37.692589]}
 {"guadalupe canyon parkway+hill drive":[-122.406304,37.692589]}
-{"guadalupe+":[-122.406304,37.692589]}
-{"guadalupe canyon parkway+":[-122.406304,37.692589]}
 {"north hill drive+guadalupe canyon parkway":[-122.406304,37.692589]}
 {"north+guadalupe":[-122.406304,37.692589]}
 {"north+guadalupe canyon parkway":[-122.406304,37.692589]}
 {"north hill drive+guadalupe":[-122.406304,37.692589]}
 {"hill drive+guadalupe canyon parkway":[-122.406304,37.692589]}
-{"+guadalupe":[-122.406304,37.692589]}
-{"+guadalupe canyon parkway":[-122.406304,37.692589]}
 {"guadalupe canyon parkway+bayshore boulevard":[-122.404617,37.692489]}
 {"guadalupe+bayshore":[-122.404617,37.692489]}
 {"guadalupe+bayshore boulevard":[-122.404617,37.692489]}
@@ -3087,13 +2986,9 @@
 {"bayshore+guadalupe canyon parkway":[-122.404617,37.692489]}
 {"bayshore boulevard+guadalupe":[-122.404617,37.692489]}
 {"tunnel avenue+lagoon road":[-122.398357,37.689465]}
-{"+lagoon":[-122.398357,37.689465]}
-{"+lagoon road":[-122.398357,37.689465]}
 {"tunnel avenue+lagoon":[-122.398357,37.689465]}
 {"lagoon road+tunnel avenue":[-122.398357,37.689465]}
-{"lagoon+":[-122.398357,37.689465]}
 {"lagoon+tunnel avenue":[-122.398357,37.689465]}
-{"lagoon road+":[-122.398357,37.689465]}
 {"inyo street+san francisco avenue":[-122.403327,37.68475]}
 {"inyo+san francisco":[-122.403327,37.68475]}
 {"inyo+san francisco avenue":[-122.403327,37.68475]}
@@ -3167,13 +3062,9 @@
 {"sierra+humboldt road":[-122.397928,37.678362]}
 {"sierra point road+humboldt":[-122.397928,37.678362]}
 {"park lane+old county road":[-122.402069,37.685329]}
-{"+old county":[-122.398096,37.685457]}
-{"+old county road":[-122.398096,37.685457]}
 {"park lane+old county":[-122.402069,37.685329]}
 {"old county road+park lane":[-122.402069,37.685329]}
-{"old county+":[-122.398096,37.685457]}
 {"old county+park lane":[-122.402069,37.685329]}
-{"old county road+":[-122.398096,37.685457]}
 {"inyo street+mariposa street":[-122.403759,37.683991]}
 {"inyo+mariposa":[-122.403759,37.683991]}
 {"inyo+mariposa street":[-122.403759,37.683991]}
@@ -3460,8 +3351,6 @@
 {"greenpark terrace+parkgrove":[-122.415018,37.670032]}
 {"northcrest drive+south":[-122.417829,37.670169]}
 {"northcrest+south":[-122.417829,37.670169]}
-{"northcrest drive+":[-122.417829,37.670169]}
-{"northcrest+":[-122.417829,37.670169]}
 {"northcrest drive+south san francisco drive":[-122.417829,37.670169]}
 {"northcrest+south san francisco":[-122.417829,37.670169]}
 {"northcrest+south san francisco drive":[-122.417829,37.670169]}
@@ -3471,14 +3360,9 @@
 {"northcrest drive+san francisco":[-122.417829,37.670169]}
 {"south+northcrest drive":[-122.417829,37.670169]}
 {"south+northcrest":[-122.417829,37.670169]}
-{"+northcrest drive":[-122.417829,37.670169]}
-{"+northcrest":[-122.417829,37.670169]}
 {"south+south san francisco drive":[-122.417829,37.670169]}
 {"south+south san francisco":[-122.417829,37.670169]}
-{"+san francisco drive":[-122.417829,37.670169]}
-{"+south san francisco drive":[-122.417829,37.670169]}
 {"south+san francisco drive":[-122.417829,37.670169]}
-{"+san francisco":[-122.417829,37.670169]}
 {"south+san francisco":[-122.417829,37.670169]}
 {"south san francisco drive+northcrest drive":[-122.417829,37.670169]}
 {"south san francisco+northcrest":[-122.417829,37.670169]}
@@ -3489,31 +3373,20 @@
 {"san francisco+northcrest drive":[-122.417829,37.670169]}
 {"south san francisco drive+south":[-122.417829,37.670169]}
 {"south san francisco+south":[-122.417829,37.670169]}
-{"san francisco drive+":[-122.417829,37.670169]}
 {"san francisco drive+south":[-122.417829,37.670169]}
-{"south san francisco drive+":[-122.417829,37.670169]}
-{"san francisco+":[-122.417829,37.670169]}
 {"san francisco+south":[-122.417829,37.670169]}
 {"hillside boulevard+south":[-122.41821,37.669367]}
 {"hillside+south":[-122.41821,37.669367]}
-{"hillside boulevard+":[-122.41305,37.666898]}
-{"hillside+":[-122.41305,37.666898]}
 {"south+hillside boulevard":[-122.41821,37.669367]}
 {"south+hillside":[-122.41821,37.669367]}
-{"+hillside boulevard":[-122.41305,37.666898]}
-{"+hillside":[-122.41305,37.666898]}
 {"south+jefferson street":[-122.41821,37.669367]}
 {"south+jefferson":[-122.41821,37.669367]}
-{"+jefferson street":[-122.41821,37.669367]}
-{"+jefferson":[-122.41821,37.669367]}
 {"hillside boulevard+jefferson street":[-122.418284,37.669205]}
 {"hillside+jefferson":[-122.418284,37.669205]}
 {"hillside+jefferson street":[-122.418284,37.669205]}
 {"hillside boulevard+jefferson":[-122.418284,37.669205]}
 {"jefferson street+south":[-122.41821,37.669367]}
 {"jefferson+south":[-122.41821,37.669367]}
-{"jefferson street+":[-122.41821,37.669367]}
-{"jefferson+":[-122.41821,37.669367]}
 {"jefferson street+hillside boulevard":[-122.418284,37.669205]}
 {"jefferson+hillside":[-122.418284,37.669205]}
 {"jefferson+hillside boulevard":[-122.418284,37.669205]}
@@ -3580,18 +3453,12 @@
 {"san francisco+greenpark terrace":[-122.415811,37.669776]}
 {"bayview drive+crescent drive":[-122.411866,37.668648]}
 {"bayview+crescent drive":[-122.411866,37.668648]}
-{"bayview drive+":[-122.411866,37.668648]}
 {"crescent drive+bayview drive":[-122.411866,37.668648]}
-{"+bayview drive":[-122.411866,37.668648]}
 {"crescent drive+bayview":[-122.411866,37.668648]}
 {"crescent drive+woods street":[-122.411408,37.668291]}
-{"+woods":[-122.411408,37.668291]}
-{"+woods street":[-122.411408,37.668291]}
 {"crescent drive+woods":[-122.411408,37.668291]}
 {"woods street+crescent drive":[-122.411408,37.668291]}
-{"woods+":[-122.411408,37.668291]}
 {"woods+crescent drive":[-122.411408,37.668291]}
-{"woods street+":[-122.411408,37.668291]}
 {"hillside boulevard+sister cities boulevard":[-122.414461,37.668284]}
 {"hillside+sister cities":[-122.414461,37.668284]}
 {"hillside+sister cities boulevard":[-122.414461,37.668284]}
@@ -3621,13 +3488,9 @@
 {"hillside boulevard+grove avenue":[-122.41305,37.666898]}
 {"hillside+grove avenue":[-122.41305,37.666898]}
 {"grove avenue+randolph avenue":[-122.412709,37.667673]}
-{"+randolph":[-122.402761,37.664732]}
-{"+randolph avenue":[-122.402761,37.664732]}
 {"grove avenue+randolph":[-122.412709,37.667673]}
 {"randolph avenue+grove avenue":[-122.412709,37.667673]}
-{"randolph+":[-122.402761,37.664732]}
 {"randolph+grove avenue":[-122.412709,37.667673]}
-{"randolph avenue+":[-122.402761,37.664732]}
 {"south san francisco drive+sister cities boulevard":[-122.405166,37.66594]}
 {"south san francisco+sister cities":[-122.405166,37.66594]}
 {"south san francisco+sister cities boulevard":[-122.405166,37.66594]}
@@ -3748,13 +3611,9 @@
 {"chestnut+livingston place":[-122.428072,37.665581]}
 {"chestnut avenue+livingston":[-122.428072,37.665581]}
 {"ridge court+stonegate drive":[-122.427348,37.665925]}
-{"+stonegate":[-122.427348,37.665925]}
-{"+stonegate drive":[-122.427348,37.665925]}
 {"ridge court+stonegate":[-122.427348,37.665925]}
 {"stonegate drive+ridge court":[-122.427348,37.665925]}
-{"stonegate+":[-122.427348,37.665925]}
 {"stonegate+ridge court":[-122.427348,37.665925]}
-{"stonegate drive+":[-122.427348,37.665925]}
 {"stonegate drive+viewmont terrace":[-122.425569,37.664283]}
 {"stonegate+viewmont":[-122.425569,37.664283]}
 {"stonegate+viewmont terrace":[-122.425569,37.664283]}
@@ -3908,12 +3767,8 @@
 {"tamarack+laurel avenue":[-122.42808,37.660722]}
 {"tamarack lane+laurel":[-122.42808,37.660722]}
 {"eucalyptus avenue+circle court":[-122.42756,37.65626]}
-{"eucalyptus+":[-122.42756,37.65626]}
 {"eucalyptus+circle court":[-122.42756,37.65626]}
-{"eucalyptus avenue+":[-122.42756,37.65626]}
 {"circle court+eucalyptus avenue":[-122.42756,37.65626]}
-{"+eucalyptus":[-122.42756,37.65626]}
-{"+eucalyptus avenue":[-122.42756,37.65626]}
 {"circle court+eucalyptus":[-122.42756,37.65626]}
 {"eucalyptus avenue+commercial avenue":[-122.427278,37.656879]}
 {"eucalyptus+commercial":[-122.427278,37.656879]}
@@ -4016,12 +3871,8 @@
 {"carnelian+sonja road":[-122.423323,37.664801]}
 {"carnelian road+sonja":[-122.423323,37.664801]}
 {"carnelian road+mountain road":[-122.423011,37.665049]}
-{"carnelian+":[-122.423011,37.665049]}
 {"carnelian+mountain road":[-122.423011,37.665049]}
-{"carnelian road+":[-122.423011,37.665049]}
 {"mountain road+carnelian road":[-122.423011,37.665049]}
-{"+carnelian":[-122.423011,37.665049]}
-{"+carnelian road":[-122.423011,37.665049]}
 {"mountain road+carnelian":[-122.423011,37.665049]}
 {"cottonwood avenue+orange avenue":[-122.421491,37.660379]}
 {"cottonwood+orange":[-122.421491,37.660379]}
@@ -4136,12 +3987,8 @@
 {"orange+almond avenue":[-122.421259,37.661031]}
 {"orange avenue+almond":[-122.421259,37.661031]}
 {"palm avenue+park way":[-122.416933,37.660786]}
-{"palm+":[-122.416933,37.660786]}
 {"palm+park way":[-122.416933,37.660786]}
-{"palm avenue+":[-122.416933,37.660786]}
 {"park way+palm avenue":[-122.416933,37.660786]}
-{"+palm":[-122.416933,37.660786]}
-{"+palm avenue":[-122.416933,37.660786]}
 {"park way+palm":[-122.416933,37.660786]}
 {"palm avenue+magnolia avenue":[-122.418967,37.659142]}
 {"palm+magnolia":[-122.418967,37.659142]}
@@ -4248,12 +4095,8 @@
 {"tamarack+orange avenue":[-122.42243,37.659474]}
 {"tamarack lane+orange":[-122.42243,37.659474]}
 {"orange avenue+park way":[-122.420984,37.661778]}
-{"orange+":[-122.424046,37.655214]}
 {"orange+park way":[-122.420984,37.661778]}
-{"orange avenue+":[-122.424046,37.655214]}
 {"park way+orange avenue":[-122.420984,37.661778]}
-{"+orange":[-122.424046,37.655214]}
-{"+orange avenue":[-122.424046,37.655214]}
 {"park way+orange":[-122.420984,37.661778]}
 {"locust avenue+tamarack lane":[-122.421198,37.659201]}
 {"locust+tamarack":[-122.421198,37.659201]}
@@ -4422,8 +4265,6 @@
 {"circle court+orange avenue":[-122.424046,37.655214]}
 {"circle court+orange":[-122.424046,37.655214]}
 {"circle court+railroad avenue":[-122.424046,37.655214]}
-{"+railroad":[-122.424046,37.655214]}
-{"+railroad avenue":[-122.424046,37.655214]}
 {"circle court+railroad":[-122.424046,37.655214]}
 {"orange avenue+circle court":[-122.424046,37.655214]}
 {"orange+circle court":[-122.424046,37.655214]}
@@ -4432,9 +4273,7 @@
 {"orange+railroad avenue":[-122.424046,37.655214]}
 {"orange avenue+railroad":[-122.424046,37.655214]}
 {"railroad avenue+circle court":[-122.424046,37.655214]}
-{"railroad+":[-122.424046,37.655214]}
 {"railroad+circle court":[-122.424046,37.655214]}
-{"railroad avenue+":[-122.424046,37.655214]}
 {"railroad avenue+orange avenue":[-122.424046,37.655214]}
 {"railroad+orange":[-122.424046,37.655214]}
 {"railroad+orange avenue":[-122.424046,37.655214]}
@@ -4837,12 +4676,8 @@
 {"highland+hemlock avenue":[-122.414262,37.666889]}
 {"highland avenue+hemlock":[-122.414262,37.666889]}
 {"poplar avenue+park way":[-122.419594,37.661337]}
-{"poplar+":[-122.419594,37.661337]}
 {"poplar+park way":[-122.419594,37.661337]}
-{"poplar avenue+":[-122.419594,37.661337]}
 {"park way+poplar avenue":[-122.419594,37.661337]}
-{"+poplar":[-122.419594,37.661337]}
-{"+poplar avenue":[-122.419594,37.661337]}
 {"park way+poplar":[-122.419594,37.661337]}
 {"poplar avenue+rocca avenue":[-122.419714,37.662064]}
 {"poplar+rocca":[-122.419714,37.662064]}
@@ -4868,85 +4703,49 @@
 {"rocca+rocca avenue":[-122.4155,37.660875]}
 {"rocca court+rocca":[-122.4155,37.660875]}
 {"rocca avenue+park way":[-122.422426,37.662023]}
-{"rocca+":[-122.422426,37.662023]}
 {"rocca+park way":[-122.422426,37.662023]}
-{"rocca avenue+":[-122.422426,37.662023]}
 {"park way+rocca avenue":[-122.422426,37.662023]}
-{"+rocca":[-122.422426,37.662023]}
-{"+rocca avenue":[-122.422426,37.662023]}
 {"park way+rocca":[-122.422426,37.662023]}
 {"park way+maple avenue":[-122.41181,37.657626]}
-{"+maple":[-122.41181,37.657626]}
-{"+maple avenue":[-122.41181,37.657626]}
 {"park way+maple":[-122.41181,37.657626]}
 {"park way+lux avenue":[-122.41181,37.657626]}
-{"+lux":[-122.41181,37.657626]}
-{"+lux avenue":[-122.41181,37.657626]}
 {"park way+lux":[-122.41181,37.657626]}
 {"maple avenue+park way":[-122.41181,37.657626]}
-{"maple+":[-122.41181,37.657626]}
 {"maple+park way":[-122.41181,37.657626]}
-{"maple avenue+":[-122.41181,37.657626]}
 {"maple avenue+lux avenue":[-122.41181,37.657626]}
 {"maple+lux":[-122.41181,37.657626]}
 {"maple+lux avenue":[-122.41181,37.657626]}
 {"maple avenue+lux":[-122.41181,37.657626]}
 {"lux avenue+park way":[-122.41181,37.657626]}
-{"lux+":[-122.41181,37.657626]}
 {"lux+park way":[-122.41181,37.657626]}
-{"lux avenue+":[-122.41181,37.657626]}
 {"lux avenue+maple avenue":[-122.41181,37.657626]}
 {"lux+maple":[-122.41181,37.657626]}
 {"lux+maple avenue":[-122.41181,37.657626]}
 {"lux avenue+maple":[-122.41181,37.657626]}
 {"park way+walnut avenue":[-122.412881,37.658334]}
-{"+walnut":[-122.412881,37.658334]}
-{"+walnut avenue":[-122.412881,37.658334]}
 {"park way+walnut":[-122.412881,37.658334]}
 {"walnut avenue+park way":[-122.412881,37.658334]}
-{"walnut+":[-122.412881,37.658334]}
 {"walnut+park way":[-122.412881,37.658334]}
-{"walnut avenue+":[-122.412881,37.658334]}
 {"park way+pine terrace":[-122.413627,37.65888]}
-{"+pine":[-122.413627,37.65888]}
-{"+pine terrace":[-122.413627,37.65888]}
 {"park way+pine":[-122.413627,37.65888]}
 {"pine terrace+park way":[-122.413627,37.65888]}
-{"pine+":[-122.413627,37.65888]}
 {"pine+park way":[-122.413627,37.65888]}
-{"pine terrace+":[-122.413627,37.65888]}
 {"park way+spruce avenue":[-122.414325,37.659358]}
-{"+spruce":[-122.414325,37.659358]}
-{"+spruce avenue":[-122.414325,37.659358]}
 {"park way+spruce":[-122.414325,37.659358]}
 {"spruce avenue+park way":[-122.414325,37.659358]}
-{"spruce+":[-122.414325,37.659358]}
 {"spruce+park way":[-122.414325,37.659358]}
-{"spruce avenue+":[-122.414325,37.659358]}
 {"park way+telford avenue":[-122.414959,37.659876]}
-{"+telford":[-122.414959,37.659876]}
-{"+telford avenue":[-122.414959,37.659876]}
 {"park way+telford":[-122.414959,37.659876]}
 {"telford avenue+park way":[-122.414959,37.659876]}
-{"telford+":[-122.414959,37.659876]}
 {"telford+park way":[-122.414959,37.659876]}
-{"telford avenue+":[-122.414959,37.659876]}
 {"park way+elm court":[-122.416707,37.660431]}
-{"+elm":[-122.416707,37.660431]}
-{"+elm court":[-122.416707,37.660431]}
 {"park way+elm":[-122.416707,37.660431]}
 {"elm court+park way":[-122.416707,37.660431]}
-{"elm+":[-122.416707,37.660431]}
 {"elm+park way":[-122.416707,37.660431]}
-{"elm court+":[-122.416707,37.660431]}
 {"park way+magnolia avenue":[-122.417851,37.661282]}
-{"+magnolia":[-122.417851,37.661282]}
-{"+magnolia avenue":[-122.417851,37.661282]}
 {"park way+magnolia":[-122.417851,37.661282]}
 {"magnolia avenue+park way":[-122.417851,37.661282]}
-{"magnolia+":[-122.417851,37.661282]}
 {"magnolia+park way":[-122.417851,37.661282]}
-{"magnolia avenue+":[-122.417851,37.661282]}
 {"magnolia avenue+railroad avenue":[-122.420529,37.65444]}
 {"magnolia+railroad":[-122.420529,37.65444]}
 {"magnolia+railroad avenue":[-122.420529,37.65444]}
@@ -5413,24 +5212,16 @@
 {"1st+linden avenue":[-122.410971,37.652765]}
 {"1st lane+linden":[-122.410971,37.652765]}
 {"1st lane+village way":[-122.410971,37.652765]}
-{"1st+":[-122.410971,37.652765]}
 {"1st+village way":[-122.410971,37.652765]}
-{"1st lane+":[-122.410971,37.652765]}
 {"linden avenue+1st lane":[-122.410971,37.652765]}
 {"linden+1st":[-122.410971,37.652765]}
 {"linden+1st lane":[-122.410971,37.652765]}
 {"linden avenue+1st":[-122.410971,37.652765]}
 {"linden avenue+village way":[-122.410767,37.65336]}
-{"linden+":[-122.410767,37.65336]}
 {"linden+village way":[-122.410767,37.65336]}
-{"linden avenue+":[-122.410767,37.65336]}
 {"village way+1st lane":[-122.410971,37.652765]}
-{"+1st":[-122.410971,37.652765]}
-{"+1st lane":[-122.410971,37.652765]}
 {"village way+1st":[-122.410971,37.652765]}
 {"village way+linden avenue":[-122.410767,37.65336]}
-{"+linden":[-122.410767,37.65336]}
-{"+linden avenue":[-122.410767,37.65336]}
 {"village way+linden":[-122.410767,37.65336]}
 {"1st lane+maple avenue":[-122.41333,37.653318]}
 {"1st+maple":[-122.41333,37.653318]}
@@ -5977,12 +5768,8 @@
 {"san benito+visitacion avenue":[-122.404336,37.680519]}
 {"san benito road+visitacion":[-122.404336,37.680519]}
 {"san benito road+glen park way":[-122.398896,37.679407]}
-{"san benito+":[-122.398896,37.679407]}
 {"san benito+glen park way":[-122.398896,37.679407]}
-{"san benito road+":[-122.398896,37.679407]}
 {"glen park way+san benito road":[-122.398896,37.679407]}
-{"+san benito":[-122.398896,37.679407]}
-{"+san benito road":[-122.398896,37.679407]}
 {"glen park way+san benito":[-122.398896,37.679407]}
 {"alvarado street+san bruno avenue":[-122.399557,37.681515]}
 {"alvarado+san bruno":[-122.399557,37.681515]}
@@ -6001,20 +5788,12 @@
 {"santa clara+san bruno avenue":[-122.399053,37.680939]}
 {"santa clara street+san bruno":[-122.399053,37.680939]}
 {"san bruno avenue+glen park way":[-122.39847,37.680223]}
-{"san bruno+":[-122.397704,37.679849]}
 {"san bruno+glen park way":[-122.39847,37.680223]}
-{"san bruno avenue+":[-122.397704,37.679849]}
 {"glen park way+san bruno avenue":[-122.39847,37.680223]}
-{"+san bruno":[-122.397704,37.679849]}
-{"+san bruno avenue":[-122.397704,37.679849]}
 {"glen park way+san bruno":[-122.39847,37.680223]}
 {"humboldt road+glen park way":[-122.400176,37.677311]}
-{"humboldt+":[-122.400176,37.677311]}
 {"humboldt+glen park way":[-122.400176,37.677311]}
-{"humboldt road+":[-122.400176,37.677311]}
 {"glen park way+humboldt road":[-122.400176,37.677311]}
-{"+humboldt":[-122.400176,37.677311]}
-{"+humboldt road":[-122.400176,37.677311]}
 {"glen park way+humboldt":[-122.400176,37.677311]}
 {"sierra point road+ross way":[-122.399905,37.679036]}
 {"sierra+ross":[-122.399905,37.679036]}
@@ -6025,27 +5804,15 @@
 {"ross+sierra point road":[-122.399905,37.679036]}
 {"ross way+sierra":[-122.399905,37.679036]}
 {"sierra point road+glen park way":[-122.399684,37.678103]}
-{"sierra+":[-122.399684,37.678103]}
 {"sierra+glen park way":[-122.399684,37.678103]}
-{"sierra point road+":[-122.399684,37.678103]}
 {"glen park way+sierra point road":[-122.399684,37.678103]}
-{"+sierra":[-122.399684,37.678103]}
-{"+sierra point road":[-122.399684,37.678103]}
 {"glen park way+sierra":[-122.399684,37.678103]}
 {"ross way+glen park way":[-122.399152,37.678814]}
-{"ross+":[-122.399152,37.678814]}
 {"ross+glen park way":[-122.399152,37.678814]}
-{"ross way+":[-122.399152,37.678814]}
 {"glen park way+ross way":[-122.399152,37.678814]}
-{"+ross":[-122.399152,37.678814]}
-{"+ross way":[-122.399152,37.678814]}
 {"glen park way+ross":[-122.399152,37.678814]}
 {"glen park way+lake street":[-122.399069,37.678935]}
-{"+lake street":[-122.399069,37.678935]}
-{"glen park way+":[-122.399069,37.678935]}
 {"lake street+glen park way":[-122.399069,37.678935]}
-{"+glen park way":[-122.399069,37.678935]}
-{"lake street+":[-122.399069,37.678935]}
 {"pinnacle street+heritage street":[-122.409368,37.670259]}
 {"pinnacle+heritage":[-122.409368,37.670259]}
 {"pinnacle+heritage street":[-122.409368,37.670259]}
@@ -6083,15 +5850,11 @@
 {"heritage+west way":[-122.409171,37.668798]}
 {"heritage street+west":[-122.409171,37.668798]}
 {"heritage street+way":[-122.409171,37.668798]}
-{"heritage+":[-122.409171,37.668798]}
-{"heritage street+":[-122.409171,37.668798]}
 {"west way+heritage street":[-122.409171,37.668798]}
 {"west+heritage":[-122.409171,37.668798]}
 {"west+heritage street":[-122.409171,37.668798]}
 {"west way+heritage":[-122.409171,37.668798]}
 {"way+heritage street":[-122.409171,37.668798]}
-{"+heritage":[-122.409171,37.668798]}
-{"+heritage street":[-122.409171,37.668798]}
 {"randolph avenue+belmont avenue":[-122.408651,37.666505]}
 {"randolph+belmont":[-122.408651,37.666505]}
 {"randolph+belmont avenue":[-122.408651,37.666505]}
@@ -6503,13 +6266,9 @@
 {"randolph avenue+green avenue":[-122.402761,37.664732]}
 {"randolph+green avenue":[-122.402761,37.664732]}
 {"green avenue+chapman avenue":[-122.403555,37.664212]}
-{"+chapman":[-122.403555,37.664212]}
-{"+chapman avenue":[-122.403555,37.664212]}
 {"green avenue+chapman":[-122.403555,37.664212]}
 {"chapman avenue+green avenue":[-122.403555,37.664212]}
-{"chapman+":[-122.403555,37.664212]}
 {"chapman+green avenue":[-122.403555,37.664212]}
-{"chapman avenue+":[-122.403555,37.664212]}
 {"randolph avenue+chapman avenue":[-122.404157,37.664997]}
 {"randolph+chapman":[-122.404157,37.664997]}
 {"randolph+chapman avenue":[-122.404157,37.664997]}
@@ -6773,11 +6532,8 @@
 {"baker+associated road":[-122.405533,37.652249]}
 {"baker street+associated":[-122.405533,37.652249]}
 {"south airport boulevard+gateway boulevard":[-122.405601,37.649637]}
-{"south airport+":[-122.405601,37.649637]}
 {"south airport+gateway boulevard":[-122.405601,37.649637]}
-{"south airport boulevard+":[-122.405601,37.649637]}
 {"airport boulevard+gateway boulevard":[-122.405601,37.649637]}
-{"airport+":[-122.405601,37.649637]}
 {"airport+gateway boulevard":[-122.405601,37.649637]}
 {"south airport boulevard+mitchell avenue":[-122.405439,37.649549]}
 {"south airport+mitchell":[-122.405439,37.649549]}
@@ -6787,15 +6543,10 @@
 {"airport+mitchell":[-122.405439,37.649549]}
 {"airport+mitchell avenue":[-122.405439,37.649549]}
 {"gateway boulevard+south airport boulevard":[-122.405601,37.649637]}
-{"+south airport":[-122.405601,37.649637]}
-{"+south airport boulevard":[-122.405601,37.649637]}
 {"gateway boulevard+south airport":[-122.405601,37.649637]}
 {"gateway boulevard+airport boulevard":[-122.405601,37.649637]}
-{"+airport":[-122.405601,37.649637]}
 {"gateway boulevard+airport":[-122.405601,37.649637]}
 {"gateway boulevard+mitchell avenue":[-122.405601,37.649637]}
-{"+mitchell":[-122.40013,37.649057]}
-{"+mitchell avenue":[-122.40013,37.649057]}
 {"gateway boulevard+mitchell":[-122.405601,37.649637]}
 {"mitchell avenue+south airport boulevard":[-122.405439,37.649549]}
 {"mitchell+south airport":[-122.405439,37.649549]}
@@ -6805,30 +6556,18 @@
 {"mitchell+airport":[-122.405439,37.649549]}
 {"mitchell avenue+airport":[-122.405439,37.649549]}
 {"mitchell avenue+gateway boulevard":[-122.405601,37.649637]}
-{"mitchell+":[-122.40013,37.649057]}
 {"mitchell+gateway boulevard":[-122.405601,37.649637]}
-{"mitchell avenue+":[-122.40013,37.649057]}
 {"corporate drive+gateway boulevard":[-122.40077,37.656717]}
-{"corporate+":[-122.40077,37.656717]}
 {"corporate+gateway boulevard":[-122.40077,37.656717]}
-{"corporate drive+":[-122.40077,37.656717]}
 {"gateway boulevard+corporate drive":[-122.40077,37.656717]}
-{"+corporate":[-122.40077,37.656717]}
-{"+corporate drive":[-122.40077,37.656717]}
 {"gateway boulevard+corporate":[-122.40077,37.656717]}
 {"east grand avenue+gateway boulevard":[-122.402099,37.65446]}
-{"east grand+":[-122.399934,37.654381]}
 {"east grand+gateway boulevard":[-122.402099,37.65446]}
-{"east grand avenue+":[-122.399934,37.654381]}
 {"grand avenue+gateway boulevard":[-122.402099,37.65446]}
-{"grand+":[-122.399934,37.654381]}
 {"grand+gateway boulevard":[-122.402099,37.65446]}
 {"gateway boulevard+east grand avenue":[-122.402099,37.65446]}
-{"+east grand":[-122.399934,37.654381]}
-{"+east grand avenue":[-122.399934,37.654381]}
 {"gateway boulevard+east grand":[-122.402099,37.65446]}
 {"gateway boulevard+grand avenue":[-122.402099,37.65446]}
-{"+grand":[-122.399934,37.654381]}
 {"gateway boulevard+grand":[-122.402099,37.65446]}
 {"corporate drive+forbes boulevard":[-122.399355,37.655396]}
 {"corporate+forbes":[-122.399355,37.655396]}
@@ -6861,12 +6600,8 @@
 {"harbor way+grand avenue":[-122.399934,37.654381]}
 {"harbor way+grand":[-122.399934,37.654381]}
 {"forbes boulevard+harbor way":[-122.399896,37.654451]}
-{"forbes+":[-122.399896,37.654451]}
 {"forbes+harbor way":[-122.399896,37.654451]}
-{"forbes boulevard+":[-122.399896,37.654451]}
 {"harbor way+forbes boulevard":[-122.399896,37.654451]}
-{"+forbes":[-122.399896,37.654451]}
-{"+forbes boulevard":[-122.399896,37.654451]}
 {"harbor way+forbes":[-122.399896,37.654451]}
 {"harris court+west harris avenue":[-122.402313,37.650503]}
 {"harris+west harris":[-122.402313,37.650503]}
@@ -6908,18 +6643,12 @@
 {"colma service+mitchell avenue":[-122.401134,37.649056]}
 {"colma creek service road+mitchell":[-122.401134,37.649056]}
 {"harbor way+east harris avenue":[-122.400127,37.650505]}
-{"+east harris":[-122.400127,37.650505]}
-{"+east harris avenue":[-122.400127,37.650505]}
 {"harbor way+east harris":[-122.400127,37.650505]}
 {"harbor way+harris avenue":[-122.400127,37.650505]}
-{"+harris":[-122.400127,37.650505]}
 {"harbor way+harris":[-122.400127,37.650505]}
 {"east harris avenue+harbor way":[-122.400127,37.650505]}
-{"east harris+":[-122.400127,37.650505]}
 {"east harris+harbor way":[-122.400127,37.650505]}
-{"east harris avenue+":[-122.400127,37.650505]}
 {"harris avenue+harbor way":[-122.400127,37.650505]}
-{"harris+":[-122.400127,37.650505]}
 {"harris+harbor way":[-122.400127,37.650505]}
 {"east harris avenue+lawrence avenue":[-122.397587,37.650498]}
 {"east harris+lawrence":[-122.397587,37.650498]}
@@ -6936,12 +6665,8 @@
 {"lawrence+harris":[-122.397587,37.650498]}
 {"lawrence avenue+harris":[-122.397587,37.650498]}
 {"oyster point boulevard+gateway boulevard":[-122.395887,37.662215]}
-{"oyster+":[-122.395887,37.662215]}
 {"oyster+gateway boulevard":[-122.395887,37.662215]}
-{"oyster point boulevard+":[-122.395887,37.662215]}
 {"gateway boulevard+oyster point boulevard":[-122.395887,37.662215]}
-{"+oyster":[-122.395887,37.662215]}
-{"+oyster point boulevard":[-122.395887,37.662215]}
 {"gateway boulevard+oyster":[-122.395887,37.662215]}
 {"veterans boulevard+oyster point boulevard":[-122.392969,37.662481]}
 {"veterans+oyster":[-122.392969,37.662481]}
