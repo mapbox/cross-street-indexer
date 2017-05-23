@@ -1,4 +1,5 @@
 const fs = require('fs');
+const d3 = require('d3-queue');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const levelup = require('level');
@@ -40,20 +41,31 @@ function indexer(mbtiles, output, options) {
             debug: debug,
         }
     });
+    const q = d3.queue(1);
     const ee = tileReduce(options);
 
     // Execute the following after each tile is completed
     ee.on('reduce', (result, tile) => {
         const quadkey = tilebelt.tileToQuadkey(tile);
+        const ops = [];
         Object.keys(result).forEach(hash => {
-            const hashQuadkey = [quadkey, hash].join('+');
             const coord = result[hash].join(',');
-            db.put(hash, coord, error => { if (error) console.log(error); });
-            db.put(hashQuadkey, coord, error => { if (error) console.log(error); });
+            const hashQuadkey = [quadkey, hash].join('+');
+            ops.push({type: 'put', key: hash, value: coord});
+            ops.push({type: 'put', key: hashQuadkey, value: coord});
+        });
+        q.defer(callback => {
+            db.batch(ops, error => {
+                if (error) throw new Error(error);
+                callback(null);
+            });
         });
     });
     ee.on('end', () => {
-        db.close();
+        q.awaitAll(error => {
+            if (error) throw new Error(error);
+            db.close();
+        });
     });
     return ee;
 }
