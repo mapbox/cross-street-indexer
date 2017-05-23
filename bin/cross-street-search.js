@@ -85,7 +85,7 @@ if (options.stream) {
     const db = levelup(output);
 
     // No tiles provided
-    if (!tiles.length) {
+    if (tiles === undefined) {
         searchLevelDB(name1, name2, db).then(match => {
             if (match) {
                 if (options.latlng) match.reverse();
