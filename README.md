@@ -143,21 +143,24 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 ## Design Considerations
 
 - [ ] Support NodeJS 4 & 5
-- [ ] Match road intersections with/without road suffixes:
+- [x] Match road intersections with/without road suffixes:
   - `abbot avenue+chester street`
   - `abbot+chester`
   - `abbot avenue+chester`
   - `abbot+chester street`
-- [ ] How to match State Routes:
-  - `ST 130` => ??
-  - `CA 130` => ??
-- [ ] Consider using abreviation suffixes:
+- [x] Normalized Highways use short names:
+  - `HWY 417` => `hwy 417`
+  - `Highway 417` => `hwy 417`
+  - `ST 130` => `st 130`
+  - `CA 130` => `ca 130`
+- [ ] ?? Consider using `!` instead of `+` as separator (less common to have a `!` in a name)
+- [ ] ?? Consider using abreviation suffixes:
   - Index cache file size reduced
   - Easier to normalize road names
   - Lowercross-street hashes combinations
   - Easier to match major highways
-- [ ] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
-- [ ] Add extra hash combination with the removal of street suffix (`rodeo avenue` => [`rodeo avenue`, `rodeo`])
+- [x] Add extra name to numbered highways `ref` & `name` ("CA 131" => ["ca 131", 131])
+- [x] Add extra hash combination with the removal of street suffix (`rodeo avenue` => [`rodeo avenue`, `rodeo`])
 - [x] Does not save empty z12 cross street indexes (reduces total number of files).
 - [x] Extra `\n` at the bottom of the file (helps concatenate streams together).
 - [x] Split `name` & `ref` code with `;` into Array of names.

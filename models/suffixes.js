@@ -60,7 +60,6 @@ module.exports = new Map([
     ['hbr', 'harbor'],
     ['hvn', 'haven'],
     ['hts', 'heights'],
-    ['hwy', 'highway'],
     ['hl', 'hill'],
     ['hls', 'hills'],
     ['holw', 'hollow'],

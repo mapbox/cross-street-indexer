@@ -9,24 +9,25 @@ const bbox2tiles = require('./lib/utils').bbox2tiles;
  * Cross Street indexer from OSM QA Tiles
  *
  * @param {string} mbtiles filepath to QA Tiles
- * @param {string} output filepath to store outputs
+ * @param {string} [output="cross-street-index"] filepath to store outputs
  * @param {*} [options] extra options
- * @param {Tile[]} [opitons.tiles] Filter by Tiles
+ * @param {Tile[]} [options.tiles] Filter by Tiles
  * @param {BBox} [options.bbox] Filter by BBox
  * @param {boolean} [options.debug=false] Enables DEBUG mode
- * @param {boolean} [options.verbose=false] Verbose output
  * @returns {EventEmitter} tile-reduce EventEmitter
  */
 function indexer(mbtiles, output, options) {
     options = options || {};
+    output = output || 'cross-street-index';
+    const debug = options.debug;
+
     Object.assign(options, {
         zoom: 12,
         map: path.join(__dirname, 'lib', 'reducer.js'),
         sources: [{name: 'qatiles', mbtiles}],
         mapOptions: {
-            output,
-            debug: options.debug,
-            verbose: options.verbose,
+            output: output,
+            debug: debug,
         }
     });
     return tileReduce(options);

@@ -18,7 +18,7 @@ const quadkeys = [
 ];
 
 test('indexer', t => {
-    indexer(qaTiles, 'debug', {tiles, debug: true});
+    indexer(qaTiles, 'cross-street-index', {tiles, debug: true});
     t.true(true);
     t.end();
 });
