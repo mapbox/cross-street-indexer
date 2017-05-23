@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const d3 = require('d3-queue');
 const path = require('path');
 const meow = require('meow');
 const levelup = require('level');
@@ -84,15 +85,26 @@ if (options.stream) {
     const db = levelup(output);
 
     // No tiles provided
-    if (!tiles.length) searchLevelDB(name1, name2, db);
-
+    if (!tiles.length) {
+        searchLevelDB(name1, name2, db).then(match => {
+            if (match) {
+                if (options.latlng) match.reverse();
+                process.stdout.write(match + '\n');
+            }
+        });
+    }
     // Find match on first match
+    const q = d3.queue(1);
     for (const tile of tiles) {
-        const match = searchLevelDB(name1, name2, db, tile);
-        if (match) {
-            if (options.latlng) match.reverse();
-            process.stdout.write(match + '\n');
-            break;
-        }
+        q.defer(callback => {
+            searchLevelDB(name1, name2, db, tile).then(match => {
+                if (match) {
+                    if (options.latlng) match.reverse();
+                    process.stdout.write(match + '\n');
+                    q.abort();
+                }
+                callback(null);
+            });
+        });
     }
 }

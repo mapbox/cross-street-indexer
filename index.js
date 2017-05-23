@@ -153,7 +153,7 @@ function searchIndex(name1, name2, index) {
  * @param {string} name2 Road [name/ref]
  * @param {string|LevelDB} leveldb database or file path to leveldb
  * @param {string|Tile} tile Tile [x,y,z] or Quadkey
- * @returns {[number, number]|undefined} Point coordinate [lng, lat]
+ * @returns {Promise<[number, number]|undefined>} Point coordinate [lng, lat]
  * @example
  * const point = searchIndex('Chester St', 'ABBOT AVE.', index);
  * //=[-122.457711, 37.688544]
@@ -176,17 +176,23 @@ function searchLevelDB(name1, name2, leveldb, tile) {
         db = levelup(output);
     } else db = leveldb;
 
-    // Get Coordinate from hash
+    // Get Coordinate from hash (Promise)
     // Providing tile increases accuracy
-    let match;
-    if (quadkey) {
-        const hashQuadkey = [quadkey, norm1, norm2].join('+');
-        match = db.get(hashQuadkey);
-    } else {
-        const hash = [norm1, norm2].join('+');
-        match = db.get(hash);
-    }
-    if (match) return match.split(',');
+    return new Promise(resolve => {
+        if (quadkey) {
+            const hashQuadkey = [quadkey, norm1, norm2].join('+');
+            db.get(hashQuadkey, (error, value) => {
+                if (error) return resolve(undefined);
+                if (value) return resolve(value.split(','));
+            });
+        } else {
+            const hash = [norm1, norm2].join('+');
+            db.get(hash, (error, value) => {
+                if (error) return resolve(undefined);
+                if (value) return resolve(value.split(','));
+            });
+        }
+    });
 }
 
 module.exports = {
