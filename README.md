@@ -143,14 +143,15 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 ## Design Considerations
 
 - [ ] Support NodeJS 4 & 5
+- [ ] Multi-lingual tagging `name:en` & `name:fr`, etc...
 - [x] Match road intersections with/without road suffixes:
   - `abbot avenue+chester street`
   - `abbot+chester`
   - `abbot avenue+chester`
   - `abbot+chester street`
 - [x] Normalized Highways use short names:
-  - `HWY 417` => `hwy 417`
-  - `Highway 417` => `hwy 417`
+  - `HWY 417` => `highway 417`
+  - `Highway 417` => `highway 417`
   - `ST 130` => `st 130`
   - `CA 130` => `ca 130`
 - [ ] ?? Consider using `!` instead of `+` as separator (less common to have a `!` in a name)

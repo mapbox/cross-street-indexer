@@ -24,15 +24,15 @@ test('indexer', t => {
 });
 
 test('load', t => {
-    t.equal(load(tiles[0], output).size, 3878, 'tiles');
-    t.equal(load(quadkeys[0], output).size, 3878, 'quadkeys');
+    t.equal(load(tiles[0], output).size, 15699, 'tiles');
+    t.equal(load(quadkeys[0], output).size, 15699, 'quadkeys');
     t.end();
 });
 
 test('loads', t => {
-    t.equal(loads(tiles, output).size, 10290, 'tiles');
-    t.equal(loads(quadkeys, output).size, 10290, 'quadkeys');
-    t.equal(loads(bbox, output).size, 10290, 'quadkeys');
+    t.equal(loads(tiles, output).size, 41694, 'tiles');
+    t.equal(loads(quadkeys, output).size, 41694, 'quadkeys');
+    t.equal(loads(bbox, output).size, 41694, 'quadkeys');
     t.end();
 });
 

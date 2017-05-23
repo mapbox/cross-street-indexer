@@ -26,7 +26,7 @@ test('create-index - create - complex highways', t => {
     const index = createIndex(uniques);
 
     t.equal(index.size, 20);
-    t.true(index.has('hwy 200+ca 130'));
+    t.true(index.has('highway 200+ca 130'));
     t.true(index.has('200+130'));
     t.end();
 });
@@ -55,7 +55,7 @@ test('create-index - normalizeNames', t => {
     t.equal(intersects.size, 4);
     t.true(intersects.has('foo avenue'));
     t.true(intersects.has('bar street'));
-    t.true(intersects.has('hwy 130'));
+    t.true(intersects.has('highway 130'));
     t.true(intersects.has('ca 130'));
     t.end();
 });

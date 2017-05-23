@@ -1,4 +1,5 @@
 module.exports = new Map([
+    ['frntg', 'frontage'],
     ['aly', 'alley'],
     ['anx', 'annex'],
     ['arc', 'arcade'],

@@ -6,18 +6,23 @@ const dropAbbreviations = require('../lib/normalization').dropAbbreviations;
 const dropHighways = require('../lib/normalization').dropHighways;
 
 test('normalize', t => {
-    t.equal(normalize('Chester St'), 'chester street', 'suffix');
-    t.equal(normalize('Chester St E'), 'chester street east', 'direction');
-    t.equal(normalize('+++Chester+ .St.'), 'chester street', 'remove special characters');
-    t.equal(normalize('  Chester St    '), 'chester street', 'trailing spaces');
-    t.equal(normalize('ABBOT AVE.'), 'abbot avenue', 'drop period');
-    t.equal(normalize('ABBOT       AVENUE'), 'abbot avenue', 'multiple spaces');
-    t.equal(normalize('ABBOT   AVENUE    N'), 'abbot avenue north', 'multiple word spaces');
-    t.equal(normalize('rodeo avenue trail (dead end ford bikes--no bikes on 101)'), 'rodeo avenue trail', 'extra comment');
-    t.equal(normalize('1st St'), '1st street', 'numbered streets');
-    t.equal(normalize('first St'), '1st street', 'numbered streets');
-    t.equal(normalize('ST 130'), 'st 130', 'highway - ST => Street (however ST in this case is not used as a suffix)');
-    t.equal(normalize('CA 130'), 'ca 130', 'highway');
+    t.equal(normalize('Chester St'), 'chester street');
+    t.equal(normalize('Chester St E'), 'chester street east');
+    t.equal(normalize('+++Chester+ .St.'), 'chester street');
+    t.equal(normalize('  Chester St    '), 'chester street');
+    t.equal(normalize('ABBOT AVE.'), 'abbot avenue');
+    t.equal(normalize('ABBOT       AVENUE'), 'abbot avenue');
+    t.equal(normalize('ABBOT   AVENUE    N'), 'abbot avenue north');
+    t.equal(normalize('rodeo avenue trail (dead end ford bikes--no bikes on 101)'), 'rodeo avenue trail');
+    t.equal(normalize('1st St'), '1st street');
+    t.equal(normalize('first St'), '1st street');
+    t.equal(normalize('ST 130'), 'st 130');
+    t.equal(normalize('CA 130'), 'ca 130');
+    t.equal(normalize('HWY 417'), 'highway 417');
+    t.equal(normalize('Highway 417'), 'highway 417');
+    t.equal(normalize('St-Joseph Blvd'), 'st-joseph boulevard');
+    t.equal(normalize('St Joseph Blvd'), 'st joseph boulevard');
+    t.equal(normalize('Saint Joseph Blvd'), 'saint joseph boulevard');
     t.end();
 });
 

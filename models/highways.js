@@ -1,4 +1,4 @@
-// NOTE: Inversed from all other models
+// NOTE: Highways is an inverse models
 module.exports = new Map([
     ['california state route', 'ca'],
     ['california state road', 'ca'],
@@ -6,5 +6,5 @@ module.exports = new Map([
     ['state road', 'sr'],
     ['county route', 'cr'],
     ['county road', 'cr'],
-    ['highway', 'hwy'],
+    ['hwy', 'highway'],
 ]);
