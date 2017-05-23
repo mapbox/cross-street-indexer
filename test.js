@@ -1,9 +1,10 @@
 const path = require('path');
 const {test} = require('tap');
-const {load, loads, search, indexer} = require('./');
+const {load, loads, searchIndex, searchLevelDB, indexer} = require('./');
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
 const output = path.join(__dirname, 'test', 'fixtures', 'cross-street-index');
+const leveldb = path.join(__dirname, 'test', 'fixtures', 'cross-street-index', 'leveldb');
 const bbox = [-122.5, 37.6, -122.1, 37.9];
 const tiles = [
     [654, 1584, 12], [655, 1584, 12],
@@ -33,8 +34,14 @@ test('loads', t => {
     t.end();
 });
 
-test('search', t => {
-    const match = search('Chester St', 'ABBOT AVE.', load(tiles[0], output));
+test('searchIndex', t => {
+    const match = searchIndex('Chester St', 'ABBOT AVE.', load(tiles[0], output));
     t.true(Array.isArray(match));
     t.end();
 });
+
+// test('searchLevelDB', t => {
+//     const match = searchLevelDB('Chester St', 'ABBOT AVE.', leveldb, tiles[0]);
+//     t.true(Array.isArray(match));
+//     t.end();
+// });

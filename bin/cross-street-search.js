@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const path = require('path');
 const meow = require('meow');
+const levelup = require('level');
 const readline = require('readline');
 const {bbox2tiles} = require('../lib/utils');
-const {search, load} = require('../');
+const {searchIndex, searchLevelDB} = require('../');
 
 const cli = meow(`
   Usage:
@@ -62,7 +64,7 @@ if (options.stream) {
         line = line.trim();
         line.split(/\}\{/g).forEach(data => {
             const index = JSON.parse(data);
-            const match = search(name1, name2, index);
+            const match = searchIndex(name1, name2, index);
             if (match) {
                 if (options.latlng) match.reverse();
                 process.stdout.write(match + '\n');
@@ -71,21 +73,22 @@ if (options.stream) {
         });
     });
 
-// Read index from files
+// Read Cross Street LevelDB index cache
 } else {
-    const output = options.output || 'cross-street-index';
+    // Validation
+    let output = options.output || 'cross-street-index';
     if (!fs.existsSync(output)) throw new Error(output + ' folder does not exists');
+    if (fs.existsSync(path.join(output, 'leveldb'))) output = path.join(output, 'leveldb');
 
-    // Load all tiles from folder (if Tiles not defined)
-    if (!tiles) {
-        tiles = fs.readdirSync(output).map(filepath => {
-            return filepath.replace('.json', '');
-        });
-    }
-    // Finds a match for each tile
+    // Create LevelDB connection
+    const db = levelup(output);
+
+    // No tiles provided
+    if (!tiles.length) searchLevelDB(name1, name2, db);
+
+    // Find match on first match
     for (const tile of tiles) {
-        const index = load(tile, output);
-        const match = search(name1, name2, index);
+        const match = searchLevelDB(name1, name2, db, tile);
         if (match) {
             if (options.latlng) match.reverse();
             process.stdout.write(match + '\n');

@@ -30,6 +30,7 @@
     "@turf/helpers": "^4.3.0",
     "@turf/meta": "^4.3.0",
     "global-mercator": "2.7.0",
+    "level": "^1.7.0",
     "load-json-file": "^2.0.0",
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",

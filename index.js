@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
+const levelup = require('level');
 const tilebelt = require('tilebelt');
 const tileReduce = require('tile-reduce');
 const {normalize} = require('./lib/normalize');
@@ -23,8 +24,13 @@ function indexer(mbtiles, output, options) {
     const debug = options.debug;
 
     // Create folder if not exists
-    if (!fs.existsSync(output)) mkdirp(output);
+    if (!fs.existsSync(output)) mkdirp.sync(output);
+    if (!fs.existsSync(path.join(output, 'leveldb'))) mkdirp.sync(path.join(output, 'leveldb'));
 
+    // Create LevelDB connection
+    const db = levelup(path.join(output, 'leveldb'));
+
+    // Tile Reduce options
     Object.assign(options, {
         zoom: 12,
         map: path.join(__dirname, 'lib', 'reducer.js'),
@@ -34,7 +40,22 @@ function indexer(mbtiles, output, options) {
             debug: debug,
         }
     });
-    return tileReduce(options);
+    const ee = tileReduce(options);
+
+    // Execute the following after each tile is completed
+    ee.on('reduce', (result, tile) => {
+        const quadkey = tilebelt.tileToQuadkey(tile);
+        Object.keys(result).forEach(hash => {
+            const hashQuadkey = [quadkey, hash].join('+');
+            const coord = result[hash].join(',');
+            db.put(hash, coord, error => { if (error) console.log(error); });
+            db.put(hashQuadkey, coord, error => { if (error) console.log(error); });
+        });
+    });
+    ee.on('end', () => {
+        db.close();
+    });
+    return ee;
 }
 
 /**
@@ -102,27 +123,76 @@ function loads(tiles, output) {
 }
 
 /**
- * Search Cross Street using Cross Street Index
+ * Search Cross Street using Map/Object Index
  *
  * @param {string} name1 Road [name/ref]
  * @param {string} name2 Road [name/ref]
- * @param {Object|Map<string, [number, number]>} index JSON Object or Map<CrossStreet, LngLat>
+ * @param {Object|Map<string, [number, number]>} [index] JSON Object or Map<CrossStreet, LngLat>
  * @returns {[number, number]|undefined} Point coordinate [lng, lat]
  * @example
- * const point = search('Chester St', 'ABBOT AVE.', index);
+ * const point = searchIndex('Chester St', 'ABBOT AVE.', index);
  * //=[-122.457711, 37.688544]
  */
-function search(name1, name2, index) {
+function searchIndex(name1, name2, index) {
+    // Normalize input
     const norm1 = normalize(name1);
     const norm2 = normalize(name2);
-    const pair = [norm1, norm2].join('+');
-    if (index.get) return index.get(pair);
-    return index[pair];
+
+    // Cross Street hash
+    const hash = [norm1, norm2].join('+');
+
+    // Get Coordinate
+    if (index.get) return index.get(hash);
+    return index[hash];
+}
+
+/**
+ * Search Cross Street using LevelDB
+ *
+ * @param {string} name1 Road [name/ref]
+ * @param {string} name2 Road [name/ref]
+ * @param {string|LevelDB} leveldb database or file path to leveldb
+ * @param {string|Tile} tile Tile [x,y,z] or Quadkey
+ * @returns {[number, number]|undefined} Point coordinate [lng, lat]
+ * @example
+ * const point = searchIndex('Chester St', 'ABBOT AVE.', index);
+ * //=[-122.457711, 37.688544]
+ */
+function searchLevelDB(name1, name2, leveldb, tile) {
+    // Normalize input
+    const norm1 = normalize(name1);
+    const norm2 = normalize(name2);
+
+    // Create Quadkey
+    let quadkey;
+    if (typeof tile === 'string') quadkey = tile;
+    else if (Array.isArray(tile)) quadkey = tilebelt.tileToQuadkey(tile);
+
+    // LevelDB Connection
+    let db;
+    if (typeof leveldb === 'string') {
+        let output = leveldb;
+        if (fs.existsSync(path.join(output, 'leveldb'))) output = path.join(output, 'leveldb');
+        db = levelup(output);
+    } else db = leveldb;
+
+    // Get Coordinate from hash
+    // Providing tile increases accuracy
+    let match;
+    if (quadkey) {
+        const hashQuadkey = [quadkey, norm1, norm2].join('+');
+        match = db.get(hashQuadkey);
+    } else {
+        const hash = [norm1, norm2].join('+');
+        match = db.get(hash);
+    }
+    if (match) return match.split(',');
 }
 
 module.exports = {
     load,
     loads,
     indexer,
-    search
+    searchIndex,
+    searchLevelDB,
 };
