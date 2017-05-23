@@ -19,6 +19,7 @@ test('normalize', t => {
     t.equal(normalize('St-Joseph Blvd'), 'st-joseph boulevard');
     t.equal(normalize('St Joseph Blvd'), 'st joseph boulevard');
     t.equal(normalize('Saint Joseph Blvd'), 'saint joseph boulevard');
+    t.equal(normalize(17), '17');
     t.end();
 });
 
