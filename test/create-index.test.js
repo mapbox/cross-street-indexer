@@ -1,5 +1,5 @@
 const test = require('tap').test;
-const createIndex = require('../lib/create-index').create;
+const createIndex = require('../lib/create-index').createIndex;
 const splitUniques = require('../lib/create-index').splitUniques;
 const normalizeNames = require('../lib/create-index').normalizeNames;
 

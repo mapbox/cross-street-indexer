@@ -958,7 +958,7 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.0.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global-mercator@^2.6.0:
+global-mercator@2.7.0, global-mercator@^2.6.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/global-mercator/-/global-mercator-2.7.0.tgz#72975ed01b25d2f43d88f73468e1a9aee7685207"
   dependencies:
