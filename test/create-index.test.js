@@ -1,7 +1,5 @@
-const test = require('tap').test;
-const createIndex = require('../lib/create-index').createIndex;
-const splitUniques = require('../lib/create-index').splitUniques;
-const normalizeNames = require('../lib/create-index').normalizeNames;
+const {test} = require('tap');
+const {createIndex, splitUniques, normalizeNames} = require('../lib/create-index');
 
 test('create-index - create', t => {
     const properties = new Set([{name: 'Abbot Ave'}, {name: 'Chester St'}]);

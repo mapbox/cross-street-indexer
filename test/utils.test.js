@@ -1,10 +1,5 @@
-const test = require('tap').test;
-const utils = require('../lib/utils');
-const hash = utils.hash;
-const index2json = utils.index2json;
-const hash2coord = utils.hash2coord;
-const uniques2features = utils.uniques2features;
-const bbox2tiles = utils.bbox2tiles;
+const {test} = require('tap');
+const {hash, index2json, hash2coord, uniques2features, bbox2tiles} = require('../lib/utils');
 
 test('hash', t => {
     const coord = [100, 40];

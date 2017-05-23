@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const meow = require('meow');
-const indexer = require('../').indexer;
+const {indexer} = require('../');
 
 const cli = meow(`
   Usage:

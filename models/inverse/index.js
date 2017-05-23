@@ -1,6 +1,13 @@
-const models = require('../');
+const numbers = require('./numbers');
+const suffixes = require('./suffixes');
+const highways = require('./highways');
+const directions = require('./directions');
+const abbreviations = require('./abbreviations');
 
-const inverse = new Map();
-models.forEach((value, key) => inverse.set(value, key));
-
-module.exports = inverse;
+module.exports = {
+    numbers,
+    suffixes,
+    highways,
+    directions,
+    abbreviations,
+};

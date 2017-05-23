@@ -2,9 +2,8 @@
 const fs = require('fs');
 const meow = require('meow');
 const readline = require('readline');
-const bbox2tiles = require('../lib/utils').bbox2tiles;
-const search = require('../').search;
-const load = require('../').load;
+const {bbox2tiles} = require('../lib/utils');
+const {search, load} = require('../');
 
 const cli = meow(`
   Usage:
@@ -35,7 +34,7 @@ const name2 = cli.input[1];
 // Handle Options
 const options = cli.flags;
 
-var tiles;
+let tiles;
 
 // BBox
 if (options.bbox) {

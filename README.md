@@ -142,7 +142,7 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 ## Design Considerations
 
-- [ ] Support NodeJS 4 & 5
+- [x] NodeJS Support ~4 & 5~ 6 & 7
 - [ ] Multi-lingual tagging `name:en` & `name:fr`, etc...
 - [x] Match road intersections with/without road suffixes:
   - `abbot avenue+chester street`

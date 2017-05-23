@@ -1,6 +1,6 @@
 const path = require('path');
-const test = require('tap').test;
-const execSync = require('child_process').execSync;
+const {test} = require('tap');
+const {execSync} = require('child_process');
 
 const search = path.join(__dirname, '..', 'bin', 'cross-street-search.js');
 const output = path.join(__dirname, 'fixtures', 'cross-street-index');

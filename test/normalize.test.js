@@ -1,9 +1,5 @@
-const test = require('tap').test;
-const normalize = require('../lib/normalization').normalize;
-const dropSuffixes = require('../lib/normalization').dropSuffixes;
-const dropDirections = require('../lib/normalization').dropDirections;
-const dropAbbreviations = require('../lib/normalization').dropAbbreviations;
-const dropHighways = require('../lib/normalization').dropHighways;
+const {test} = require('tap');
+const {normalize, dropSuffixes, dropDirections, dropAbbreviations, dropHighways} = require('../lib/normalize');
 
 test('normalize', t => {
     t.equal(normalize('Chester St'), 'chester street');

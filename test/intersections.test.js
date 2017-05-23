@@ -1,7 +1,7 @@
-const test = require('tap').test;
-const lineString = require('@turf/helpers').lineString;
-const createIndex = require('../lib/create-index').createIndex;
-const intersections = require('../lib/intersections').intersections;
+const {test} = require('tap');
+const {lineString} = require('@turf/helpers');
+const {createIndex} = require('../lib/create-index');
+const {intersections} = require('../lib/intersections');
 
 test('intersections', t => {
     const road1 = lineString([[10, 5], [10, 10]], {name: 'Foo Ave'});

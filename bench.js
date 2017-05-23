@@ -3,9 +3,7 @@ const loadJSON = require('load-json-file');
 const Benchmark = require('benchmark');
 const normalize = require('./lib/normalize');
 const intersections = require('./lib/intersections');
-const load = require('./').load;
-const loads = require('./').loads;
-const search = require('./').search;
+const {load, loads, search} = require('./');
 
 // Fixtures
 const geojson = loadJSON.sync(path.join(__dirname, 'test', 'fixtures', '023010221112', 'lines.geojson'));

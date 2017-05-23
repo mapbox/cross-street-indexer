@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const tilebelt = require('tilebelt');
 const tileReduce = require('tile-reduce');
-const normalize = require('./lib/normalization').normalize;
-const bbox2tiles = require('./lib/utils').bbox2tiles;
+const {normalize} = require('./lib/normalize');
+const {bbox2tiles} = require('./lib/utils');
 
 /**
  * Cross Street indexer from OSM QA Tiles
@@ -49,7 +49,7 @@ function load(tile, output) {
     if (Array.isArray(tile) && typeof tile[0] !== 'number') throw new Error('must provide a single tile');
 
     // Convert Tile to Quadkey
-    var quadkey = tile;
+    let quadkey = tile;
     if (typeof tile !== 'string') quadkey = tilebelt.tileToQuadkey(tile);
     if (typeof quadkey !== 'string') throw new Error('invalid tile or quadkey');
 

@@ -1,9 +1,6 @@
 const path = require('path');
-const test = require('tap').test;
-const load = require('./').load;
-const loads = require('./').loads;
-const search = require('./').search;
-const indexer = require('./').indexer;
+const {test} = require('tap');
+const {load, loads, search, indexer} = require('./');
 
 const qaTiles = path.join(__dirname, 'test', 'fixtures', 'latest.planet.mbtiles');
 const output = path.join(__dirname, 'test', 'fixtures', 'cross-street-index');
