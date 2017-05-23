@@ -1,6 +1,6 @@
 {
   "name": "cross-street-indexer",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Blazing fast tile based geocoder that matches cross street (road intersections) entirely sourced by OSM QA Tiles.",
   "main": "index.js",
   "files": [

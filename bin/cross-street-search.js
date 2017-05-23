@@ -92,19 +92,20 @@ if (options.stream) {
                 process.stdout.write(match + '\n');
             }
         });
-    }
-    // Find match on first match
-    const q = d3.queue(1);
-    for (const tile of tiles) {
-        q.defer(callback => {
-            searchLevelDB(name1, name2, db, tile).then(match => {
-                if (match) {
-                    if (options.latlng) match.reverse();
-                    process.stdout.write(match + '\n');
-                    q.abort();
-                }
-                callback(null);
+    } else {
+        // Find match on first match
+        const q = d3.queue(1);
+        for (const tile of tiles) {
+            q.defer(callback => {
+                searchLevelDB(name1, name2, db, tile).then(match => {
+                    if (match) {
+                        if (options.latlng) match.reverse();
+                        process.stdout.write(match + '\n');
+                        q.abort();
+                    }
+                    callback(null);
+                });
             });
-        });
+        }
     }
 }
