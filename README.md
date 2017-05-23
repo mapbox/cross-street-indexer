@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DenisCarriere/cross-street-indexer.svg?branch=master)](https://travis-ci.org/DenisCarriere/cross-street-indexer)
 [![npm version](https://badge.fury.io/js/cross-street-indexer.svg)](https://badge.fury.io/js/cross-street-indexer)
+[![Coverage Status](https://coveralls.io/repos/github/DenisCarriere/cross-street-indexer/badge.svg?branch=master)](https://coveralls.io/github/DenisCarriere/cross-street-indexer?branch=master)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DenisCarriere/cross-street-indexer/master/LICENSE)
 
 Blazing fast tile based geocoder that matches cross street (road intersections) entirely sourced by [OSM QA Tiles](https://osmlab.github.io/osm-qa-tiles/).
@@ -144,6 +145,7 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 - [x] NodeJS Support ~4 & 5~ 6 & 7
 - [ ] Multi-lingual tagging `name:en` & `name:fr`, etc...
+- [ ] Secondary Link breaking road intersections
 - [x] Match road intersections with/without road suffixes:
   - `abbot avenue+chester street`
   - `abbot+chester`

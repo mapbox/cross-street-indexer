@@ -1,8 +1,8 @@
 const path = require('path');
 const loadJSON = require('load-json-file');
 const Benchmark = require('benchmark');
-const normalize = require('./lib/normalize');
-const intersections = require('./lib/intersections');
+const {normalize} = require('./lib/normalize');
+const {intersections} = require('./lib/intersections');
 const {load, loads, search} = require('./');
 
 // Fixtures
