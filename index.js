@@ -113,7 +113,9 @@ function loads(tiles, output) {
  * //=[-122.457711, 37.688544]
  */
 function search(name1, name2, index) {
-    const pair = [normalize(name1), normalize(name2)].join('+');
+    const norm1 = normalize(name1);
+    const norm2 = normalize(name2);
+    const pair = [norm1, norm2].join('+');
     if (index.get) return index.get(pair);
     return index[pair];
 }
