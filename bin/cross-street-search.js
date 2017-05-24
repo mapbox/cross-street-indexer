@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const d3 = require('d3-queue');
-const path = require('path');
 const meow = require('meow');
 const levelup = require('level');
 const readline = require('readline');
@@ -81,7 +80,6 @@ if (options.stream) {
     // Validation
     let output = options.output || 'cross-street-index';
     if (!fs.existsSync(output)) throw new Error(output + ' folder does not exists');
-    if (fs.existsSync(path.join(output, 'leveldb'))) output = path.join(output, 'leveldb');
 
     // Create LevelDB connection
     const db = levelup(output);

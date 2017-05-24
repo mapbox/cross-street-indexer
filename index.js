@@ -26,10 +26,9 @@ function indexer(mbtiles, output, options) {
 
     // Create folder if not exists
     if (!fs.existsSync(output)) mkdirp.sync(output);
-    if (!fs.existsSync(path.join(output, 'leveldb'))) mkdirp.sync(path.join(output, 'leveldb'));
 
     // Create LevelDB connection
-    const db = levelup(path.join(output, 'leveldb'));
+    const db = levelup(output);
 
     // Tile Reduce options
     Object.assign(options, {

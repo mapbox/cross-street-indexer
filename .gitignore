@@ -5,6 +5,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# LevelDB
+
 # Debuging
 cross-street-index
 !test/fixtures/cross-street-index
