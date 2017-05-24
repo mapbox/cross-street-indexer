@@ -51,8 +51,8 @@ $ yarn global add cross-street-indexer
 ## Quickstart
 
 ```bash
-$ cross-street-indexer latest.planet.mbtiles --tiles [[654,1584,12]]
-$ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12]]
+$ cross-street-indexer united_states_of_america.mbtiles
+$ cross-street-search "Chester St" "ABBOT AVE."
 -122.457711,37.688544
 ```
 
