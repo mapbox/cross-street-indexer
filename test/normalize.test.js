@@ -19,6 +19,8 @@ test('normalize', t => {
     t.equal(normalize('St-Joseph Blvd'), 'st-joseph boulevard');
     t.equal(normalize('St Joseph Blvd'), 'st joseph boulevard');
     t.equal(normalize('Saint Joseph Blvd'), 'saint joseph boulevard');
+    t.equal(normalize('I Street'), 'i street');
+    t.equal(normalize('I 380'), 'i 380');
     t.equal(normalize(17), '17');
     t.end();
 });
@@ -28,6 +30,7 @@ test('normalize - dropSuffixes', t => {
     t.equal(dropSuffixes('Chester St E'), 'chester east', 'direction');
     t.equal(dropSuffixes('ABBOT   AVENUE    N'), 'abbot north', 'multiple word spaces');
     t.equal(dropSuffixes('rodeo avenue trail (dead end ford bikes--no bikes on 101)'), 'rodeo', 'extra comment');
+    t.equal(dropSuffixes('I Street'), 'i');
     t.end();
 });
 

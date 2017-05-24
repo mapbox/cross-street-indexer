@@ -187,10 +187,12 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 Including `--debug` will store additional files for each QA-Tile which can be helpful for debugging.
 
+- `<output>/<levedb>` - LevelDB of all cross streets combined
 - `<output>/<quadkey>.json` - Cross Street index cache
-- `<output>/<quadkey>/lines.geojson` - Filtered (Multi)LinesString from QA-Tile
-- `<output>/<quadkey>/intersects.geojson` - Point which are intersecting roads
-- `<output>/<quadkey>/debug.json` - Debug details
+- `<output>/<quadkey>/highways.geojson` - Highways only
+- `<output>/<quadkey>/intersects.geojson` - Point which intersect roads
+- `<output>/<quadkey>/names.json` - All unique names & ref
+- `<output>/<quadkey>/stats.json` - Debugging stats
 
 **debug.json**
 ```json
