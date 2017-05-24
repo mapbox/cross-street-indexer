@@ -1,5 +1,5 @@
 const {test} = require('tap');
-const {hash, index2json, hash2coord, uniques2features, bbox2tiles} = require('../lib/utils');
+const {hash, map2json, hash2coord, uniques2features, bbox2tiles} = require('../lib/utils');
 
 test('hash', t => {
     const coord = [100, 40];
@@ -19,11 +19,11 @@ test('uniques2features', t => {
 });
 
 test('index2json', t => {
-    const pairs = new Map([
+    const index = new Map([
         ['abbot avenue+chester street', [-122.4577111, 37.6885435]],
         ['chester street+abbot avenue', [-122.4577111, 37.6885435]]
     ]);
-    const json = index2json(pairs);
+    const json = map2json(index);
     t.deepEqual(json['abbot avenue+chester street'], [-122.4577111, 37.6885435]);
     t.deepEqual(json['chester street+abbot avenue'], [-122.4577111, 37.6885435]);
     t.end();
