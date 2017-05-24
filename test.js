@@ -17,22 +17,18 @@ const quadkeys = [
     '023010221112', '023010221113'
 ];
 
-test('indexer', t => {
-    indexer(qaTiles, 'cross-street-index', {tiles});
-    t.true(true);
-    t.end();
-});
+if (process.REGEN) indexer(qaTiles, output, {tiles});
 
 test('load', t => {
-    t.equal(load(tiles[0], output).size, 14970, 'tiles');
-    t.equal(load(quadkeys[0], output).size, 14970, 'quadkeys');
+    t.equal(load(tiles[0], output).size, 14984, 'tiles');
+    t.equal(load(quadkeys[0], output).size, 14984, 'quadkeys');
     t.end();
 });
 
 test('loads', t => {
-    t.equal(loads(tiles, output).size, 40215, 'tiles');
-    t.equal(loads(quadkeys, output).size, 40215, 'quadkeys');
-    t.equal(loads(bbox, output).size, 40215, 'quadkeys');
+    t.equal(loads(tiles, output).size, 40241, 'tiles');
+    t.equal(loads(quadkeys, output).size, 40241, 'quadkeys');
+    t.equal(loads(bbox, output).size, 40241, 'quadkeys');
     t.end();
 });
 
