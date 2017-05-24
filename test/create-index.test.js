@@ -76,3 +76,15 @@ test('normalizeNames', t => {
     t.end();
 });
 
+test('create-index -- splitUniques -- fr & en', t => {
+    const properties = new Set([{'name:en': 'Foo Ave;Bar street'}, {'name:fr': 'Highway 130'}]);
+    const uniques = new Map([['-122.4!37.6', properties]]);
+    const names = splitUniques(uniques);
+    const intersects = names.get('-122.4!37.6');
+
+    t.equal(intersects.size, 3);
+    t.true(intersects.has('Foo Ave'));
+    t.true(intersects.has('Bar street'));
+    t.true(intersects.has('Highway 130'));
+    t.end();
+});
