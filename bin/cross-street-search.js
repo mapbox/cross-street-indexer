@@ -18,6 +18,7 @@ const cli = meow(`
     --latlng    Outputs LatLng instead of the default LngLat
     --stream    Enables reading from streaming index file (ignores tiles/bbox options)
   Examples:
+    $ cross-street-search "Chester St" "ABBOT AVE."
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles [[654,1584,12],[653,1585,12]]
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles "023010221110,023010221110"
     $ cross-street-search "Chester St" "ABBOT AVE." --bbox [-122.5,37.6,-122.1,37.9]
