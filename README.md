@@ -128,12 +128,12 @@ Normalization should follow the following standards:
 - Remove any additional information
   - rodeo avenue trail (dead end ford bikes--no bikes on 101) => rodeo avenue trail
 
-## Index (JSON Lines)
+## Index -- JSON Lines
 
 The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 
 - **key**: Normalized road pairs (`<name1>+<name2>`)
-- **value**: Longitude & Latitude
+- **value**: Longitude & Latitude (`Array<number>`)
 
 ```json
 {"abbot avenue+chester street":[-122.457711,37.688544]}
@@ -142,6 +142,22 @@ The Cross Street Index is stored in an easy to read key/value JSON Lines format.
 {"lisbon street+chester street":[-122.45821,37.68796]}
 {"hoffman street+lisbon street":[-122.456764,37.687179]}
 ```
+
+## Index -- LevelDB
+
+The LevelDB storage is very similar to the JSON Line format with & without the added `Quadkey` to the key.
+
+- **key**: Normalized road pair (`<quadkey>+<name1>+<name2>` or `<name1>+<name2>`)
+- **value**: Longitude & Latitude (`String` -- `<lng>,<lat>`)
+
+```json
+"023010221110+abbot avenue+chester street" => "-122.457711,37.688544"
+"023010221110+chester street+abbot avenue" => "-122.457711,37.688544"
+"023010221110+chester street+lisbon street" => "-122.45821,37.68796"
+"023010221110+lisbon street+chester street" => "-122.45821,37.68796"
+"023010221110+hoffman street+lisbon street" => "-122.456764,37.687179"
+```
+
 
 ## Design Considerations
 
