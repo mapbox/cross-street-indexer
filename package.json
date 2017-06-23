@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@turf/helpers": "^4.3.0",
+    "@turf/line-intersect": "^4.4.0",
     "@turf/meta": "^4.3.0",
     "d3-queue": "^3.0.7",
     "global-mercator": "2.7.0",
