@@ -2,7 +2,7 @@ const {test} = require('tap');
 const {createIndex, splitUniques, normalizeNames} = require('../lib/create-index');
 
 test('create-index', t => {
-    const properties = new Set([{name: 'Abbot Ave'}, {name: 'Chester St'}]);
+    const properties = new Set([{names: ['Abbot Ave']}, {names: ['Chester St']}]);
     const uniques = new Map([['-122.4!37.6', properties]]);
     const index = createIndex(uniques);
 
@@ -19,7 +19,7 @@ test('create-index', t => {
 });
 
 test('create-index - complex highways', t => {
-    const properties = new Set([{name: 'Highway 200 North'}, {name: 'CA 130 West'}]);
+    const properties = new Set([{names: ['Highway 200 North']}, {names: ['CA 130 West']}]);
     const uniques = new Map([['-122.4!37.6', properties]]);
     const index = createIndex(uniques);
 
@@ -30,7 +30,7 @@ test('create-index - complex highways', t => {
 });
 
 test('create-index - dropped highways', t => {
-    const properties = new Set([{name: 'Highway North'}, {name: 'CA West'}]);
+    const properties = new Set([{names: ['Highway North']}, {names: ['CA West']}]);
     const uniques = new Map([['-122.4!37.6', properties]]);
     const index = createIndex(uniques);
 
@@ -48,7 +48,7 @@ test('create-index - dropped highways', t => {
 });
 
 test('create-index - splitUniques', t => {
-    const properties = new Set([{name: 'Foo Ave;Bar street'}, {name: 'Highway 130', ref: 'CA 130;HWY 130'}]);
+    const properties = new Set([{names: ['Foo Ave;Bar street']}, {names: ['Highway 130', 'CA 130;HWY 130']}]);
     const uniques = new Map([['-122.4!37.6', properties]]);
     const names = splitUniques(uniques);
     const intersects = names.get('-122.4!37.6');
@@ -73,18 +73,5 @@ test('normalizeNames', t => {
     t.true(intersects.has('bar street'));
     t.true(intersects.has('highway 130'));
     t.true(intersects.has('ca 130'));
-    t.end();
-});
-
-test('create-index -- splitUniques -- fr & en', t => {
-    const properties = new Set([{'name:en': 'Foo Ave;Bar street'}, {'name:fr': 'Highway 130'}]);
-    const uniques = new Map([['-122.4!37.6', properties]]);
-    const names = splitUniques(uniques);
-    const intersects = names.get('-122.4!37.6');
-
-    t.equal(intersects.size, 3);
-    t.true(intersects.has('Foo Ave'));
-    t.true(intersects.has('Bar street'));
-    t.true(intersects.has('Highway 130'));
     t.end();
 });
