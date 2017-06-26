@@ -27,7 +27,9 @@
     "tap": "^10.3.2"
   },
   "dependencies": {
+    "@turf/bbox": "^4.4.0",
     "@turf/helpers": "^4.3.0",
+    "@turf/line-intersect": "^4.4.0",
     "@turf/meta": "^4.3.0",
     "d3-queue": "^3.0.7",
     "global-mercator": "2.7.0",
@@ -35,6 +37,7 @@
     "load-json-file": "^2.0.0",
     "meow": "^3.7.0",
     "mkdirp": "^0.5.1",
+    "rbush": "^2.0.1",
     "slippy-grid": "^2.1.1",
     "tile-reduce": "3.1.1",
     "tilebelt": "^1.0.1",
