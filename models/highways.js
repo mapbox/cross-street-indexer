@@ -6,6 +6,7 @@ module.exports = new Map([
     ['state road', 'sr'],
     ['county route', 'cr'],
     ['county road', 'cr'],
+    ['county highway', 'cr'],
     ['hwy', 'highway'],
     ['interstate', 'i']
 ]);
