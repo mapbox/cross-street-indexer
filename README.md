@@ -120,7 +120,7 @@ Normalization should follow the following standards:
   - N => north
   - S => south
   - NE => northeast
-- Numbered street names to Abreviations
+- Numbered street names to Abbreviations
   - first => 1st
   - third => 3rd
   - ninth => 9th
@@ -175,7 +175,7 @@ The LevelDB storage is very similar to the JSON Line format with & without the a
   - `ST 130` => `st 130`
   - `CA 130` => `ca 130`
 - [ ] ?? Consider using `!` instead of `+` as separator (less common to have a `!` in a name)
-- [ ] ?? Consider using abreviation suffixes:
+- [ ] ?? Consider using abbreviation suffixes:
   - Index cache file size reduced
   - Easier to normalize road names
   - Lowercross-street hashes combinations
