@@ -23,7 +23,7 @@ const cli = meow(`
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles "023010221110,023010221110"
     $ cross-street-search "Chester St" "ABBOT AVE." --bbox [-122.5,37.6,-122.1,37.9]
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
-    $ curl -s https://s3.amazonaws.com/cross-street-index/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
+    $ curl -s https://s3.amazonaws.com/<your-s3-bucket>/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
 `, {
     boolean: ['stream', 'latlng'],
     string: ['tiles']

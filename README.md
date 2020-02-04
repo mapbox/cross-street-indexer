@@ -17,7 +17,7 @@ Blazing fast tile based geocoder that matches cross street (road intersections) 
 - Easy to use CLI to create & search index
 - NodeJS 6 & 7 compatible
 - Only uses Tile Reduce + Turf
-- Indexes published on S3 buckets
+- Indexes can be published on S3 buckets
 - Bundled 5MB QA-Tiles for testing purposes
 
 ## Process
@@ -29,7 +29,7 @@ Blazing fast tile based geocoder that matches cross street (road intersections) 
 - [x] **Step 5**: Group all hashes into single Quadkey JSON object (`lib/reducer.js`)
 - [x] **Step 6**: Generate index cache from QA Tiles via CLI (`bin/cross-street-indexer.js`)
 - [x] **Step 7**: Stream or read from disk index caches via CLI (`bin/cross-street-search.js`)
-- [x] **Step 8**: Publish to S3 `s3://cross-street-index/latest/<quadkey>.json`
+- [x] **Step 8**: (optionally) Publish to S3 to share the index
 
 ## OSM QA Tiles
 
@@ -100,7 +100,7 @@ $ cross-street-search --help
     $ cross-street-search "Chester St" "ABBOT AVE." --tiles "023010221110,023010221110"
     $ cross-street-search "Chester St" "ABBOT AVE." --bbox [-122.5,37.6,-122.1,37.9]
     $ cat 023010221110.json | cross-street-search "Chester St" "ABBOT AVE."
-    $ curl -s https://s3.amazonaws.com/cross-street-index/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
+    $ curl -s https://s3.amazonaws.com/<your-s3-bucket>/latest/023010221110.json | cross-street-search "Chester St" "ABBOT AVE." --stream
 ```
 
 ## Normalization Process
